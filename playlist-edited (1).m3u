@@ -1708,3 +1708,12 @@ http://45.177.114.115/TV_RA_TIM_BUM/index.m3u8
 http://cdn.tvmatic.net/comedy.m3u8
 #EXTINF:-1 tvg-id="VEJAPlusTV.br@HD" tvg-logo="https://i.imgur.com/n0pxHo4.png" group-title="Notícias",VEJA+ TV (1080p)
 https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
+
+#EXTINF:-1 tvg-id="Rede Globo SP" tvg-name="RPC Curitiba" tvg-logo="https://lh3.googleusercontent.com/-5cuduJLWUiI/AAAAAAAAAOo/Svho3mdrPLQfo6ZFvwkHr3a6Pcu29WCwQCEYBhgL/w140-h84-p/rpc.png" group-title="TV Aberta",RPC Curitiba (alternativa 1)
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/5453.m3u8
+#EXTINF:-1 tvg-id="Rede Globo SP" tvg-name="RPC Curitiba" tvg-logo="https://lh3.googleusercontent.com/-5cuduJLWUiI/AAAAAAAAAOo/Svho3mdrPLQfo6ZFvwkHr3a6Pcu29WCwQCEYBhgL/w140-h84-p/rpc.png" group-title="TV Aberta",RPC Curitiba (alternativa 2)
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/1801.m3u8
+#EXTINF:-1 tvg-id="Rede Globo HD SP" tvg-name="RPC Curitiba HD" tvg-logo="https://lh3.googleusercontent.com/-5cuduJLWUiI/AAAAAAAAAOo/Svho3mdrPLQfo6ZFvwkHr3a6Pcu29WCwQCEYBhgL/w140-h84-p/rpc.png" group-title="TV Aberta",RPC Curitiba HD (alternativa 3)
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/10188.m3u8
+#EXTINF:-1 tvg-id="Rede Globo HD SP" tvg-name="RPC Curitiba HD" tvg-logo="https://lh3.googleusercontent.com/-5cuduJLWUiI/AAAAAAAAAOo/Svho3mdrPLQfo6ZFvwkHr3a6Pcu29WCwQCEYBhgL/w140-h84-p/rpc.png" group-title="TV Aberta",RPC Curitiba HD (alternativa 4)
+http://streaminglist.live:25461/live/raphaelcastromartin@gmail.com/1M0B34/10187.m3u8

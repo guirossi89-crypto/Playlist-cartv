@@ -26,6 +26,9 @@ jobs:
       - name: Verificar fontes e gerar playlist otimizada
         run: |
           python -u scripts/optimize_playlist.py --input "playlist-edited (1).m3u" --output "playlist-otimizada.m3u" --state "playlist-health-state.json" --timeout 12
+      - name: Associar canais ao EPG XMLTV da Claro TV+
+        run: |
+          python -u scripts/apply_epg.py "playlist-otimizada.m3u"
       - name: Publicar alterações
         run: |
           git config user.name "github-actions[bot]"
@@ -34,6 +37,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Sem mudanças na playlist nem no histórico de saúde."
           else
-            git commit -m "Atualiza playlist e histórico de disponibilidade"
+            git commit -m "Atualiza playlist, saúde das fontes e EPG"
             git push
           fi

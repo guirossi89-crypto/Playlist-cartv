@@ -141,9 +141,49 @@ def test_media_playlist(rows,base_url,headers,deadline,timeout):
             return False,total_latency,"falha no segmento"
     return tested==len(urls),total_latency,f"{tested} segmento(s) HLS verificado(s)"
 
+def test_transport_stream(e,deadline,timeout):
+    """Valida um fluxo MPEG-TS lendo apenas o início, sem baixar o stream inteiro."""
+    start=time.monotonic()
+    headers={"User-Agent":UA,**e.headers,"Range":"bytes=0-1023"}
+    response=requests.get(
+        e.url,headers=headers,timeout=request_timeout(deadline,timeout),
+        stream=True,allow_redirects=True
+    )
+    try:
+        if response.status_code not in (200,206):
+            return False,int((time.monotonic()-start)*1000),"HTTP "+str(response.status_code)
+        content_type=response.headers.get("Content-Type","").lower()
+        data=bytearray()
+        for chunk in response.iter_content(chunk_size=1024):
+            if chunk:
+                data.extend(chunk)
+            if len(data)>=1024:
+                break
+        latency=int((time.monotonic()-start)*1000)
+        # MPEG-TS usa pacotes de 188 bytes; também aceita variantes M2TS (192)
+        # e pacotes de 204 bytes. O byte de sincronismo é 0x47.
+        valid=False
+        for packet_size,offset in ((188,0),(192,4),(204,0)):
+            if len(data)>=offset+packet_size*4 and all(data[offset+i*packet_size]==0x47 for i in range(4)):
+                valid=True
+                break
+        if valid:
+            return True,latency,"fluxo MPEG-TS válido ("+content_type.split(";")[0]+")"
+        if not data:
+            return False,latency,"resposta TS vazia"
+        return False,latency,"resposta não contém pacotes MPEG-TS válidos"
+    finally:
+        response.close()
+
 def check(e,timeout):
     deadline=time.monotonic()+SOURCE_BUDGET
     try:
+        # Endpoints .ts são fluxos contínuos, não manifestos HLS.
+        # Detecta pela extensão e valida o cabeçalho binário MPEG-TS.
+        if re.search(r"\\.ts(?:$|[?#])",e.url,re.I):
+            ok,latency,reason=test_transport_stream(e,deadline,timeout)
+            score=variant_score(e.quality,0,latency)
+            return Check(e,ok,score if ok else 0,latency,reason)
         response,latency=get(e.url,e.headers,deadline,timeout)
         parsed=is_hls_playlist(response)
         if not parsed: return Check(e,False,0,latency,"resposta não é uma playlist HLS válida")

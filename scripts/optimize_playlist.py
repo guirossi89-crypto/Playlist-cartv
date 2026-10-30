@@ -241,6 +241,7 @@ def main():
     import argparse
     ap=argparse.ArgumentParser()
     ap.add_argument("--input",default="playlist-edited (1).m3u")
+    ap.add_argument("--extra-input",action="append",default=[],help="M3U complementar; pode ser informado mais de uma vez")
     ap.add_argument("--output",default="playlist-otimizada.m3u")
     ap.add_argument("--state",default="playlist-health-state.json")
     ap.add_argument("--timeout",type=int,default=TIMEOUT)
@@ -248,6 +249,14 @@ def main():
     src=Path(a.input); output=Path(a.output); state_path=Path(a.state)
     if not src.is_file(): print(f"Arquivo original não encontrado: {src}",file=sys.stderr); return 2
     header,entries=parse(src.read_text(encoding="utf-8-sig",errors="replace"))
+    for extra_name in a.extra_input:
+        extra=Path(extra_name)
+        if not extra.is_file():
+            print(f"Arquivo complementar não encontrado: {extra}",file=sys.stderr); return 2
+        _,extra_entries=parse(extra.read_text(encoding="utf-8-sig",errors="replace"))
+        for e in extra_entries:
+            e.order=len(entries)
+            entries.append(e)
     if not entries: print("Nenhuma entrada M3U válida.",file=sys.stderr); return 2
     _,previous_entries=parse(output.read_text(encoding="utf-8-sig",errors="replace")) if output.is_file() else ("#EXTM3U",[])
     previous={}

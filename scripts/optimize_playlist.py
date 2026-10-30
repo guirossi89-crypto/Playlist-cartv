@@ -93,7 +93,7 @@ def check(e,timeout):
             rows=[x.strip() for x in vr.text[:1_000_000].splitlines() if x.strip()]
             base=vr.url
         else: base=r.url
-        segments=[urljoin(base,x) for x in rows if x and not x.startswith("#")][:2]
+        segments=[urljoin(base,x) for x in rows if x and not x.startswith("#")][:1]
         if not segments: return Check(e,False,0,lat,"sem segmentos")
         valid=0
         for u in segments:
@@ -121,9 +121,23 @@ def main():
     if not src.is_file(): print(f"Arquivo original não encontrado: {src}",file=sys.stderr); return 2
     header,entries=parse(src.read_text(encoding="utf-8-sig",errors="replace"))
     if not entries: print("Nenhuma entrada M3U válida.",file=sys.stderr); return 2
-    print(f"Testando {len(entries)} fontes / {len({e.key for e in entries})} canais.")
+    channels=len({e.key for e in entries})
+    print(f"Testando {len(entries)} fontes / {channels} canais; {WORKERS} verificações simultâneas.",flush=True)
+    results=[None]*len(entries)
+    completed=0
+    started=time.monotonic()
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        results=list(pool.map(lambda e:check(e,a.timeout),entries))
+        futures={pool.submit(check,e,a.timeout):i for i,e in enumerate(entries)}
+        for future in concurrent.futures.as_completed(futures):
+            i=futures[future]
+            try:
+                results[i]=future.result()
+            except Exception as ex:
+                results[i]=Check(entries[i],False,0,0,type(ex).__name__)
+            completed+=1
+            if completed % 25 == 0 or completed == len(entries):
+                elapsed=time.monotonic()-started
+                print(f"Progresso: {completed}/{len(entries)} fontes ({completed/len(entries):.0%}) — {elapsed:.1f}s",flush=True)
     good={}
     for c in results:
         if c.ok: good.setdefault(c.entry.key,[]).append(c)
@@ -135,7 +149,7 @@ def main():
     for e in entries:
         if id(e) in chosen: out.extend(e.block)
     Path(a.output).write_text("\n".join(out)+"\n",encoding="utf-8")
-    print(f"Aprovadas: {len(winners)} de {len({e.key for e in entries})} canais; fontes válidas: {sum(x.ok for x in results)}/{len(results)}.")
-    print(f"Gerada: {a.output}")
+    print(f"Aprovadas: {len(winners)} de {channels} canais; fontes válidas: {sum(x.ok for x in results)}/{len(results)}.",flush=True)
+    print(f"Gerada: {a.output}",flush=True)
     return 0
 if __name__=="__main__": raise SystemExit(main())

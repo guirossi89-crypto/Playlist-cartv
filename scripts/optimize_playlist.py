@@ -9,7 +9,7 @@ from urllib3.util import Timeout as Urllib3Timeout
 
 TIMEOUT = 12
 WORKERS = 16
-SOURCE_BUDGET = 20  # limite total aproximado por fonte, incluindo playlist, variante e segmento
+SOURCE_BUDGET = 12  # limite total por fonte, incluindo playlist, variante e segmento
 UA = "Mozilla/5.0 (compatible; PlaylistHealthCheck/1.0)"
 
 @dataclass

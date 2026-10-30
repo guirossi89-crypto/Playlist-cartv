@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import concurrent.futures, re, sys, time
+import multiprocessing, re, sys, time
 from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urljoin
@@ -123,6 +123,84 @@ def check(e,timeout):
     except Exception as ex:
         return Check(e,False,0,0,type(ex).__name__)
 
+def _check_in_child(index, entry, timeout, result_queue):
+    """Executa uma fonte em processo isolado para permitir encerramento forçado."""
+    try:
+        result_queue.put((index, check(entry, timeout)))
+    except BaseException as ex:
+        result_queue.put((index, Check(entry, False, 0, 0, type(ex).__name__)))
+
+def run_checks(entries, timeout):
+    """Mantém até WORKERS processos ativos e impõe prazo absoluto por fonte."""
+    ctx = multiprocessing.get_context("fork")  # runner do GitHub Actions: Ubuntu
+    result_queue = ctx.Queue()
+    pending = iter(enumerate(entries))
+    active = {}
+    results = [None] * len(entries)
+    completed = 0
+    started = time.monotonic()
+
+    def launch():
+        try:
+            index, entry = next(pending)
+        except StopIteration:
+            return False
+        proc = ctx.Process(target=_check_in_child, args=(index, entry, timeout, result_queue), daemon=True)
+        proc.start()
+        active[index] = (proc, entry, time.monotonic() + SOURCE_BUDGET)
+        return True
+
+    try:
+        for _ in range(min(WORKERS, len(entries))):
+            launch()
+
+        while active:
+            try:
+                index, result = result_queue.get(timeout=0.10)
+                item = active.pop(index, None)
+                if item is not None:
+                    proc, entry, deadline = item
+                    proc.join(timeout=0.2)
+                    if proc.is_alive():
+                        proc.terminate()
+                        proc.join(timeout=1)
+                    results[index] = result
+                    completed += 1
+            except Exception:
+                pass
+
+            now = time.monotonic()
+            expired = [i for i, (p, e, deadline) in active.items() if now >= deadline]
+            for index in expired:
+                proc, entry, deadline = active.pop(index)
+                if proc.is_alive():
+                    proc.terminate()
+                proc.join(timeout=1)
+                results[index] = Check(entry, False, 0, SOURCE_BUDGET * 1000, "HardTimeout")
+                completed += 1
+
+            for index, (proc, entry, deadline) in list(active.items()):
+                if not proc.is_alive() and proc.exitcode is not None:
+                    proc.join()
+                    active.pop(index)
+                    results[index] = Check(entry, False, 0, 0, "ProcessExit")
+                    completed += 1
+
+            while len(active) < WORKERS and launch():
+                pass
+
+            if completed and (completed % 25 == 0 or completed == len(entries)):
+                elapsed = time.monotonic() - started
+                print(f"Progresso: {completed}/{len(entries)} fontes ({completed/len(entries):.0%}) — {elapsed:.1f}s", flush=True)
+    finally:
+        for proc, entry, deadline in active.values():
+            if proc.is_alive():
+                proc.terminate()
+            proc.join(timeout=1)
+        result_queue.close()
+        result_queue.join_thread()
+    return results
+
 def main():
     import argparse
     ap=argparse.ArgumentParser()
@@ -136,21 +214,8 @@ def main():
     if not entries: print("Nenhuma entrada M3U válida.",file=sys.stderr); return 2
     channels=len({e.key for e in entries})
     print(f"Testando {len(entries)} fontes / {channels} canais; {WORKERS} verificações simultâneas.",flush=True)
-    results=[None]*len(entries)
-    completed=0
     started=time.monotonic()
-    with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        futures={pool.submit(check,e,a.timeout):i for i,e in enumerate(entries)}
-        for future in concurrent.futures.as_completed(futures):
-            i=futures[future]
-            try:
-                results[i]=future.result()
-            except Exception as ex:
-                results[i]=Check(entries[i],False,0,0,type(ex).__name__)
-            completed+=1
-            if completed % 25 == 0 or completed == len(entries):
-                elapsed=time.monotonic()-started
-                print(f"Progresso: {completed}/{len(entries)} fontes ({completed/len(entries):.0%}) — {elapsed:.1f}s",flush=True)
+    results=run_checks(entries,a.timeout)
     good={}
     for c in results:
         if c.ok: good.setdefault(c.entry.key,[]).append(c)

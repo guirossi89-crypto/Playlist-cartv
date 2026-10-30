@@ -5,9 +5,11 @@ from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urljoin
 import requests
+from urllib3.util import Timeout as Urllib3Timeout
 
 TIMEOUT = 12
 WORKERS = 16
+SOURCE_BUDGET = 20  # limite total aproximado por fonte, incluindo playlist, variante e segmento
 UA = "Mozilla/5.0 (compatible; PlaylistHealthCheck/1.0)"
 
 @dataclass
@@ -63,17 +65,24 @@ def parse(text):
                 pending=[]
     return header,entries
 
-def get(url,headers,timeout):
+def get(url,headers,deadline,timeout):
+    remaining=deadline-time.monotonic()
+    if remaining <= 0:
+        raise requests.Timeout("limite total da fonte excedido")
+    # Timeout total do urllib3 impede que uma resposta lenta prolongue indefinidamente a requisição.
+    cap=min(float(timeout),remaining)
+    request_timeout=Urllib3Timeout(total=cap,connect=min(5.0,cap),read=min(5.0,cap))
     h={"User-Agent":UA,**headers}
     start=time.monotonic()
-    r=requests.get(url,headers=h,timeout=timeout,allow_redirects=True)
+    r=requests.get(url,headers=h,timeout=request_timeout,allow_redirects=True)
     ms=int((time.monotonic()-start)*1000)
     r.raise_for_status()
     return r,ms
 
 def check(e,timeout):
+    deadline=time.monotonic()+SOURCE_BUDGET
     try:
-        r,lat=get(e.url,e.headers,timeout)
+        r,lat=get(e.url,e.headers,deadline,timeout)
         body=r.text[:1_000_000]
         if "#EXTM3U" not in body[:4096]:
             return Check(e,len(r.content)>512,e.quality,lat,"resposta HTTP não-HLS")
@@ -88,7 +97,7 @@ def check(e,timeout):
         q=e.quality
         if variants:
             q,url=max(variants,key=lambda x:x[0])
-            vr,more=get(url,e.headers,timeout); lat+=more
+            vr,more=get(url,e.headers,deadline,timeout); lat+=more
             if "#EXTM3U" not in vr.text[:4096]: return Check(e,False,0,lat,"variante HLS inválida")
             rows=[x.strip() for x in vr.text[:1_000_000].splitlines() if x.strip()]
             base=vr.url
@@ -99,7 +108,11 @@ def check(e,timeout):
         for u in segments:
             try:
                 start=time.monotonic()
-                sr=requests.get(u,headers={"User-Agent":UA,**e.headers,"Range":"bytes=0-1023"},timeout=timeout,stream=True)
+                remaining=deadline-time.monotonic()
+                if remaining <= 0: break
+                cap=min(float(timeout),remaining)
+                req_timeout=Urllib3Timeout(total=cap,connect=min(5.0,cap),read=min(5.0,cap))
+                sr=requests.get(u,headers={"User-Agent":UA,**e.headers,"Range":"bytes=0-1023"},timeout=req_timeout,stream=True)
                 chunk=next(sr.iter_content(1024),b""); sr.close()
                 lat+=int((time.monotonic()-start)*1000)
                 if sr.status_code in (200,206) and len(chunk)>=128: valid+=1
@@ -149,7 +162,8 @@ def main():
     for e in entries:
         if id(e) in chosen: out.extend(e.block)
     Path(a.output).write_text("\n".join(out)+"\n",encoding="utf-8")
-    print(f"Aprovadas: {len(winners)} de {channels} canais; fontes válidas: {sum(x.ok for x in results)}/{len(results)}.",flush=True)
+    failed=len(results)-sum(x.ok for x in results)
+    print(f"Aprovadas: {len(winners)} de {channels} canais; fontes válidas: {sum(x.ok for x in results)}/{len(results)}; ignoradas/reprovadas: {failed}.",flush=True)
     print(f"Gerada: {a.output}",flush=True)
     return 0
 if __name__=="__main__": raise SystemExit(main())

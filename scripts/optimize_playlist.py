@@ -138,6 +138,7 @@ def run_checks(entries, timeout):
     active = {}
     results = [None] * len(entries)
     completed = 0
+    last_reported = 0
     started = time.monotonic()
 
     def launch():
@@ -189,9 +190,10 @@ def run_checks(entries, timeout):
             while len(active) < WORKERS and launch():
                 pass
 
-            if completed and (completed % 25 == 0 or completed == len(entries)):
+            if completed and (completed - last_reported >= 25 or completed == len(entries)):
                 elapsed = time.monotonic() - started
                 print(f"Progresso: {completed}/{len(entries)} fontes ({completed/len(entries):.0%}) — {elapsed:.1f}s", flush=True)
+                last_reported = completed
     finally:
         for proc, entry, deadline in active.values():
             if proc.is_alive():

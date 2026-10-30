@@ -1,5 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-name="RPC Curitiba" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/2/22/Logotipo_da_Rede_Globo.png" group-title="TV Aberta",RPC Curitiba HD (alternativa 1)
-http://191.221.72.150:9000/play/a0ay/index.m3u8
-#EXTINF:-1 tvg-name="RPC Curitiba" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/2/22/Logotipo_da_Rede_Globo.png" group-title="TV Aberta",RPC Curitiba HD (alternativa 2)
-http://51.222.205.67:8000/play/a012/index.m3u8

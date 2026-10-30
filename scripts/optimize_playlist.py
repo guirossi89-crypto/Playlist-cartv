@@ -274,7 +274,7 @@ def main():
     out=[header]
     emitted=set()
     for e in entries:
-        if e.order in chosen_orders and e.key in winners and winners[e.key] is e:
+        if e.order in chosen_orders and e.key in winners and winners[e.key].order == e.order:
             out.extend(e.block); emitted.add(e.key)
     for key,e in winners.items():
         if key not in emitted and e.order<0:

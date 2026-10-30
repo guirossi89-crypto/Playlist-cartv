@@ -239,7 +239,7 @@ def main():
     if not entries: print("Nenhuma entrada M3U válida.",file=sys.stderr); return 2
     _,previous_entries=parse(output.read_text(encoding="utf-8-sig",errors="replace")) if output.is_file() else ("#EXTM3U",[])
     previous={}
-    for entry in previous_entries: previous.setdefault(entry.key,entry)
+    for entry in previous_entries:\n        entry.order=-1  # marca como fonte anterior, preservada apenas durante a tolerância\n        previous.setdefault(entry.key,entry)
     state=load_state(state_path)
     failures=state.get("failures",{}) if isinstance(state.get("failures",{}),dict) else {}
     channels=len({e.key for e in entries})

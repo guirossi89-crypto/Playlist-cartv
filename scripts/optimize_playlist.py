@@ -224,13 +224,22 @@ def main():
     winners={}
     for key,items in good.items():
         winners[key]=max(items,key=lambda x:(x.quality,-x.latency,-x.entry.order)).entry
-    chosen=set(id(e) for e in winners.values())
+    # Os resultados atravessam uma fila de multiprocessing e, portanto,
+    # as Entry recebidas são cópias desserializadas: identidade (id) não serve.
+    # O campo order é estável e identifica a entrada original.
+    chosen_orders={e.order for e in winners.values()}
+    if not chosen_orders:
+        print("Nenhuma fonte aprovada; arquivo de saída não foi alterado.",file=sys.stderr,flush=True)
+        return 3
     out=[header]
     for e in entries:
-        if id(e) in chosen: out.extend(e.block)
+        if e.order in chosen_orders: out.extend(e.block)
+    if len(out) <= 1:
+        print("Erro: saída sem canais; arquivo de saída não foi alterado.",file=sys.stderr,flush=True)
+        return 3
     Path(a.output).write_text("\n".join(out)+"\n",encoding="utf-8")
     failed=len(results)-sum(x.ok for x in results)
     print(f"Aprovadas: {len(winners)} de {channels} canais; fontes válidas: {sum(x.ok for x in results)}/{len(results)}; ignoradas/reprovadas: {failed}.",flush=True)
-    print(f"Gerada: {a.output}",flush=True)
+    print(f"Gerada: {a.output} ({len(chosen_orders)} canais)",flush=True)
     return 0
 if __name__=="__main__": raise SystemExit(main())

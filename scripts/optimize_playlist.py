@@ -2,6 +2,7 @@
 from __future__ import annotations
 import json, multiprocessing, math, re, sys, time
 from dataclasses import dataclass
+from html import unescape
 from pathlib import Path
 from urllib.parse import urljoin
 import requests
@@ -40,6 +41,16 @@ def quality_of(s):
         if token in t: return score
     return 0
 
+def normalize_channel_key(value):
+    # Remove somente sufixos de qualidade/fonte; preserva diferenças como Globo RJ e Globo SP.
+    value=unescape(value or "").strip()
+    value=re.sub(
+        r"\s*(?:\[[^\]]*(?:4K|UHD|FHD|HD|SD|Fonte\s*\d+|\d{3,4}\s*[xX]\s*\d{3,4})[^\]]*\]|"
+        r"\(\s*(?:4K|UHD|FHD|HD|SD|\d{3,4}p|\d{3,4}\s*[xX]\s*\d{3,4})\s*\))\s*$",
+        "", value, flags=re.I
+    )
+    return re.sub(r"\s+"," ",value).strip().casefold()
+
 def parse(text):
     lines=[x.rstrip("\r") for x in text.splitlines() if x.strip()]
     header=next((x for x in lines if x.startswith("#EXTM3U")),"#EXTM3U")
@@ -53,9 +64,10 @@ def parse(text):
                 info=pending[0]
                 attrs=dict(re.findall(r'([\w-]+)="([^"]*)"',info.split(",",1)[0]))
                 title=info.split(",",1)[1].strip() if "," in info else "Canal"
-                raw=attrs.get("tvg-id") or attrs.get("tvg-name") or title
-                key=re.sub(r"\s*\[[^\]]*(?:4K|UHD|FHD|HD|SD|\d{3,4}\s*[xX]\s*\d{3,4})[^\]]*\]\s*$","",raw,flags=re.I)
-                key=re.sub(r"\s+"," ",key).strip().casefold() or title.casefold()
+                # Nome exibido é a identidade lógica mais estável. O tvg-id pode variar
+                # entre fontes do mesmo canal ou existir apenas em parte delas.
+                identity=attrs.get("tvg-name") or title or attrs.get("tvg-id") or "Canal"
+                key=normalize_channel_key(identity) or normalize_channel_key(title) or normalize_channel_key(attrs.get("tvg-id")) or "canal"
                 headers={}
                 for d in pending[1:-1]:
                     m=re.match(r"#EXTVLCOPT:([^=]+)=(.*)",d,re.I)

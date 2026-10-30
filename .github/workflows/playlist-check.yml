@@ -25,7 +25,7 @@ jobs:
         run: python -m pip install --disable-pip-version-check requests
       - name: Verificar fontes e gerar playlist otimizada
         run: |
-          python -u scripts/optimize_playlist.py --input "playlist-edited (1).m3u" --output "playlist-otimizada.m3u" --state "playlist-health-state.json" --timeout 12 --extra-input "rpc-parana.m3u"
+          python -u scripts/optimize_playlist.py --input "playlist-edited (1).m3u" --output "playlist-otimizada.m3u" --state "playlist-health-state.json" --timeout 12
       - name: Publicar alterações
         run: |
           git config user.name "github-actions[bot]"

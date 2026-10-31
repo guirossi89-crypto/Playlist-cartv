@@ -11,7 +11,7 @@ from urllib3.util import Timeout as Urllib3Timeout
 TIMEOUT = 12
 WORKERS = 16
 SOURCE_BUDGET = 12
-SEGMENTS_TO_TEST = 2
+SEGMENTS_TO_TEST = 3
 FAILURES_BEFORE_REMOVAL = 2
 UA = "Mozilla/5.0 (compatible; PlaylistHealthCheck/1.0)"
 
@@ -111,9 +111,10 @@ def variant_score(pixels, bandwidth, latency):
     # Bandwidth is HLS metadata, not a direct measurement of decoded video quality.
     p=max(0,pixels or 0)
     b=max(0,bandwidth or 0)
-    resolution_factor=(max(p,640*360)/(1920*1080))**0.55
-    bitrate_factor=(max(b,1_500_000)/5_000_000)**0.35 if b else 1.0
-    latency_factor=(1.0+max(0,latency)/2500.0)**0.10
+    resolution_factor=(max(p,640*360)/(1920*1080))**0.30
+    bitrate_factor=(max(b,1_500_000)/5_000_000)**0.10 if b else 1.0
+    # Latência observada pesa mais que resolução/bitrate declarados.
+    latency_factor=(1.0+max(0,latency)/1000.0)**0.65
     return int(1_000_000*resolution_factor*bitrate_factor/latency_factor)
 
 def test_media_playlist(rows,base_url,headers,deadline,timeout):
@@ -180,7 +181,7 @@ def check(e,timeout):
     try:
         # Endpoints .ts são fluxos contínuos, não manifestos HLS.
         # Detecta pela extensão e valida o cabeçalho binário MPEG-TS.
-        if re.search(r"\\.ts(?:$|[?#])",e.url,re.I):
+        if re.search(r"\.ts(?:$|[?#])",e.url,re.I):
             ok,latency,reason=test_transport_stream(e,deadline,timeout)
             score=variant_score(e.quality,0,latency)
             return Check(e,ok,score if ok else 0,latency,reason)

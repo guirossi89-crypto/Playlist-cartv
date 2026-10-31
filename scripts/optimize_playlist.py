@@ -208,22 +208,31 @@ def check(e,timeout):
         if not variants: return Check(e,False,0,latency,"manifesto master sem variantes")
         variants.sort(reverse=True)
         failures=[]
-        for initial_score,pixels,bandwidth,url in variants:
+        measured=[]
+        # Compara até três variantes reproduzíveis, em vez de aceitar automaticamente
+        # a primeira (normalmente a de maior resolução).
+        for initial_score,pixels,bandwidth,url in variants[:3]:
             try:
+                variant_start=time.monotonic()
                 vr,variant_latency=get(url,e.headers,deadline,timeout)
-                latency+=variant_latency
                 child=is_hls_playlist(vr)
                 if not child or child[0]!="media":
                     failures.append("variante não contém playlist HLS de mídia")
                     continue
                 ok,seg_latency,reason=test_media_playlist(child[1],vr.url,e.headers,deadline,timeout)
-                latency+=seg_latency
+                elapsed=int((time.monotonic()-variant_start)*1000)
+                latency+=variant_latency+seg_latency
                 if ok:
-                    return Check(e,True,variant_score(pixels,bandwidth,latency),latency,"variante aprovada; "+reason)
-                failures.append(reason)
+                    measured.append((variant_score(pixels,bandwidth,elapsed),elapsed,reason))
+                else:
+                    failures.append(reason)
             except requests.RequestException as ex:
                 failures.append(type(ex).__name__)
                 continue
+        if measured:
+            measured.sort(key=lambda x:(x[0],-x[1]),reverse=True)
+            score,elapsed,reason=measured[0]
+            return Check(e,True,score,elapsed,"melhor variante entre as testadas; "+reason)
         return Check(e,False,0,latency,"nenhuma variante reproduzível: "+(failures[-1] if failures else "falha"))
     except requests.RequestException as ex:
         return Check(e,False,0,0,type(ex).__name__)

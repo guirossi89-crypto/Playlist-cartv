@@ -15,8 +15,8 @@ http://45.185.11.126:8000/play/a08d/index.m3u8
 http://45.185.11.126:8000/play/a079/index.m3u8
 #EXTINF:-1 tvg-name="History" tvg-logo="https://img.faz-o-eli.online/history.png" group-title="Documentários" tvg-id="HISTORY",History [HD · 1280x720]
 http://138.204.86.4:8080/HISTORY_HD/index.m3u8
-#EXTINF:-1 tvg-name="Jovem Pan News" tvg-logo="https://www.tvlogo.org/brazil/jovem-pan-news-br.png" group-title="Notícias" tvg-id="JOVEM PAN NEWS",Jovem Pan News [Fonte 2]
-https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8
+#EXTINF:-1 tvg-name="Jovem Pan News" tvg-logo="https://www.tvlogo.org/brazil/jovem-pan-news-br.png" group-title="Notícias" tvg-id="JOVEM PAN NEWS",Jovem Pan News [FHD · 1920x1080]
+http://186.219.52.187/jp_news/index.m3u8
 #EXTINF:-1 tvg-name="Megapix" tvg-logo="https://img.faz-o-eli.online/megapix.png" group-title="Filmes e Séries",Megapix [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a057/index.m3u8
 #EXTINF:-1 tvg-name="Premiere 6" tvg-logo="https://mondrian.claro.com.br/channels/inverse/premiere.png" group-title="Esportes",Premiere 6 [FHD · 1920x1080]
@@ -51,6 +51,8 @@ http://45.185.11.126:8000/play/a08c/index.m3u8
 http://45.185.11.126:8000/play/a0ae/index.m3u8
 #EXTINF:-1 tvg-name="Cinemax" tvg-logo="https://img.faz-o-eli.online/cinemax.png" group-title="Filmes e Séries",Cinemax [HD · 1280x720]
 http://138.204.86.4:8080/CINEMAX/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://img.faz-o-eli.online/discoverychannel.png" group-title="Documentários",Discovery Channel [HD · 1280x720]
+http://138.204.86.4:8080/DISCOVERY_HD/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://img.faz-o-eli.online/discoverykids.png" group-title="Infantil",Discovery Kids [HD · 1280x720]
 http://138.204.86.4:8080/DISCOVERY_KIDS_HD/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Theater" tvg-logo="https://img.faz-o-eli.online/discoverytheater.png" group-title="Documentários",Discovery Theater [HD · 1280x720]
@@ -60,15 +62,15 @@ http://45.162.64.114/ESPN_BRASIL/index.m3u8
 #EXTINF:-1 tvg-name="ESPN 2" tvg-logo="https://img.faz-o-eli.online/espn2.png" group-title="Esportes" tvg-id="ESPN 2",ESPN 2 [HD · 1280x720]
 http://138.204.86.4:8080/ESPN2_HD/index.m3u8
 #EXTINF:-1 tvg-name="ESPN 4" tvg-logo="https://img.faz-o-eli.online/espn4.png" group-title="Esportes" tvg-id="ESPN 4",ESPN 4 [HD · 1280x720]
-http://138.204.86.4:8080/ESPN4_HD/index.m3u8
+http://45.162.64.114/ESPN_4/index.m3u8
 #EXTINF:-1 tvg-name="ESPN 5" tvg-logo="https://img.faz-o-eli.online/espn5.png" group-title="Esportes" tvg-id="ESPN 5",ESPN 5 [HD · 1280x720]
 http://45.185.11.126:8000/play/a05n/index.m3u8
 #EXTINF:-1 tvg-name="ESPN 6" tvg-logo="https://img.faz-o-eli.online/espn6.png" group-title="Esportes" tvg-id="ESPN 6",ESPN 6 [HD · 1280x720]
 http://45.185.11.126:8000/play/a084/index.m3u8
 #EXTINF:-1 tvg-name="HBO" tvg-logo="https://img.faz-o-eli.online/hbo.png" group-title="Filmes e Séries",HBO [HD · 1280x720]
 http://138.204.86.4:8080/HBO/index.m3u8
-#EXTINF:-1 tvg-name="HBO2" tvg-logo="https://img.faz-o-eli.online/hbo2.png" group-title="Filmes e Séries" tvg-id="HBO2",HBO2 [FHD · 1920x1080]
-http://45.185.11.126:8000/play/a08o/index.m3u8
+#EXTINF:-1 tvg-name="HBO2" tvg-logo="https://img.faz-o-eli.online/hbo2.png" group-title="Filmes e Séries" tvg-id="HBO2",HBO2 [HD · 1280x720]
+http://138.204.86.4:8080/HBO2/index.m3u8
 #EXTINF:-1 tvg-name="HBO Family" tvg-logo="https://img.faz-o-eli.online/hbofamily.png" group-title="Filmes e Séries" tvg-id="HBO Family",HBO Family [HD · 1280x720]
 http://138.204.86.4:8080/HBO_FAMILY/index.m3u8
 #EXTINF:-1 tvg-name="HBO Mundi" tvg-logo="https://img.faz-o-eli.online/hbomundi.png" group-title="Filmes e Séries" tvg-id="HBO Mundi",HBO Mundi [HD · 1280x720]
@@ -103,8 +105,8 @@ http://138.204.86.4:8080/GLOBO_HD/index.m3u8
 http://170.83.16.50:80/TOONCAST/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Science" tvg-logo="https://img.faz-o-eli.online/discoveryscience.png" group-title="Documentários",Discovery Science [HD · 1280x720]
 http://138.204.86.4:8080/DISCOVERY_SCIENCE_HD/index.m3u8
-#EXTINF:-1 tvg-name="AXN" tvg-logo="https://img.faz-o-eli.online/axn.png" group-title="Filmes e Séries" tvg-id="AXN",AXN [FHD · 1920x1080]
-http://170.83.49.66:8083/AXNHD/index.m3u8
+#EXTINF:-1 tvg-name="AXN" tvg-logo="https://img.faz-o-eli.online/axn.png" group-title="Filmes e Séries" tvg-id="AXN",AXN [HD · 1280x720]
+http://138.204.86.4:8080/AXN_HD/index.m3u8
 #EXTINF:-1 tvg-name="Band News" tvg-logo="https://img.faz-o-eli.online/bandnews.png" group-title="Notícias" tvg-id="BAND NEWS",Band News [HD · 1280x720]
 http://45.162.64.114/BAND_NEWS/index.m3u8
 #EXTINF:-1 tvg-name="BAND SPORTS HD" tvg-logo="https://img.faz-o-eli.online/bandsports.png" group-title="Esportes" tvg-id="BAND SPORTS HD",BAND SPORTS HD [FHD · 1920x1080]
@@ -131,6 +133,8 @@ http://45.162.64.114/ZOOMOO_KIDS/index.m3u8
 https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
 #EXTINF:-1 tvg-name="MTV Rocks" tvg-logo="https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png" group-title="Músicas",MTV Rocks [SD · 1216x684]
 https://jmp2.uk/plu-66a01e07d2d50d0008100d6a.m3u8
+#EXTINF:-1 tvg-name="NickToons Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png" group-title="Infantil",NickToons Brasil [SD · 854x480]
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon" tvg-logo="https://img.faz-o-eli.online/nickelodeon.png" group-title="Infantil",Nickelodeon [SD · 854x480]
 https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8
 #EXTINF:-1 tvg-name="BIS" tvg-logo="http://www.fontedecanais.me/logos/canais/bis.png" group-title="Variedades",BIS [FHD · 1920x1080]
@@ -145,6 +149,8 @@ https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8
 https://stmv1.srvif.com/anime/anime/playlist.m3u8
 #EXTINF:-1 tvg-name="Geekdot" group-title="Infantil",Geekdot [HD · 1280x720]
 https://stream.ichibansys.com:3764/hybrid/play.m3u8
+#EXTINF:-1 tvg-name="NBX TV Kids" group-title="Infantil",NBX TV Kids [FHD · 1920x1080]
+https://stmv4.voxtvhd.com.br/bnxkids/bnxkids/playlist.m3u8
 #EXTINF:-1 tvg-name="SBC Kids" group-title="Infantil",SBC Kids [FHD · 1920x1080]
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Crianças" group-title="Infantil",Rede Crianças [HD · 1280x720]
@@ -153,8 +159,6 @@ https://video08.logicahost.com.br/kanucatv/kanucatv/playlist.m3u8
 https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Gospel Cartoon" group-title="Infantil",Gospel Cartoon [SD · 640x360]
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
-#EXTINF:-1 tvg-name="Jetsons TV" group-title="Infantil",Jetsons TV [SD · 640x480]
-https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
 #EXTINF:-1 tvg-name="FIFA+ Português" group-title="Esportes",FIFA+ Português [SD · 384x216]
 #EXTVLCOPT:http-referrer=https://meufut.top/fifa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
@@ -193,6 +197,8 @@ https://stmv1.srvif.com/classique/classique/playlist.m3u8
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralPlutoTV.us@BR" tvg-logo="https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png" group-title="Comedy",Comedy Central Pluto TV BR
 https://jmp2.uk/plu-5f357e91b18f0b00073583d2.m3u8
+#EXTINF:-1 tvg-id="DespertarTV.br@HD" tvg-logo="https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png" group-title="Religious",Despertar TV (720p)
+https://br.conectmy.com.br/DespertarTV/index.m3u8
 #EXTINF:-1 tvg-id="DetetivesMedicos.us@BR" tvg-logo="https://images.pluto.tv/channels/638df93ae2f2a3000737c168/colorLogoPNG.png" group-title="Documentários",Detetives Medicos
 https://jmp2.uk/plu-638df93ae2f2a3000737c168.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannelLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Documentários",Discovery Channel Latin America Brazil (720p)
@@ -321,8 +327,6 @@ https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8
 https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
 #EXTINF:-1 tvg-id="SBTNovaMutum.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/d0/Logotipo_do_SBT_Nova_Mutum.png" group-title="TV Aberta",SBT Nova Mutum
 https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8
-#EXTINF:-1 tvg-id="SBTRondonopolis.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/d5/Logotipo_do_SBT_Rondon%C3%B3polis.png" group-title="TV Aberta",SBT Rondonopolis
-https://video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8
 #EXTINF:-1 tvg-id="SmithsonianChannelPlutoTV.us@BR" tvg-logo="https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png" group-title="Documentários",Smithsonian Channel Pluto TV
 https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8
 #EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" group-title="Filmes e Séries",Studio Universal Latin America Brazil (720p)
@@ -343,13 +347,7 @@ https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8
 http://200.189.113.201/hls/tve.m3u8
 #EXTINF:-1 tvg-id="VEJAPlusTV.br@HD" tvg-logo="https://i.imgur.com/n0pxHo4.png" group-title="Notícias",VEJA+ TV (1080p)
 https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
-#EXTINF:-1 tvg-id="KpopTVPlay.br@SD" tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Músicas",KpopTV Play (576p)
-https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
-#EXTINF:-1 tvg-id="DespertarTV.br@HD" tvg-logo="https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png" group-title="Religious",Despertar TV (720p)
-https://br.conectmy.com.br/DespertarTV/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://img.faz-o-eli.online/discoverychannel.png" group-title="Documentários",Discovery Channel [HD · 1280x720]
-http://138.204.86.4:8080/DISCOVERY_HD/index.m3u8
-#EXTINF:-1 tvg-name="NBX TV Kids" group-title="Infantil",NBX TV Kids [FHD · 1920x1080]
-https://stmv4.voxtvhd.com.br/bnxkids/bnxkids/playlist.m3u8
-#EXTINF:-1 tvg-name="NickToons Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png" group-title="Infantil",NickToons Brasil [SD · 854x480]
-https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+#EXTINF:-1 tvg-name="Jetsons TV" group-title="Infantil",Jetsons TV [SD · 640x480]
+https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTRondonopolis.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/d5/Logotipo_do_SBT_Rondon%C3%B3polis.png" group-title="TV Aberta",SBT Rondonopolis
+https://video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8

@@ -3,11 +3,13 @@
 - Origem: `playlist-edited (1).m3u` (não é alterada).
 - Saída: `playlist-otimizada.m3u` (mesmo caminho e formato usados pelo CarTV).
 - Verifica playlists HLS reais, rejeitando páginas HTML e respostas HTTP que não sejam M3U8 válidas.
-- Testa até dois segmentos por variante, dentro do limite total de 12 segundos por fonte.
+- Testa três segmentos por playlist de mídia/variante, dentro do limite total de 12 segundos por fonte.
 - Tenta variantes HLS em ordem de pontuação e usa fallback se uma variante falhar.
-- Pontuação considera resolução, bitrate declarado no manifesto e latência observada.
+- Score de seleção: qualidade técnica (50%), confiabilidade histórica (35%) e latência observada (15%). O bitrate continua sendo metadado declarado pelo manifesto.
 - Agrupa variantes por tvg-id, tvg-name ou nome do canal.
-- Uma falha isolada mantém temporariamente a última fonte aprovada; duas falhas consecutivas removem o canal.
+- Mantém histórico por URL (sucessos, falhas, latência e última validação); uma falha isolada mantém temporariamente a última fonte aprovada e duas falhas consecutivas removem o canal da seleção atual. Fontes que voltam a responder podem ser selecionadas novamente automaticamente.
+- Cache adaptativo de até 45 minutos somente para fontes com pelo menos quatro aprovações e confiabilidade histórica mínima de 90%; fontes novas ou instáveis continuam sendo testadas.
+- Gera `playlist-comparison.md` com canais que melhoraram, pioraram, trocaram de fonte, desapareceram ou são novos. O workflow também disponibiliza o relatório como artefato por 30 dias.
 - GitHub Actions executa a cada 30 minutos e publica apenas quando houver mudança.
 
 ## URL para o aplicativo

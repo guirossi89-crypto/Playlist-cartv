@@ -1,6 +1,11 @@
 name: Verificar e otimizar playlist IPTV
 
 on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/playlist-check.yml"
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
@@ -23,20 +28,33 @@ jobs:
           python-version: "3.12"
       - name: Instalar dependências
         run: python -m pip install --disable-pip-version-check requests
+      - name: Validar sintaxe Python
+        run: python -m py_compile scripts/optimize_playlist.py scripts/apply_epg.py
       - name: Verificar fontes e gerar playlist otimizada
+        if: github.event_name != 'pull_request'
         run: |
-          python -u scripts/optimize_playlist.py --input "playlist-edited (1).m3u" --output "playlist-otimizada.m3u" --state "playlist-health-state.json" --timeout 12
+          python -u scripts/optimize_playlist.py --input "playlist-edited (1).m3u" --output "playlist-otimizada.m3u" --state "playlist-health-state.json" --report "playlist-comparison.md" --timeout 12
       - name: Associar canais ao EPG XMLTV da Claro TV+
+        if: github.event_name != 'pull_request'
         run: |
           python -u scripts/apply_epg.py "playlist-otimizada.m3u"
       - name: Publicar alterações
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playlist-otimizada.m3u playlist-health-state.json
+          git add playlist-otimizada.m3u playlist-health-state.json playlist-comparison.md
           if git diff --cached --quiet; then
             echo "Sem mudanças na playlist nem no histórico de saúde."
           else
             git commit -m "Atualiza playlist, saúde das fontes e EPG"
             git push
           fi
+
+      - name: Disponibilizar relatório da execução
+        if: always() && github.event_name != 'pull_request' && hashFiles('playlist-comparison.md') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: playlist-comparison-${{ github.run_number }}
+          path: playlist-comparison.md
+          retention-days: 30

@@ -289,11 +289,13 @@ def load_state(path):
 
 def main():
     import argparse
+    from datetime import datetime, timezone
     ap=argparse.ArgumentParser()
     ap.add_argument("--input",default="playlist-edited (1).m3u")
     ap.add_argument("--extra-input",action="append",default=[],help="M3U complementar; pode ser informado mais de uma vez")
     ap.add_argument("--output",default="playlist-otimizada.m3u")
     ap.add_argument("--state",default="playlist-health-state.json")
+    ap.add_argument("--report",default="playlist-comparison.md")
     ap.add_argument("--timeout",type=int,default=TIMEOUT)
     a=ap.parse_args()
     src=Path(a.input); output=Path(a.output); state_path=Path(a.state)
@@ -305,59 +307,144 @@ def main():
             print(f"Arquivo complementar não encontrado: {extra}",file=sys.stderr); return 2
         _,extra_entries=parse(extra.read_text(encoding="utf-8-sig",errors="replace"))
         for e in extra_entries:
-            e.order=len(entries)
-            entries.append(e)
+            e.order=len(entries); entries.append(e)
     if not entries: print("Nenhuma entrada M3U válida.",file=sys.stderr); return 2
+
     _,previous_entries=parse(output.read_text(encoding="utf-8-sig",errors="replace")) if output.is_file() else ("#EXTM3U",[])
     previous={}
     for entry in previous_entries:
-        entry.order=-1  # marca como fonte anterior, preservada apenas durante a tolerância
+        entry.order=-1
         previous.setdefault(entry.key,entry)
+
     state=load_state(state_path)
     failures=state.get("failures",{}) if isinstance(state.get("failures",{}),dict) else {}
+    history=state.get("sources",{}) if isinstance(state.get("sources",{}),dict) else {}
+    old_scores={url:float(item.get("last_score",0)) for url,item in history.items() if isinstance(item,dict)}
+    now=datetime.now(timezone.utc)
+    now_iso=now.isoformat()
+    now_ts=now.timestamp()
+
+    # Cache adaptativo: somente fontes com histórico consistente podem pular uma rodada.
+    # O cache não registra uma nova aprovação; apenas reutiliza a última evidência válida.
+    cached={}
+    pending=[]
+    for e in entries:
+        h=history.get(e.url,{})
+        if isinstance(h,dict):
+            total=int(h.get("successes",0))+int(h.get("failures",0))
+            reliability=(int(h.get("successes",0))+2)/(total+2) if total else 0
+            age=now_ts-float(h.get("last_checked_ts",0) or 0)
+            cache_ttl=45*60 if int(h.get("successes",0))>=4 and reliability>=0.90 else 0
+            if cache_ttl and age>=0 and age<cache_ttl and h.get("last_ok") and int(h.get("last_score",0))>0:
+                cached[e.order]=Check(e,True,int(h["last_score"]),int(h.get("last_latency",0)),"cache de fonte historicamente estável")
+                continue
+        pending.append(e)
+
     channels=len({e.key for e in entries})
-    print(f"Testando {len(entries)} fontes / {channels} canais; {WORKERS} verificações simultâneas.",flush=True)
-    results=run_checks(entries,a.timeout)
+    print(f"Testando {len(pending)} fontes / {channels} canais; {len(cached)} fontes reaproveitadas do cache; {WORKERS} verificações simultâneas.",flush=True)
+    results=run_checks(pending,a.timeout) if pending else []
+    by_order={r.entry.order:r for r in results}
+    by_order.update(cached)
+    results=[by_order[e.order] for e in entries if e.order in by_order]
+
+    # Atualiza histórico por URL. Falhas isoladas reduzem a confiabilidade, mas não apagam a fonte.
+    for result in results:
+        if result.reason.startswith("cache de "): continue
+        h=history.setdefault(result.entry.url,{"successes":0,"failures":0})
+        h["successes"]=int(h.get("successes",0))+(1 if result.ok else 0)
+        h["failures"]=int(h.get("failures",0))+(0 if result.ok else 1)
+        h["last_checked"]=now_iso
+        h["last_checked_ts"]=now_ts
+        h["last_ok"]=bool(result.ok)
+        h["last_latency"]=int(result.latency)
+        h["last_score"]=int(result.quality if result.ok else 0)
+        h["last_reason"]=result.reason[:180]
+
     good={}
     for result in results:
         if result.ok: good.setdefault(result.entry.key,[]).append(result)
-    winners={}
+
+    # Score moderado: qualidade 50%, confiabilidade histórica 35%, latência 15%.
+    # A confiabilidade usa suavização para não penalizar excessivamente fontes novas.
+    def ranking(result, candidates):
+        h=history.get(result.entry.url,{})
+        successes=int(h.get("successes",0)); failed=int(h.get("failures",0))
+        reliability=(successes+2)/(successes+failed+2)
+        max_quality=max((x.quality for x in candidates),default=1) or 1
+        quality_component=max(0,min(1,result.quality/max_quality))
+        latency_component=1/(1+max(0,result.latency)/2000)
+        score=0.50*quality_component+0.35*reliability+0.15*latency_component
+        return score
+
+    winners={}; winner_scores={}
     for key,items in good.items():
-        winners[key]=max(items,key=lambda x:(x.quality,-x.latency,-x.entry.order)).entry
+        selected=max(items,key=lambda x:(ranking(x,items),x.quality,-x.latency,-x.entry.order))
+        winners[key]=selected.entry
+        winner_scores[key]=ranking(selected,items)
+
     new_failures={}
     retained=0
-    all_failed=not winners
-    if all_failed:
+    if not winners:
         print("Nenhum canal foi validado nesta execução; saída e histórico preservados por segurança.",file=sys.stderr,flush=True)
         return 3
-    for key in set(e.key for e in entries):
+
+    for key in {e.key for e in entries}:
         if key in winners:
-            new_failures.pop(key,None)
-        else:
-            count=int(failures.get(key,0))+1
-            if key in previous and count<FAILURES_BEFORE_REMOVAL:
-                winners[key]=previous[key]; retained+=1
-                new_failures[key]=count
-                print(f"Falha {count}/{FAILURES_BEFORE_REMOVAL}: mantendo temporariamente {previous[key].label}.",flush=True)
-            elif count<FAILURES_BEFORE_REMOVAL:
-                new_failures[key]=count
+            continue
+        count=int(failures.get(key,0))+1
+        if key in previous and count<FAILURES_BEFORE_REMOVAL:
+            winners[key]=previous[key]; retained+=1
+            new_failures[key]=count
+            print(f"Falha {count}/{FAILURES_BEFORE_REMOVAL}: mantendo temporariamente {previous[key].label}.",flush=True)
+        elif count<FAILURES_BEFORE_REMOVAL:
+            new_failures[key]=count
+
     chosen_orders={e.order for e in winners.values() if e.order>=0}
-    # Entradas mantidas vêm da playlist anterior; emite os blocos vencedores pela ordem atual
-    # e acrescenta ao final os canais preservados que não existem na origem atual.
-    out=[header]
-    emitted=set()
+    out=[header]; emitted=set()
     for e in entries:
-        if e.order in chosen_orders and e.key in winners and winners[e.key].order == e.order:
+        if e.order in chosen_orders and e.key in winners and winners[e.key].order==e.order:
             out.extend(e.block); emitted.add(e.key)
     for key,e in winners.items():
         if key not in emitted and e.order<0:
             out.extend(e.block); emitted.add(key)
     if len(out)<=1:
         print("Erro: saída sem canais; arquivo não alterado.",file=sys.stderr); return 3
+
+    # Relatório comparativo da seleção anterior contra a nova.
+    current_scores={winners[k].url:winner_scores.get(k,0) for k in winners}
+    old_map={e.key:e for e in previous_entries}
+    new_map=winners
+    improved=[]; worsened=[]; changed=[]; appeared=[]; disappeared=[]
+    for key,e in new_map.items():
+        old=old_map.get(key)
+        if old is None: appeared.append((key,e.label)); continue
+        if old.url!=e.url:
+            changed.append((key,old.label, e.label))
+        old_score=old_scores.get(old.url,0)
+        new_score=current_scores.get(e.url,old_score)
+        if old_score and new_score:
+            if new_score>old_score+0.03: improved.append((key,old_score,new_score))
+            elif new_score<old_score-0.03: worsened.append((key,old_score,new_score))
+    for key,e in old_map.items():
+        if key not in new_map: disappeared.append((key,e.label))
+
     output.write_text("\n".join(out)+"\n",encoding="utf-8")
-    state_path.write_text(json.dumps({"failures":new_failures},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    state_path.write_text(json.dumps({"version":2,"failures":new_failures,"sources":history},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    lines=["# Relatório comparativo da playlist","",f"- Execução: {now_iso}",f"- Canais publicados: {len(winners)}",f"- Fontes testadas: {len(pending)}",f"- Fontes reaproveitadas do cache: {len(cached)}",f"- Canais mantidos temporariamente: {retained}",""]
+    def section(title,items,formatter):
+        lines.extend([f"## {title} ({len(items)})",""])
+        if not items: lines.append("- Nenhum.")
+        else: lines.extend("- "+formatter(x) for x in sorted(items,key=lambda x:x[0]))
+        lines.append("")
+    section("Melhoraram",improved,lambda x:f"{x[0]} — score {x[1]:.3f} → {x[2]:.3f}")
+    section("Pioraram",worsened,lambda x:f"{x[0]} — score {x[1]:.3f} → {x[2]:.3f}")
+    section("Trocaram de fonte",changed,lambda x:f"{x[0]} — fonte anterior: {x[1]} | nova: {x[2]}")
+    section("Desapareceram",disappeared,lambda x:f"{x[0]} — {x[1]}")
+    section("Novos canais",appeared,lambda x:f"{x[0]} — {x[1]}")
+    Path(a.report).write_text("\n".join(lines)+"\n",encoding="utf-8")
     valid=sum(x.ok for x in results)
-    print(f"Aprovados: {len(winners)} canais ({retained} mantidos por tolerância); fontes válidas: {valid}/{len(results)}.",flush=True)
+    print(f"Aprovados: {len(winners)} canais ({retained} mantidos por tolerância); fontes válidas/reutilizadas: {valid}/{len(results)}.",flush=True)
+    print(f"Relatório comparativo gerado: {a.report}",flush=True)
     print(f"Gerada: {a.output} ({len(winners)} canais)",flush=True)
     return 0
 

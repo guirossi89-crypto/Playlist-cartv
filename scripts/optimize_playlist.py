@@ -319,7 +319,7 @@ def main():
     state=load_state(state_path)
     failures=state.get("failures",{}) if isinstance(state.get("failures",{}),dict) else {}
     history=state.get("sources",{}) if isinstance(state.get("sources",{}),dict) else {}
-    old_scores={url:float(item.get("last_score",0)) for url,item in history.items() if isinstance(item,dict)}
+    old_scores={url:float(item.get("last_rank_score",0)) for url,item in history.items() if isinstance(item,dict)}
     now=datetime.now(timezone.utc)
     now_iso=now.isoformat()
     now_ts=now.timestamp()
@@ -381,6 +381,7 @@ def main():
         selected=max(items,key=lambda x:(ranking(x,items),x.quality,-x.latency,-x.entry.order))
         winners[key]=selected.entry
         winner_scores[key]=ranking(selected,items)
+        history.setdefault(selected.entry.url,{})["last_rank_score"]=winner_scores[key]
 
     new_failures={}
     retained=0

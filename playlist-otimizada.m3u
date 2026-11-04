@@ -14,7 +14,7 @@ http://45.185.11.126:8000/play/a08d/index.m3u8
 #EXTINF:-1 tvg-name="GNT" tvg-logo="https://img.faz-o-eli.online/gnt.png" group-title="Variedades",GNT [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a079/index.m3u8
 #EXTINF:-1 tvg-name="History" tvg-logo="https://img.faz-o-eli.online/history.png" group-title="Documentários" tvg-id="HISTORY",History [HD · 1280x720]
-http://138.204.86.4:8080/HISTORY_HD/index.m3u8
+http://170.83.16.50/HISTORY/index.m3u8
 #EXTINF:-1 tvg-name="Jovem Pan News" tvg-logo="https://www.tvlogo.org/brazil/jovem-pan-news-br.png" group-title="Notícias" tvg-id="JOVEM PAN NEWS",Jovem Pan News [Fonte 2]
 https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8
 #EXTINF:-1 tvg-name="Megapix" tvg-logo="https://img.faz-o-eli.online/megapix.png" group-title="Filmes e Séries",Megapix [FHD · 1920x1080]
@@ -37,8 +37,6 @@ http://170.83.16.50/SONY_CHANNEL/index.m3u8
 http://45.185.11.126:8000/play/a05f/index.m3u8
 #EXTINF:-1 tvg-name="SporTV 3" tvg-logo="https://img.faz-o-eli.online/sportv3.png" group-title="Esportes" tvg-id="SPORTV 3",SporTV 3 [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a06v/index.m3u8
-#EXTINF:-1 tvg-name="Canal OFF" tvg-logo="https://img.faz-o-eli.online/off.png" group-title="Esportes",Canal OFF [FHD · 1920x1080]
-http://45.185.11.126:8000/play/a07t/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Action" tvg-logo="https://img.faz-o-eli.online/telecineaction.png" group-title="Filmes e Séries" tvg-id="TELECINE ACTION",Telecine Action [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a058/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Pipoca" tvg-logo="https://img.faz-o-eli.online/telecinepipoca.png" group-title="Filmes e Séries" tvg-id="TELECINE PIPOCA",Telecine Pipoca [FHD · 1920x1080]
@@ -65,6 +63,8 @@ http://138.204.86.4:8080/ESPN2_HD/index.m3u8
 http://138.204.86.4:8080/ESPN4_HD/index.m3u8
 #EXTINF:-1 tvg-name="ESPN 5" tvg-logo="https://img.faz-o-eli.online/espn5.png" group-title="Esportes" tvg-id="ESPN 5",ESPN 5 [HD · 1280x720]
 http://45.185.11.126:8000/play/a05n/index.m3u8
+#EXTINF:-1 tvg-name="ESPN 6" tvg-logo="https://img.faz-o-eli.online/espn6.png" group-title="Esportes" tvg-id="ESPN 6",ESPN 6 [HD · 1280x720]
+http://45.185.11.126:8000/play/a084/index.m3u8
 #EXTINF:-1 tvg-name="HBO" tvg-logo="https://img.faz-o-eli.online/hbo.png" group-title="Filmes e Séries",HBO [HD · 1280x720]
 http://138.204.86.4:8080/HBO/index.m3u8
 #EXTINF:-1 tvg-name="HBO2" tvg-logo="https://img.faz-o-eli.online/hbo2.png" group-title="Filmes e Séries" tvg-id="HBO2",HBO2 [HD · 1280x720]
@@ -84,13 +84,11 @@ http://45.185.11.126:8000/play/a083/index.m3u8
 #EXTINF:-1 tvg-name="Record" tvg-logo="https://mondrian.claro.com.br/channels/inverse/record-tv.png" group-title="TV Aberta",Record [FHD · 1920x1080]
 http://138.204.86.4:8080/RECORD/index.m3u8
 #EXTINF:-1 tvg-name="Space" tvg-logo="https://img.faz-o-eli.online/space.png" group-title="Filmes e Séries",Space [HD · 1280x720]
-http://138.204.86.4:8080/SPACE_HD/index.m3u8
+http://45.162.64.114/SPACE/index.m3u8
 #EXTINF:-1 tvg-name="TNT" tvg-logo="https://img.faz-o-eli.online/tnt.png" group-title="Filmes e Séries",TNT [HD · 1280x720]
 http://45.162.64.114/TNT/index.m3u8
-#EXTINF:-1 tvg-name="Universal TV" tvg-logo="https://img.faz-o-eli.online/universaltv.png" group-title="Filmes e Séries",Universal TV [FHD · 1920x1080]
-http://45.185.11.126:8000/play/a0af/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="https://img.faz-o-eli.online/discoveryturbo.png" group-title="Documentários",Discovery Turbo [HD · 1280x720]
-http://138.204.86.4:8080/DISCOVERY_TURBO_HD/index.m3u8
+http://45.162.64.114/DISCOVERY_TURBO/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Fun" tvg-logo="https://img.faz-o-eli.online/telecinefun.png" group-title="Filmes e Séries" tvg-id="TELECINE FUN",Telecine Fun [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a059/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Cult" tvg-logo="https://img.faz-o-eli.online/telecinecult.png" group-title="Filmes e Séries" tvg-id="TELECINE CULT",Telecine Cult [FHD · 1920x1080]
@@ -125,8 +123,8 @@ http://170.83.49.66:8083/BOXKIDSHD/index.m3u8
 http://45.162.64.114/PLAY_TV/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Home &amp; Health" tvg-logo="https://img.faz-o-eli.online/discoveryhh.png" group-title="Documentários",Discovery Home & Health [HD · 1280x720]
 http://45.162.64.114/DISCOVERY_H_H/index.m3u8
-#EXTINF:-1 tvg-name="DumDum" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg" group-title="Infantil" tvg-id="DumDum",DumDum [HD · 1280x720]
-http://45.162.64.114/ZOOMOO_KIDS/index.m3u8
+#EXTINF:-1 tvg-name="DumDum" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg" group-title="Infantil" tvg-id="DumDum",DumDum [SD · 720x576]
+http://186.219.52.187/zoomoo/index.m3u8
 #EXTINF:-1 tvg-name="MTV Biggest Pop" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="Músicas",MTV Biggest Pop [HD · 1280x720]
 https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
 #EXTINF:-1 tvg-name="MTV Rocks" tvg-logo="https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png" group-title="Músicas",MTV Rocks [SD · 1216x684]
@@ -201,6 +199,12 @@ https://jmp2.uk/plu-5f357e91b18f0b00073583d2.m3u8
 https://br.conectmy.com.br/DespertarTV/index.m3u8
 #EXTINF:-1 tvg-id="DetetivesMedicos.us@BR" tvg-logo="https://images.pluto.tv/channels/638df93ae2f2a3000737c168/colorLogoPNG.png" group-title="Documentários",Detetives Medicos
 https://jmp2.uk/plu-638df93ae2f2a3000737c168.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannelLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Documentários",Discovery Channel Latin America Brazil (720p)
+http://45.162.64.114/DISCOVERY_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Brazil" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="Infantil",Discovery Kids Latin America Brazil (720p) [Geo-blocked]
+http://15.204.246.24:8080/DiscoveryKidsHD/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryWorld.us@Brazil" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="Documentários",Discovery World Brazil (720p) [Geo-blocked]
+http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8
 #EXTINF:-1 tvg-id="FailArmy.us@Brazil" tvg-logo="https://i.imgur.com/VIpQJxL.png" group-title="Comedy",FailArmy Brazil
 https://jmp2.uk/plu-5f5141c1605ddf000748eb1b.m3u8
 #EXTINF:-1 tvg-id="FilmesSuspense.us@BR" tvg-logo="https://images.pluto.tv/channels/5f171d3442a0500007362f22/colorLogoPNG.png" group-title="Filmes e Séries",Filmes Suspense
@@ -315,6 +319,8 @@ https://jmp2.uk/plu-5f32d432d612e50007e56133.m3u8
 https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeGospel.br@SD" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religious",Rede Gospel (1080p)
 https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeTVParana.br@SD" tvg-logo="https://i.imgur.com/D8R0Af4.png" group-title="TV Aberta",RedeTV! Parana
+https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
 #EXTINF:-1 tvg-id="RetroCartoon.br@SD" tvg-logo="https://i.imgur.com/hIlEfhl.png" group-title="Infantil",Retro Cartoon (720p)
 https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8
 #EXTINF:-1 tvg-id="SBTNacional.br@SD" tvg-logo="https://i.imgur.com/tc1ALuu.png" group-title="TV Aberta",SBT Nacional (1080p)
@@ -343,9 +349,7 @@ https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/playlist.m3u8
 http://200.189.113.201/hls/tve.m3u8
 #EXTINF:-1 tvg-id="VEJAPlusTV.br@HD" tvg-logo="https://i.imgur.com/n0pxHo4.png" group-title="Notícias",VEJA+ TV (1080p)
 https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
-#EXTINF:-1 tvg-id="DiscoveryWorld.us@Brazil" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="Documentários",Discovery World Brazil (720p) [Geo-blocked]
-http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Brazil" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="Infantil",Discovery Kids Latin America Brazil (720p) [Geo-blocked]
-http://15.204.246.24:8080/DiscoveryKidsHD/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryChannelLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Documentários",Discovery Channel Latin America Brazil (720p)
-http://45.162.64.114/DISCOVERY_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-name="Universal TV" tvg-logo="https://img.faz-o-eli.online/universaltv.png" group-title="Filmes e Séries",Universal TV [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a0af/index.m3u8
+#EXTINF:-1 tvg-name="Canal OFF" tvg-logo="https://img.faz-o-eli.online/off.png" group-title="Esportes",Canal OFF [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a07t/index.m3u8

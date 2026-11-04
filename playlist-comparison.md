@@ -1,52 +1,43 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-04T22:36:58.503208+00:00
-- Canais publicados: 174
+- Execução: 2026-11-04T23:32:14.143169+00:00
+- Canais publicados: 175
 - Fontes testadas: 805
 - Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 5
+- Canais mantidos temporariamente: 2
 
-## Melhoraram (11)
+## Melhoraram (6)
 
-- classique faroeste — score 0.948 → 0.989
-- failarmy brazil — score 0.947 → 0.986
-- jetsons tv — score 0.883 → 0.918
-- mtv jovens e maes — score 0.950 → 0.985
-- mtv shore — score 0.952 → 0.989
-- mytime movie network (brazil) — score 0.942 → 0.982
-- pluto tv filmes de luta — score 0.948 → 0.988
-- pluto tv historia (united states) — score 0.947 → 0.978
-- pluto tv investigacao — score 0.950 → 0.988
-- pluto tv netmovies — score 0.938 → 0.974
-- pluto tv policial — score 0.955 → 0.989
+- bis — score 0.912 → 0.947
+- discovery id — score 0.914 → 0.953
+- globonews — score 0.859 → 0.894
+- hbo xtreme — score 0.862 → 0.894
+- premiere 7 — score 0.887 → 0.920
+- sbt — score 0.889 → 0.953
 
-## Pioraram (4)
+## Pioraram (2)
 
-- axn — score 0.943 → 0.913
-- discovery id — score 0.944 → 0.914
-- globonews — score 0.907 → 0.859
-- playtv — score 0.869 → 0.830
+- jovem pan news — score 0.985 → 0.924
+- universal reality — score 0.942 → 0.896
 
-## Trocaram de fonte (12)
+## Trocaram de fonte (10)
 
 - axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [HD · 1280x720]
 - band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
-- band sports hd — fonte anterior: BAND SPORTS HD [HD · 1280x720] | nova: BAND SPORTS HD [FHD · 1920x1080]
-- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [Fonte 7]
+- cnn brasil — fonte anterior: CNN Brasil [Fonte 7] | nova: CNN Brasil (1080p)
 - discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
-- discovery theater — fonte anterior: Discovery Theater [FHD · 1920x1080] | nova: Discovery Theater [HD · 1280x720]
+- discovery kids — fonte anterior: Discovery Kids [HD · 1280x720] | nova: Discovery Kids [FHD · 1920x1080]
 - espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
-- sbt — fonte anterior: SBT [FHD · 1920x1080] | nova: SBT [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
-- woohoo — fonte anterior: Woohoo [HD · 1280x720] | nova: Woohoo [HD · 1280x720]
+- espn 4 — fonte anterior: ESPN 4 [HD · 1280x720] | nova: ESPN 4 [HD · 1280x720]
+- jovem pan news — fonte anterior: Jovem Pan News [Fonte 2] | nova: Jovem Pan News [FHD · 1920x1080]
+- playtv — fonte anterior: PlayTV [FHD · 1920x1080] | nova: PlayTV [HD · 1280x720]
+- sbt — fonte anterior: SBT [HD · 1280x720] | nova: SBT [FHD · 1920x1080]
 
-## Desapareceram (1)
-
-- premiere 8 — Premiere 8 [FHD · 1920x1080]
-
-## Novos canais (0)
+## Desapareceram (0)
 
 - Nenhum.
+
+## Novos canais (1)
+
+- premiere 8 — Premiere 8 [FHD · 1920x1080]
 

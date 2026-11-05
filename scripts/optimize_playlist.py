@@ -291,7 +291,7 @@ def run_checks(entries,timeout):
 def probe_stream(entry):
     """Obtém características do vídeo real sem baixar o fluxo completo."""
     headers={"User-Agent":UA,**entry.headers}
-    header_blob="".join(f"{k}: {v}\\r\\n" for k,v in headers.items())
+    header_blob="".join(f"{k}: {v}\r\n" for k,v in headers.items())
     cmd=["ffprobe","-v","error","-rw_timeout","5000000",
          "-analyzeduration","1500000","-probesize","1500000"]
     if header_blob:
@@ -458,6 +458,15 @@ def main():
     # Reavalia por FFprobe apenas as duas melhores candidatas já aprovadas de cada canal.
     # Uma falha do FFprobe não reprova a fonte: mantém-se o score do manifesto.
     probe_best_candidates(good,history,ranking)
+    # Persiste os metadados empíricos depois da sondagem, para uso nas próximas execuções.
+    for result in results:
+        if result.probe_attempted:
+            h=history.setdefault(result.entry.url,{})
+            h['last_probe_ok']=bool(result.probe_ok)
+            if result.probe_ok:
+                h['last_effective_pixels']=int(result.pixels)
+                h['last_codec']=result.codec
+                h['last_fps']=round(result.fps,3)
 
     winners={}; winner_scores={}
     for key,items in good.items():

@@ -60,6 +60,8 @@ def normalize_channel_key(value):
 def parse(text):
     lines=[x.rstrip("\r") for x in text.splitlines() if x.strip()]
     header=next((x for x in lines if x.startswith("#EXTM3U")),"#EXTM3U")
+    # Remove referências XMLTV: o projeto não aplica nem publica EPG.
+    header=re.sub(r'\s+(?:x-tvg-url|url-tvg)="[^"]*"',"",header,flags=re.I)
     entries=[]; pending=[]
     for line in lines:
         if line.startswith("#EXTINF:"):

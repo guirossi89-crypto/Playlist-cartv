@@ -1,34 +1,37 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T06:53:55.791054+00:00
-- Canais publicados: 174
+- Execução: 2026-11-05T08:11:08.938588+00:00
+- Canais publicados: 173
 - Fontes testadas: 805
 - Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 2
+- Canais mantidos temporariamente: 3
 
-## Melhoraram (1)
+## Melhoraram (2)
 
-- jovem pan news — score 0.909 → 0.941
+- discovery id — score 0.876 → 0.928
+- megapix — score 0.886 → 0.919
 
-## Pioraram (3)
+## Pioraram (1)
 
-- discovery id — score 0.930 → 0.876
-- mtv classic br — score 0.983 → 0.947
-- pluto tv retro — score 0.977 → 0.944
+- band — score 0.893 → 0.840
 
-## Trocaram de fonte (5)
+## Trocaram de fonte (8)
 
-- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [Fonte 7]
-- discovery kids — fonte anterior: Discovery Kids [HD · 1280x720] | nova: Discovery Kids [FHD · 1920x1080]
+- band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
+- cnn brasil — fonte anterior: CNN Brasil [Fonte 7] | nova: CNN Brasil (1080p)
+- discovery kids — fonte anterior: Discovery Kids [FHD · 1920x1080] | nova: Discovery Kids [HD · 1280x720]
 - espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
 - ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
 - record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
+- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
 
-## Desapareceram (0)
+## Desapareceram (2)
 
-- Nenhum.
+- gnt — GNT [FHD · 1920x1080]
+- sbt nova mutum — SBT Nova Mutum
 
 ## Novos canais (1)
 
-- tv cultura — TV Cultura (720p)
+- studio universal latin america brazil — Studio Universal Latin America Brazil (720p)
 

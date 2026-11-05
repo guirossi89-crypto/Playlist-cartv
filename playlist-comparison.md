@@ -1,25 +1,30 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T03:42:10.401485+00:00
+- Execução: 2026-11-05T04:46:05.320803+00:00
 - Canais publicados: 175
 - Fontes testadas: 805
 - Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 2
+- Canais mantidos temporariamente: 12
 
-## Melhoraram (0)
+## Melhoraram (1)
 
-- Nenhum.
+- espn — score 0.919 → 0.953
 
-## Pioraram (1)
+## Pioraram (3)
 
-- now rock — score 0.945 → 0.911
+- discovery id — score 0.944 → 0.887
+- pluto tv viagens — score 0.978 → 0.941
+- sbt news — score 0.969 → 0.848
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (7)
 
-- cnn brasil — fonte anterior: CNN Brasil [Fonte 7] | nova: CNN Brasil (1080p)
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- history — fonte anterior: History [HD · 1280x720] | nova: History [HD · 1280x720]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- band sports hd — fonte anterior: BAND SPORTS HD [HD · 1280x720] | nova: BAND SPORTS HD [HD · 1280x720]
+- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
+- discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
+- dumdum — fonte anterior: DumDum [HD · 1280x720] | nova: DumDum [SD · 720x576]
+- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [FHD · 1920x1080]
+- fish tv — fonte anterior: Fish TV [HD · 1280x720] | nova: Fish TV [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [FHD · 1920x1080]
 
 ## Desapareceram (0)
 

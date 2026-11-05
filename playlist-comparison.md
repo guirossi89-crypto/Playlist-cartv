@@ -1,38 +1,34 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T05:48:09.702737+00:00
-- Canais publicados: 173
+- Execução: 2026-11-05T06:53:55.791054+00:00
+- Canais publicados: 174
 - Fontes testadas: 805
 - Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 3
+- Canais mantidos temporariamente: 2
 
-## Melhoraram (3)
+## Melhoraram (1)
 
-- discovery id — score 0.887 → 0.930
-- pluto tv viagens — score 0.941 → 0.978
-- sbt news — score 0.848 → 0.957
+- jovem pan news — score 0.909 → 0.941
 
-## Pioraram (2)
+## Pioraram (3)
 
-- cnn brasil — score 0.983 → 0.931
-- espn — score 0.953 → 0.911
+- discovery id — score 0.930 → 0.876
+- mtv classic br — score 0.983 → 0.947
+- pluto tv retro — score 0.977 → 0.944
 
-## Trocaram de fonte (7)
+## Trocaram de fonte (5)
 
-- band sports hd — fonte anterior: BAND SPORTS HD [HD · 1280x720] | nova: BAND SPORTS HD [HD · 1280x720]
-- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
-- discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
-- dumdum — fonte anterior: DumDum [SD · 720x576] | nova: DumDum [HD · 1280x720]
-- espn — fonte anterior: ESPN [FHD · 1920x1080] | nova: ESPN [HD · 1280x720]
-- jovem pan news — fonte anterior: Jovem Pan News [FHD · 1920x1080] | nova: Jovem Pan News [Fonte 2]
-- sbt news — fonte anterior: SBT News [FHD · 1920x1080] | nova: SBT News [HD · 1280x720]
+- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [Fonte 7]
+- discovery kids — fonte anterior: Discovery Kids [HD · 1280x720] | nova: Discovery Kids [FHD · 1920x1080]
+- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
+- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
 
-## Desapareceram (2)
-
-- studio universal latin america brazil — Studio Universal Latin America Brazil (720p)
-- tv cultura — TV Cultura (720p)
-
-## Novos canais (0)
+## Desapareceram (0)
 
 - Nenhum.
+
+## Novos canais (1)
+
+- tv cultura — TV Cultura (720p)
 

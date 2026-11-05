@@ -1,23 +1,23 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T18:39:30.736239+00:00
-- Canais publicados: 174
-- Fontes testadas: 624
-- Fontes reaproveitadas do cache: 181
-- Canais mantidos temporariamente: 1
+- Execução: 2026-11-05T19:43:04.807726+00:00
+- Canais publicados: 175
+- Fontes testadas: 796
+- Fontes reaproveitadas do cache: 9
+- Canais mantidos temporariamente: 6
 
-## Melhoraram (1)
+## Melhoraram (2)
 
-- hbo2 — score 0.863 → 0.907
+- cinemax — score 0.870 → 0.932
+- pluto tv cine classicos — score 0.936 → 0.966
 
 ## Pioraram (1)
 
-- playtv — score 0.904 → 0.864
+- pluto tv cozinha — score 0.965 → 0.934
 
-## Trocaram de fonte (3)
+## Trocaram de fonte (2)
 
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
-- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
+- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
 - tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
 
 ## Desapareceram (0)
@@ -26,5 +26,5 @@
 
 ## Novos canais (1)
 
-- kpoptv play — KpopTV Play (576p)
+- sbt nova mutum — SBT Nova Mutum
 

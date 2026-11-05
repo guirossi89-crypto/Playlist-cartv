@@ -463,10 +463,12 @@ def main():
         if result.probe_attempted:
             h=history.setdefault(result.entry.url,{})
             h['last_probe_ok']=bool(result.probe_ok)
+            h['last_reason']=result.reason[:180]
             if result.probe_ok:
                 h['last_effective_pixels']=int(result.pixels)
                 h['last_codec']=result.codec
                 h['last_fps']=round(result.fps,3)
+                h['last_score']=int(result.quality)
 
     winners={}; winner_scores={}
     for key,items in good.items():

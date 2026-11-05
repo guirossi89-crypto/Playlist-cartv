@@ -1,37 +1,38 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T08:11:08.938588+00:00
+- Execução: 2026-11-05T09:26:45.149582+00:00
 - Canais publicados: 173
 - Fontes testadas: 805
 - Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 3
+- Canais mantidos temporariamente: 4
 
-## Melhoraram (2)
+## Melhoraram (9)
 
-- discovery id — score 0.876 → 0.928
-- megapix — score 0.886 → 0.919
+- band — score 0.840 → 0.881
+- mtv catfish (united states) br — score 0.928 → 0.960
+- o reino infantil — score 0.930 → 0.966
+- pluto tv cine classicos — score 0.931 → 0.962
+- pluto tv cine drama — score 0.953 → 0.983
+- pluto tv cine sucessos — score 0.930 → 0.969
+- pluto tv ficcao cientifica — score 0.947 → 0.982
+- pluto tv natureza — score 0.936 → 0.970
+- pluto tv turbo — score 0.950 → 0.981
 
 ## Pioraram (1)
 
-- band — score 0.893 → 0.840
+- bis — score 0.942 → 0.911
 
-## Trocaram de fonte (8)
+## Trocaram de fonte (3)
 
 - band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
-- cnn brasil — fonte anterior: CNN Brasil [Fonte 7] | nova: CNN Brasil (1080p)
-- discovery kids — fonte anterior: Discovery Kids [FHD · 1920x1080] | nova: Discovery Kids [HD · 1280x720]
-- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- jovem pan news — fonte anterior: Jovem Pan News [Fonte 2] | nova: Jovem Pan News [FHD · 1920x1080]
 - sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
-- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
 
-## Desapareceram (2)
+## Desapareceram (1)
 
-- gnt — GNT [FHD · 1920x1080]
-- sbt nova mutum — SBT Nova Mutum
+- tv evangelizar — TV Evangelizar (720p)
 
 ## Novos canais (1)
 
-- studio universal latin america brazil — Studio Universal Latin America Brazil (720p)
+- gnt — GNT [FHD · 1920x1080]
 

@@ -1,39 +1,38 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T01:56:58.790354+00:00
-- Canais publicados: 173
+- Execução: 2026-11-05T02:46:27.838337+00:00
+- Canais publicados: 175
 - Fontes testadas: 805
 - Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 5
+- Canais mantidos temporariamente: 6
 
-## Melhoraram (0)
+## Melhoraram (3)
+
+- now rock — score 0.912 → 0.945
+- pluto tv cine comedia romantica — score 0.952 → 0.987
+- pluto tv filmes de luta — score 0.952 → 0.985
+
+## Pioraram (1)
+
+- jovem pan news — score 0.944 → 0.895
+
+## Trocaram de fonte (8)
+
+- band sports hd — fonte anterior: BAND SPORTS HD [FHD · 1920x1080] | nova: BAND SPORTS HD [HD · 1280x720]
+- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [Fonte 7]
+- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
+- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
+- history — fonte anterior: History [HD · 1280x720] | nova: History [HD · 1280x720]
+- jovem pan news — fonte anterior: Jovem Pan News [Fonte 2] | nova: Jovem Pan News [FHD · 1920x1080]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
+
+## Desapareceram (0)
 
 - Nenhum.
 
-## Pioraram (8)
-
-- classique faroeste — score 0.989 → 0.959
-- despertar tv — score 0.919 → 0.881
-- discovery kids latin america brazil (720p) [geo-blocked] — score 0.971 → 0.931
-- discovery world brazil (720p) [geo-blocked] — score 0.917 → 0.884
-- globonews — score 0.894 → 0.860
-- nicktoons brasil — score 0.978 → 0.932
-- telecine cult — score 0.951 → 0.918
-- telecine fun — score 0.950 → 0.915
-
-## Trocaram de fonte (4)
-
-- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
-- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
-
-## Desapareceram (2)
+## Novos canais (2)
 
 - espn 6 — ESPN 6 [HD · 1280x720]
 - premiere clubes — Premiere Clubes [FHD · 1920x1080]
-
-## Novos canais (1)
-
-- espn 5 — ESPN 5 [HD · 1280x720]
 

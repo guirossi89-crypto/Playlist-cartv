@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json, multiprocessing, math, re, sys, time
+import json, multiprocessing, math, re, shutil, subprocess, sys, time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from html import unescape
 from pathlib import Path
@@ -32,6 +33,11 @@ class Check:
     quality: int
     latency: int
     reason: str
+    pixels: int = 0
+    codec: str = ""
+    fps: float = 0.0
+    probe_attempted: bool = False
+    probe_ok: bool = False
 
 def quality_of(s):
     dims = re.findall(r"(\d{3,4})\s*[xX]\s*(\d{3,4})", s)
@@ -184,7 +190,7 @@ def check(e,timeout):
         if re.search(r"\.ts(?:$|[?#])",e.url,re.I):
             ok,latency,reason=test_transport_stream(e,deadline,timeout)
             score=variant_score(e.quality,0,latency)
-            return Check(e,ok,score if ok else 0,latency,reason)
+            return Check(e,ok,score if ok else 0,latency,reason,e.quality)
         response,latency=get(e.url,e.headers,deadline,timeout)
         parsed=is_hls_playlist(response)
         if not parsed: return Check(e,False,0,latency,"resposta não é uma playlist HLS válida")
@@ -192,7 +198,7 @@ def check(e,timeout):
         if kind=="media":
             ok,seg_latency,reason=test_media_playlist(rows,response.url,e.headers,deadline,timeout)
             score=variant_score(e.quality,0,latency+seg_latency)
-            return Check(e,ok,score if ok else 0,latency+seg_latency,reason)
+            return Check(e,ok,score if ok else 0,latency+seg_latency,reason,e.quality)
         variants=[]
         for i,row in enumerate(rows):
             if row.startswith("#EXT-X-STREAM-INF:"):
@@ -223,7 +229,7 @@ def check(e,timeout):
                 elapsed=int((time.monotonic()-variant_start)*1000)
                 latency+=variant_latency+seg_latency
                 if ok:
-                    measured.append((variant_score(pixels,bandwidth,elapsed),elapsed,reason))
+                    measured.append((variant_score(pixels,bandwidth,elapsed),elapsed,reason,pixels))
                 else:
                     failures.append(reason)
             except requests.RequestException as ex:
@@ -231,8 +237,8 @@ def check(e,timeout):
                 continue
         if measured:
             measured.sort(key=lambda x:(x[0],-x[1]),reverse=True)
-            score,elapsed,reason=measured[0]
-            return Check(e,True,score,elapsed,"melhor variante entre as testadas; "+reason)
+            score,elapsed,reason,pixels=measured[0]
+            return Check(e,True,score,elapsed,"melhor variante entre as testadas; "+reason,pixels)
         return Check(e,False,0,latency,"nenhuma variante reproduzível: "+(failures[-1] if failures else "falha"))
     except requests.RequestException as ex:
         return Check(e,False,0,0,type(ex).__name__)
@@ -280,6 +286,73 @@ def run_checks(entries,timeout):
             proc.join(timeout=1)
         result_queue.close(); result_queue.join_thread()
     return results
+
+
+def probe_stream(entry):
+    """Obtém características do vídeo real sem baixar o fluxo completo."""
+    headers={"User-Agent":UA,**entry.headers}
+    header_blob="".join(f"{k}: {v}\r\n" for k,v in headers.items())
+    cmd=["ffprobe","-v","error","-rw_timeout","5000000",
+         "-analyzeduration","1500000","-probesize","1500000"]
+    if header_blob:
+        cmd.extend(["-headers",header_blob])
+    cmd.extend(["-select_streams","v:0","-show_entries",
+                "stream=codec_name,width,height,avg_frame_rate,bit_rate",
+                "-of","json",entry.url])
+    completed=subprocess.run(cmd,capture_output=True,text=True,timeout=7,check=True)
+    payload=json.loads(completed.stdout or "{}")
+    streams=payload.get("streams",[])
+    if not streams:
+        raise ValueError("FFprobe não encontrou stream de vídeo")
+    stream=streams[0]
+    width=int(stream.get("width") or 0)
+    height=int(stream.get("height") or 0)
+    if width<=0 or height<=0:
+        raise ValueError("resolução efetiva indisponível")
+    fps=0.0
+    rate=stream.get("avg_frame_rate","0/0")
+    if "/" in rate:
+        numerator,denominator=rate.split("/",1)
+        if float(denominator or 0)>0:
+            fps=float(numerator)/float(denominator)
+    bitrate=int(stream.get("bit_rate") or 0)
+    return {"pixels":width*height,"codec":str(stream.get("codec_name") or ""),
+            "fps":fps,"bitrate":bitrate,"width":width,"height":height}
+
+def probe_best_candidates(good, history, ranking):
+    """Sonda somente as duas melhores fontes aprovadas de cada canal."""
+    if not shutil.which("ffprobe"):
+        print("FFprobe indisponível; mantendo avaliação pelo manifesto.",flush=True)
+        return
+    targets={}
+    for items in good.values():
+        ordered=sorted(items,key=lambda x:(ranking(x,items),x.quality,-x.latency),reverse=True)
+        for result in ordered[:2]:
+            targets.setdefault(result.entry.url,result)
+    if not targets:
+        return
+    print(f"FFprobe: avaliando {len(targets)} candidatas (até 2 por canal), com 8 verificações simultâneas.",flush=True)
+    completed=0
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures={pool.submit(probe_stream,result.entry):result for result in targets.values()}
+        for future in as_completed(futures):
+            result=futures[future]
+            result.probe_attempted=True
+            try:
+                measured=future.result()
+                result.pixels=measured["pixels"]
+                result.codec=measured["codec"]
+                result.fps=measured["fps"]
+                result.probe_ok=True
+                # Usa resolução real e bitrate real quando o container os informa.
+                # A latência fica exclusivamente no componente de latência do ranking.
+                result.quality=variant_score(result.pixels,measured["bitrate"],0)
+                result.reason += f"; FFprobe {measured['width']}x{measured['height']} {result.codec}"
+            except Exception as ex:
+                result.reason += "; FFprobe inconclusivo: "+type(ex).__name__
+            completed+=1
+            if completed%25==0 or completed==len(futures):
+                print(f"FFprobe: {completed}/{len(futures)} candidatas avaliadas.",flush=True)
 
 def load_state(path):
     try:
@@ -336,7 +409,7 @@ def main():
             age=now_ts-float(h.get("last_checked_ts",0) or 0)
             cache_ttl=90*60 if int(h.get("successes",0))>=4 and reliability>=0.90 else 0
             if cache_ttl and age>=0 and age<cache_ttl and h.get("last_ok") and int(h.get("last_score",0))>0:
-                cached[e.order]=Check(e,True,int(h["last_score"]),int(h.get("last_latency",0)),"cache de fonte historicamente estável")
+                cached[e.order]=Check(e,True,int(h["last_score"]),int(h.get("last_latency",0)),"cache de fonte historicamente estável",int(h.get("last_effective_pixels",0)),str(h.get("last_codec", "")),float(h.get("last_fps",0)),False,bool(h.get("last_probe_ok",False)))
                 continue
         pending.append(e)
 
@@ -359,6 +432,12 @@ def main():
         h["last_latency"]=int(result.latency)
         h["last_score"]=int(result.quality if result.ok else 0)
         h["last_reason"]=result.reason[:180]
+        if result.probe_attempted:
+            h["last_probe_ok"]=bool(result.probe_ok)
+            if result.probe_ok:
+                h["last_effective_pixels"]=int(result.pixels)
+                h["last_codec"]=result.codec
+                h["last_fps"]=round(result.fps,3)
 
     good={}
     for result in results:
@@ -375,6 +454,19 @@ def main():
         latency_component=1/(1+max(0,result.latency)/2000)
         score=0.50*quality_component+0.35*reliability+0.15*latency_component
         return score
+
+    # Reavalia por FFprobe apenas as duas melhores candidatas já aprovadas de cada canal.
+    # Uma falha do FFprobe não reprova a fonte: mantém-se o score do manifesto.
+    probe_best_candidates(good,history,ranking)
+    # Persiste os metadados empíricos depois da sondagem, para uso nas próximas execuções.
+    for result in results:
+        if result.probe_attempted:
+            h=history.setdefault(result.entry.url,{})
+            h['last_probe_ok']=bool(result.probe_ok)
+            if result.probe_ok:
+                h['last_effective_pixels']=int(result.pixels)
+                h['last_codec']=result.codec
+                h['last_fps']=round(result.fps,3)
 
     winners={}; winner_scores={}
     for key,items in good.items():

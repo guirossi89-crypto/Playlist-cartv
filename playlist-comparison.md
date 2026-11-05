@@ -1,32 +1,39 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T00:38:52.706447+00:00
-- Canais publicados: 174
+- Execução: 2026-11-05T01:56:58.790354+00:00
+- Canais publicados: 173
 - Fontes testadas: 805
 - Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 12
+- Canais mantidos temporariamente: 5
 
 ## Melhoraram (0)
 
 - Nenhum.
 
-## Pioraram (1)
+## Pioraram (8)
 
-- tnt — score 0.921 → 0.851
+- classique faroeste — score 0.989 → 0.959
+- despertar tv — score 0.919 → 0.881
+- discovery kids latin america brazil (720p) [geo-blocked] — score 0.971 → 0.931
+- discovery world brazil (720p) [geo-blocked] — score 0.917 → 0.884
+- globonews — score 0.894 → 0.860
+- nicktoons brasil — score 0.978 → 0.932
+- telecine cult — score 0.951 → 0.918
+- telecine fun — score 0.950 → 0.915
 
-## Trocaram de fonte (5)
+## Trocaram de fonte (4)
 
-- discovery kids — fonte anterior: Discovery Kids [FHD · 1920x1080] | nova: Discovery Kids [HD · 1280x720]
-- espn 4 — fonte anterior: ESPN 4 [HD · 1280x720] | nova: ESPN 4 [HD · 1280x720]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- jovem pan news — fonte anterior: Jovem Pan News [FHD · 1920x1080] | nova: Jovem Pan News [Fonte 2]
+- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
 - tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
 
-## Desapareceram (1)
+## Desapareceram (2)
+
+- espn 6 — ESPN 6 [HD · 1280x720]
+- premiere clubes — Premiere Clubes [FHD · 1920x1080]
+
+## Novos canais (1)
 
 - espn 5 — ESPN 5 [HD · 1280x720]
-
-## Novos canais (0)
-
-- Nenhum.
 

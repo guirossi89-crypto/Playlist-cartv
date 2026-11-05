@@ -1,30 +1,36 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T10:28:53.604990+00:00
-- Canais publicados: 174
+- Execução: 2026-11-05T11:25:10.223262+00:00
+- Canais publicados: 173
 - Fontes testadas: 805
 - Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 11
+- Canais mantidos temporariamente: 4
 
-## Melhoraram (1)
-
-- bis — score 0.911 → 0.942
-
-## Pioraram (1)
-
-- pluto tv cine drama — score 0.983 → 0.951
-
-## Trocaram de fonte (3)
-
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- jovem pan news — fonte anterior: Jovem Pan News [FHD · 1920x1080] | nova: Jovem Pan News [Fonte 2]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
-
-## Desapareceram (0)
+## Melhoraram (0)
 
 - Nenhum.
 
-## Novos canais (1)
+## Pioraram (6)
 
-- tv evangelizar — TV Evangelizar (720p)
+- axn — score 0.933 → 0.901
+- discovery id — score 0.932 → 0.873
+- espn 5 — score 0.900 → 0.869
+- hbo pop — score 0.948 → 0.891
+- megapix — score 0.910 → 0.859
+- record — score 0.948 → 0.910
+
+## Trocaram de fonte (4)
+
+- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
+- discovery kids — fonte anterior: Discovery Kids [HD · 1280x720] | nova: Discovery Kids [FHD · 1920x1080]
+- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
+- record — fonte anterior: Record [FHD · 1920x1080] | nova: Record [HD · 1280x720]
+
+## Desapareceram (1)
+
+- despertar tv — Despertar TV (720p)
+
+## Novos canais (0)
+
+- Nenhum.
 

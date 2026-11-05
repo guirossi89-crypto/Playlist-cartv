@@ -1,31 +1,32 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T16:55:10.513238+00:00
-- Canais publicados: 172
-- Fontes testadas: 636
-- Fontes reaproveitadas do cache: 169
-- Canais mantidos temporariamente: 1
+- Execução: 2026-11-05T17:13:44.355858+00:00
+- Canais publicados: 174
+- Fontes testadas: 630
+- Fontes reaproveitadas do cache: 175
+- Canais mantidos temporariamente: 4
 
-## Melhoraram (1)
+## Melhoraram (2)
 
-- history — score 0.850 → 0.914
+- band — score 0.837 → 0.872
+- hbo2 — score 0.874 → 0.907
 
 ## Pioraram (1)
 
-- band — score 0.891 → 0.837
+- hbo pop — score 0.941 → 0.896
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (3)
 
 - band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
-- fish tv — fonte anterior: Fish TV [HD · 1280x720] | nova: Fish TV [HD · 1280x720]
-- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
-- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
+- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
+- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
 
-## Desapareceram (1)
-
-- studio universal latin america brazil — Studio Universal Latin America Brazil (720p)
-
-## Novos canais (0)
+## Desapareceram (0)
 
 - Nenhum.
+
+## Novos canais (2)
+
+- megapix — Megapix [FHD · 1920x1080]
+- studio universal latin america brazil — Studio Universal Latin America Brazil (720p)
 

@@ -26,7 +26,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Instalar dependências
+      - name: Instalar FFmpeg/FFprobe
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Instalar dependências Python
         run: python -m pip install --disable-pip-version-check requests
       - name: Validar sintaxe Python
         run: python -m py_compile scripts/optimize_playlist.py scripts/apply_epg.py

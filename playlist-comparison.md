@@ -1,27 +1,34 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T13:41:45.214535+00:00
+- Execução: 2026-11-05T14:55:45.972182+00:00
 - Canais publicados: 174
-- Fontes testadas: 805
-- Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 4
+- Fontes testadas: 629
+- Fontes reaproveitadas do cache: 176
+- Canais mantidos temporariamente: 6
 
-## Melhoraram (1)
-
-- fifa+ português — score 0.924 → 0.955
-
-## Pioraram (0)
+## Melhoraram (0)
 
 - Nenhum.
 
-## Trocaram de fonte (6)
+## Pioraram (3)
 
-- espn 4 — fonte anterior: ESPN 4 [HD · 1280x720] | nova: ESPN 4 [HD · 1280x720]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- history — fonte anterior: History [HD · 1280x720] | nova: History [HD · 1280x720]
-- record — fonte anterior: Record [FHD · 1920x1080] | nova: Record [HD · 1280x720]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
-- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
+- cinemax — score 0.931 → 0.859
+- jovem pan news — score 0.950 → 0.899
+- playtv — score 0.901 → 0.870
+
+## Trocaram de fonte (11)
+
+- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
+- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [HD · 1280x720]
+- discovery kids — fonte anterior: Discovery Kids [HD · 1280x720] | nova: Discovery Kids [FHD · 1920x1080]
+- discovery theater — fonte anterior: Discovery Theater [HD · 1280x720] | nova: Discovery Theater [FHD · 1920x1080]
+- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
+- espn 3 — fonte anterior: ESPN 3 [HD · 1280x720] | nova: ESPN 3 [FHD · 1920x1080]
+- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
+- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
+- jovem pan news — fonte anterior: Jovem Pan News [Fonte 2] | nova: Jovem Pan News [FHD · 1920x1080]
+- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
+- record — fonte anterior: Record [HD · 1280x720] | nova: Record [FHD · 1920x1080]
 
 ## Desapareceram (0)
 

@@ -1,34 +1,36 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-05T04:46:05.320803+00:00
-- Canais publicados: 175
+- Execução: 2026-11-05T05:48:09.702737+00:00
+- Canais publicados: 173
 - Fontes testadas: 805
 - Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 12
+- Canais mantidos temporariamente: 3
 
-## Melhoraram (1)
+## Melhoraram (3)
 
-- espn — score 0.919 → 0.953
+- discovery id — score 0.887 → 0.930
+- pluto tv viagens — score 0.941 → 0.978
+- sbt news — score 0.848 → 0.957
 
-## Pioraram (3)
+## Pioraram (2)
 
-- discovery id — score 0.944 → 0.887
-- pluto tv viagens — score 0.978 → 0.941
-- sbt news — score 0.969 → 0.848
+- cnn brasil — score 0.983 → 0.931
+- espn — score 0.953 → 0.911
 
 ## Trocaram de fonte (7)
 
 - band sports hd — fonte anterior: BAND SPORTS HD [HD · 1280x720] | nova: BAND SPORTS HD [HD · 1280x720]
 - discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
 - discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
-- dumdum — fonte anterior: DumDum [HD · 1280x720] | nova: DumDum [SD · 720x576]
-- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [FHD · 1920x1080]
-- fish tv — fonte anterior: Fish TV [HD · 1280x720] | nova: Fish TV [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [FHD · 1920x1080]
+- dumdum — fonte anterior: DumDum [SD · 720x576] | nova: DumDum [HD · 1280x720]
+- espn — fonte anterior: ESPN [FHD · 1920x1080] | nova: ESPN [HD · 1280x720]
+- jovem pan news — fonte anterior: Jovem Pan News [FHD · 1920x1080] | nova: Jovem Pan News [Fonte 2]
+- sbt news — fonte anterior: SBT News [FHD · 1920x1080] | nova: SBT News [HD · 1280x720]
 
-## Desapareceram (0)
+## Desapareceram (2)
 
-- Nenhum.
+- studio universal latin america brazil — Studio Universal Latin America Brazil (720p)
+- tv cultura — TV Cultura (720p)
 
 ## Novos canais (0)
 

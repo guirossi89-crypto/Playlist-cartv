@@ -20,4 +20,4 @@
 
 ## Observações
 
-A validação de disponibilidade não garante reprodução contínua, codec, áudio ou qualidade visual real. O bitrate usado na pontuação é o declarado pelo manifesto HLS, não uma medição contínua do vídeo. Alguns provedores bloqueiam IPs de datacenter, podendo falhar no GitHub Actions mesmo quando funcionam no dispositivo. Se todos os canais falharem em uma execução, a saída e o histórico são preservados por segurança.
+A validação de disponibilidade não garante reprodução contínua nem qualidade visual percebida. O FFprobe mede metadados do stream acessível (resolução, codec e FPS), mas não substitui uma reprodução completa; o bitrate só é considerado quando informado pelo próprio stream. Alguns provedores bloqueiam IPs de datacenter, podendo falhar no GitHub Actions mesmo quando funcionam no dispositivo. Se todos os canais falharem em uma execução, a saída e o histórico são preservados por segurança.

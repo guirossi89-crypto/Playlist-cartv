@@ -334,7 +334,7 @@ def main():
             total=int(h.get("successes",0))+int(h.get("failures",0))
             reliability=(int(h.get("successes",0))+2)/(total+2) if total else 0
             age=now_ts-float(h.get("last_checked_ts",0) or 0)
-            cache_ttl=45*60 if int(h.get("successes",0))>=4 and reliability>=0.90 else 0
+            cache_ttl=90*60 if int(h.get("successes",0))>=4 and reliability>=0.90 else 0
             if cache_ttl and age>=0 and age<cache_ttl and h.get("last_ok") and int(h.get("last_score",0))>0:
                 cached[e.order]=Check(e,True,int(h["last_score"]),int(h.get("last_latency",0)),"cache de fonte historicamente estável")
                 continue

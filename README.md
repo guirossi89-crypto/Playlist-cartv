@@ -12,6 +12,7 @@
 - Mantém histórico por URL (sucessos, falhas, latência e última validação); uma falha isolada mantém temporariamente a última fonte aprovada e duas falhas consecutivas removem o canal da seleção atual. Fontes que voltam a responder podem ser selecionadas novamente automaticamente.
 - Cache adaptativo de até 90 minutos somente para fontes com pelo menos quatro aprovações e confiabilidade histórica mínima de 90%; fontes novas ou instáveis continuam sendo testadas.
 - Gera `playlist-comparison.md` com canais que melhoraram, pioraram, trocaram de fonte, desapareceram ou são novos. O workflow também disponibiliza o relatório como artefato por 30 dias.
+- EPG/XMLTV desativado: o workflow não baixa guia, não associa IDs XMLTV e remove referências x-tvg-url/url-tvg do cabeçalho da saída.
 - GitHub Actions executa a cada 30 minutos e publica apenas quando houver mudança.
 
 ## URL para o aplicativo

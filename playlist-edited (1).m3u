@@ -1708,3 +1708,897 @@ http://45.177.114.115/TV_RA_TIM_BUM/index.m3u8
 http://cdn.tvmatic.net/comedy.m3u8
 #EXTINF:-1 tvg-id="VEJAPlusTV.br@HD" tvg-logo="https://i.imgur.com/n0pxHo4.png" group-title="Notícias",VEJA+ TV (1080p)
 https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
+#EXTINF:-1 tvg-name="A&amp;E" tvg-logo="https://img.faz-o-eli.online/ae.png" group-title="Documentários",A&E [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=ae&ext=.m3u8
+#EXTINF:-1 tvg-name="A&amp;E" tvg-logo="https://img.faz-o-eli.online/ae.png" group-title="Documentários",A&E [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=ae&ext=.m3u8
+#EXTINF:-1 tvg-name="A&amp;E" tvg-logo="https://img.faz-o-eli.online/ae.png" group-title="Documentários",A&E [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/aee/index.m3u8
+#EXTINF:-1 tvg-name="AMC" tvg-logo="https://img.faz-o-eli.online/amc.png" group-title="Filmes e Séries",AMC [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=amc&ext=.m3u8
+#EXTINF:-1 tvg-name="AMC" tvg-logo="https://img.faz-o-eli.online/amc.png" group-title="Filmes e Séries",AMC [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=amc&ext=.m3u8
+#EXTINF:-1 tvg-name="AMC" tvg-logo="https://img.faz-o-eli.online/amc.png" group-title="Filmes e Séries",AMC [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/amc/index.m3u8
+#EXTINF:-1 tvg-name="Animal Planet" tvg-logo="https://img.faz-o-eli.online/animalplanet.png" group-title="Documentários",Animal Planet [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=animalplanet&ext=.m3u8
+#EXTINF:-1 tvg-name="Animal Planet" tvg-logo="https://img.faz-o-eli.online/animalplanet.png" group-title="Documentários",Animal Planet [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=animalplanet&ext=.m3u8
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://img.faz-o-eli.online/cartoonnetwork.png" group-title="Infantil",Cartoon Network [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=cartoonnetwork&ext=.m3u8
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://img.faz-o-eli.online/cartoonnetwork.png" group-title="Infantil",Cartoon Network [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=cartoonnetwork&ext=.m3u8
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://img.faz-o-eli.online/cartoonnetwork.png" group-title="Infantil",Cartoon Network [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/cartoonnetwork/index.m3u8
+#EXTINF:-1 tvg-name="CNN Brasil" tvg-logo="https://img.faz-o-eli.online/cnnbrasil.png" group-title="Notícias",CNN Brasil [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=cnnbrasil&ext=.m3u8
+#EXTINF:-1 tvg-name="CNN Brasil" tvg-logo="https://img.faz-o-eli.online/cnnbrasil.png" group-title="Notícias",CNN Brasil [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=cnnbrasil&ext=.m3u8
+#EXTINF:-1 tvg-name="CNN Brasil" tvg-logo="https://img.faz-o-eli.online/cnnbrasil.png" group-title="Notícias",CNN Brasil [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/cnnbrasil/index.m3u8
+#EXTINF:-1 tvg-name="GE TV" tvg-logo="https://mondrian.claro.com.br/channels/inverse/ge-tv.png" group-title="Esportes",GE TV [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/getv/index.m3u8
+#EXTINF:-1 tvg-name="GloboNews" tvg-logo="https://img.faz-o-eli.online/globonews.png" group-title="Notícias",GloboNews [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=globonews&ext=.m3u8
+#EXTINF:-1 tvg-name="GloboNews" tvg-logo="https://img.faz-o-eli.online/globonews.png" group-title="Notícias",GloboNews [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=globonews&ext=.m3u8
+#EXTINF:-1 tvg-name="GloboNews" tvg-logo="https://img.faz-o-eli.online/globonews.png" group-title="Notícias",GloboNews [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/globonews/index.m3u8
+#EXTINF:-1 tvg-name="GNT" tvg-logo="https://img.faz-o-eli.online/gnt.png" group-title="Variedades",GNT [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=gnt&ext=.m3u8
+#EXTINF:-1 tvg-name="GNT" tvg-logo="https://img.faz-o-eli.online/gnt.png" group-title="Variedades",GNT [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=gnt&ext=.m3u8
+#EXTINF:-1 tvg-name="GNT" tvg-logo="https://img.faz-o-eli.online/gnt.png" group-title="Variedades",GNT [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/gnt/index.m3u8
+#EXTINF:-1 tvg-name="History" tvg-logo="https://img.faz-o-eli.online/history.png" group-title="Documentários",History [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=history&ext=.m3u8
+#EXTINF:-1 tvg-name="History" tvg-logo="https://img.faz-o-eli.online/history.png" group-title="Documentários",History [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=history&ext=.m3u8
+#EXTINF:-1 tvg-name="History" tvg-logo="https://img.faz-o-eli.online/history.png" group-title="Documentários",History [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/history/index.m3u8
+#EXTINF:-1 tvg-name="History 2" tvg-logo="https://img.faz-o-eli.online/history2.png" group-title="Documentários",History 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=history2&ext=.m3u8
+#EXTINF:-1 tvg-name="History 2" tvg-logo="https://img.faz-o-eli.online/history2.png" group-title="Documentários",History 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=history2&ext=.m3u8
+#EXTINF:-1 tvg-name="History 2" tvg-logo="https://img.faz-o-eli.online/history2.png" group-title="Documentários",History 2 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/history2/index.m3u8
+#EXTINF:-1 tvg-name="Jovem Pan News" tvg-logo="https://www.tvlogo.org/brazil/jovem-pan-news-br.png" group-title="Notícias",Jovem Pan News [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/jovempannews/index.m3u8
+#EXTINF:-1 tvg-name="Megapix" tvg-logo="https://img.faz-o-eli.online/megapix.png" group-title="Filmes e Séries",Megapix [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=megapix&ext=.m3u8
+#EXTINF:-1 tvg-name="Megapix" tvg-logo="https://img.faz-o-eli.online/megapix.png" group-title="Filmes e Séries",Megapix [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=megapix&ext=.m3u8
+#EXTINF:-1 tvg-name="Megapix" tvg-logo="https://img.faz-o-eli.online/megapix.png" group-title="Filmes e Séries",Megapix [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/megapix/index.m3u8
+#EXTINF:-1 tvg-name="Multishow" tvg-logo="https://img.faz-o-eli.online/multishow.png" group-title="Variedades",Multishow [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=multishow&ext=.m3u8
+#EXTINF:-1 tvg-name="Multishow" tvg-logo="https://img.faz-o-eli.online/multishow.png" group-title="Variedades",Multishow [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=multishow&ext=.m3u8
+#EXTINF:-1 tvg-name="Multishow" tvg-logo="https://img.faz-o-eli.online/multishow.png" group-title="Variedades",Multishow [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/multishow/index.m3u8
+#EXTINF:-1 tvg-name="Premiere 2" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=premiere2&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere 2" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=premiere2&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere 2" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 2 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/premiere2/index.m3u8
+#EXTINF:-1 tvg-name="Premiere 3" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 3 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=premiere3&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere 3" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 3 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=premiere3&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere 3" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 3 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/premiere3/index.m3u8
+#EXTINF:-1 tvg-name="Premiere 4" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 4 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=premiere4&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere 4" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 4 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=premiere4&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere 4" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 4 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/premiere4/index.m3u8
+#EXTINF:-1 tvg-name="Premiere 5" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 5 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=premiere5&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere 5" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 5 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=premiere5&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere 5" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 5 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/premiere5/index.m3u8
+#EXTINF:-1 tvg-name="Premiere 6" tvg-logo="https://mondrian.claro.com.br/channels/inverse/premiere.png" group-title="Esportes",Premiere 6 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/premiere6/index.m3u8
+#EXTINF:-1 tvg-name="Premiere 7" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere 7 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/premiere7/index.m3u8
+#EXTINF:-1 tvg-name="Premiere 8" tvg-logo="https://mondrian.claro.com.br/channels/inverse/premiere.png" group-title="Esportes",Premiere 8 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/premiere8/index.m3u8
+#EXTINF:-1 tvg-name="Premiere Clubes" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere Clubes [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=premiere&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere Clubes" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere Clubes [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=premiere&ext=.m3u8
+#EXTINF:-1 tvg-name="Premiere Clubes" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere Clubes [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/premiereclubes/index.m3u8
+#EXTINF:-1 tvg-name="SBT" tvg-logo="https://mondrian.claro.com.br/channels/inverse/sbt.png" group-title="TV Aberta",SBT [HD · 1280x720]
+https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
+#EXTINF:-1 tvg-name="Sony Channel" tvg-logo="https://img.faz-o-eli.online/sonychannel.png" group-title="Filmes e Séries",Sony Channel [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=sonychannel&ext=.m3u8
+#EXTINF:-1 tvg-name="Sony Channel" tvg-logo="https://img.faz-o-eli.online/sonychannel.png" group-title="Filmes e Séries",Sony Channel [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=sonychannel&ext=.m3u8
+#EXTINF:-1 tvg-name="Sony Channel" tvg-logo="https://img.faz-o-eli.online/sonychannel.png" group-title="Filmes e Séries",Sony Channel [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/sonychannel/index.m3u8
+#EXTINF:-1 tvg-name="SporTV" tvg-logo="https://img.faz-o-eli.online/sportv.png" group-title="Esportes",SporTV [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=sportv&ext=.m3u8
+#EXTINF:-1 tvg-name="SporTV" tvg-logo="https://img.faz-o-eli.online/sportv.png" group-title="Esportes",SporTV [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=sportv&ext=.m3u8
+#EXTINF:-1 tvg-name="SporTV" tvg-logo="https://img.faz-o-eli.online/sportv.png" group-title="Esportes",SporTV [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/sportv/index.m3u8
+#EXTINF:-1 tvg-name="SporTV 2" tvg-logo="https://img.faz-o-eli.online/sportv2.png" group-title="Esportes",SporTV 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=sportv2&ext=.m3u8
+#EXTINF:-1 tvg-name="SporTV 2" tvg-logo="https://img.faz-o-eli.online/sportv2.png" group-title="Esportes",SporTV 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=sportv2&ext=.m3u8
+#EXTINF:-1 tvg-name="SporTV 2" tvg-logo="https://img.faz-o-eli.online/sportv2.png" group-title="Esportes",SporTV 2 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/sportv2/index.m3u8
+#EXTINF:-1 tvg-name="SporTV 3" tvg-logo="https://img.faz-o-eli.online/sportv3.png" group-title="Esportes",SporTV 3 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=sportv3&ext=.m3u8
+#EXTINF:-1 tvg-name="SporTV 3" tvg-logo="https://img.faz-o-eli.online/sportv3.png" group-title="Esportes",SporTV 3 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=sportv3&ext=.m3u8
+#EXTINF:-1 tvg-name="SporTV 3" tvg-logo="https://img.faz-o-eli.online/sportv3.png" group-title="Esportes",SporTV 3 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/sportv3/index.m3u8
+#EXTINF:-1 tvg-name="Canal OFF" tvg-logo="https://img.faz-o-eli.online/off.png" group-title="Esportes",Canal OFF [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=off&ext=.m3u8
+#EXTINF:-1 tvg-name="Canal OFF" tvg-logo="https://img.faz-o-eli.online/off.png" group-title="Esportes",Canal OFF [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=off&ext=.m3u8
+#EXTINF:-1 tvg-name="Canal OFF" tvg-logo="https://img.faz-o-eli.online/off.png" group-title="Esportes",Canal OFF [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/canaloff/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Action" tvg-logo="https://img.faz-o-eli.online/telecineaction.png" group-title="Filmes e Séries",Telecine Action [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=telecineaction&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Action" tvg-logo="https://img.faz-o-eli.online/telecineaction.png" group-title="Filmes e Séries",Telecine Action [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=telecineaction&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Action" tvg-logo="https://img.faz-o-eli.online/telecineaction.png" group-title="Filmes e Séries",Telecine Action [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tcaction/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Pipoca" tvg-logo="https://img.faz-o-eli.online/telecinepipoca.png" group-title="Filmes e Séries",Telecine Pipoca [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=telecinepipoca&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Pipoca" tvg-logo="https://img.faz-o-eli.online/telecinepipoca.png" group-title="Filmes e Séries",Telecine Pipoca [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=telecinepipoca&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Pipoca" tvg-logo="https://img.faz-o-eli.online/telecinepipoca.png" group-title="Filmes e Séries",Telecine Pipoca [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tcpipoca/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Premium" tvg-logo="https://img.faz-o-eli.online/telecinepremium.png" group-title="Filmes e Séries",Telecine Premium [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=telecinepremium&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Premium" tvg-logo="https://img.faz-o-eli.online/telecinepremium.png" group-title="Filmes e Séries",Telecine Premium [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=telecinepremium&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Premium" tvg-logo="https://img.faz-o-eli.online/telecinepremium.png" group-title="Filmes e Séries",Telecine Premium [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tcpremium/index.m3u8
+#EXTINF:-1 tvg-name="Warner" tvg-logo="https://img.faz-o-eli.online/warnerchannel.png" group-title="Filmes e Séries",Warner [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=warnerchannel&ext=.m3u8
+#EXTINF:-1 tvg-name="Warner" tvg-logo="https://img.faz-o-eli.online/warnerchannel.png" group-title="Filmes e Séries",Warner [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=warnerchannel&ext=.m3u8
+#EXTINF:-1 tvg-name="Warner" tvg-logo="https://img.faz-o-eli.online/warnerchannel.png" group-title="Filmes e Séries",Warner [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/warner/index.m3u8
+#EXTINF:-1 tvg-name="Globo SP" tvg-logo="https://img.faz-o-eli.online/globosp.png" group-title="TV Aberta",Globo SP [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=globosp&ext=.m3u8
+#EXTINF:-1 tvg-name="Globo SP" tvg-logo="https://img.faz-o-eli.online/globosp.png" group-title="TV Aberta",Globo SP [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=globosp&ext=.m3u8
+#EXTINF:-1 tvg-name="Globo SP" tvg-logo="https://img.faz-o-eli.online/globosp.png" group-title="TV Aberta",Globo SP [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/globosp/index.m3u8
+#EXTINF:-1 tvg-name="Cartoonito" tvg-logo="https://img.faz-o-eli.online/cartoonito.png" group-title="Infantil",Cartoonito [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=cartoonito&ext=.m3u8
+#EXTINF:-1 tvg-name="Cartoonito" tvg-logo="https://img.faz-o-eli.online/cartoonito.png" group-title="Infantil",Cartoonito [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=cartoonito&ext=.m3u8
+#EXTINF:-1 tvg-name="Cartoonito" tvg-logo="https://img.faz-o-eli.online/cartoonito.png" group-title="Infantil",Cartoonito [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/cartoonito/index.m3u8
+#EXTINF:-1 tvg-name="Cinemax" tvg-logo="https://img.faz-o-eli.online/cinemax.png" group-title="Filmes e Séries",Cinemax [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=cinemax&ext=.m3u8
+#EXTINF:-1 tvg-name="Cinemax" tvg-logo="https://img.faz-o-eli.online/cinemax.png" group-title="Filmes e Séries",Cinemax [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=cinemax&ext=.m3u8
+#EXTINF:-1 tvg-name="Cinemax" tvg-logo="https://img.faz-o-eli.online/cinemax.png" group-title="Filmes e Séries",Cinemax [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/cinemax/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://img.faz-o-eli.online/discoverychannel.png" group-title="Documentários",Discovery Channel [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=discoverychannel&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://img.faz-o-eli.online/discoverychannel.png" group-title="Documentários",Discovery Channel [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=discoverychannel&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://img.faz-o-eli.online/discoverychannel.png" group-title="Documentários",Discovery Channel [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/discoverychannel/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://img.faz-o-eli.online/discoverykids.png" group-title="Infantil",Discovery Kids [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=discoverykids&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://img.faz-o-eli.online/discoverykids.png" group-title="Infantil",Discovery Kids [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=discoverykids&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://img.faz-o-eli.online/discoverykids.png" group-title="Infantil",Discovery Kids [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/discoverykids/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Theater" tvg-logo="https://img.faz-o-eli.online/discoverytheater.png" group-title="Documentários",Discovery Theater [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=discoverytheather&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Theater" tvg-logo="https://img.faz-o-eli.online/discoverytheater.png" group-title="Documentários",Discovery Theater [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=discoverytheather&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Theater" tvg-logo="https://img.faz-o-eli.online/discoverytheater.png" group-title="Documentários",Discovery Theater [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/discoverytheater/index.m3u8
+#EXTINF:-1 tvg-name="ESPN" tvg-logo="https://img.faz-o-eli.online/espn.png" group-title="Esportes",ESPN [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=espn&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN" tvg-logo="https://img.faz-o-eli.online/espn.png" group-title="Esportes",ESPN [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=espn&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN" tvg-logo="https://img.faz-o-eli.online/espn.png" group-title="Esportes",ESPN [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/espn/index.m3u8
+#EXTINF:-1 tvg-name="ESPN 2" tvg-logo="https://img.faz-o-eli.online/espn2.png" group-title="Esportes",ESPN 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=espn2&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 2" tvg-logo="https://img.faz-o-eli.online/espn2.png" group-title="Esportes",ESPN 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=espn2&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 2" tvg-logo="https://img.faz-o-eli.online/espn2.png" group-title="Esportes",ESPN 2 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/espn2/index.m3u8
+#EXTINF:-1 tvg-name="ESPN 4" tvg-logo="https://img.faz-o-eli.online/espn4.png" group-title="Esportes",ESPN 4 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=espn4&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 4" tvg-logo="https://img.faz-o-eli.online/espn4.png" group-title="Esportes",ESPN 4 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=espn4&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 4" tvg-logo="https://img.faz-o-eli.online/espn4.png" group-title="Esportes",ESPN 4 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/espn4/index.m3u8
+#EXTINF:-1 tvg-name="ESPN 5" tvg-logo="https://img.faz-o-eli.online/espn5.png" group-title="Esportes",ESPN 5 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=espn5&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 5" tvg-logo="https://img.faz-o-eli.online/espn5.png" group-title="Esportes",ESPN 5 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=espn5&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 5" tvg-logo="https://img.faz-o-eli.online/espn5.png" group-title="Esportes",ESPN 5 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/espn5/index.m3u8
+#EXTINF:-1 tvg-name="ESPN 6" tvg-logo="https://img.faz-o-eli.online/espn6.png" group-title="Esportes",ESPN 6 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=espn6&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 6" tvg-logo="https://img.faz-o-eli.online/espn6.png" group-title="Esportes",ESPN 6 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=espn6&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 6" tvg-logo="https://img.faz-o-eli.online/espn6.png" group-title="Esportes",ESPN 6 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/espn6/index.m3u8
+#EXTINF:-1 tvg-name="HBO" tvg-logo="https://img.faz-o-eli.online/hbo.png" group-title="Filmes e Séries",HBO [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=hbo&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO" tvg-logo="https://img.faz-o-eli.online/hbo.png" group-title="Filmes e Séries",HBO [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=hbo&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO" tvg-logo="https://img.faz-o-eli.online/hbo.png" group-title="Filmes e Séries",HBO [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/hbo/index.m3u8
+#EXTINF:-1 tvg-name="HBO2" tvg-logo="https://img.faz-o-eli.online/hbo2.png" group-title="Filmes e Séries",HBO2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=hbo2&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO2" tvg-logo="https://img.faz-o-eli.online/hbo2.png" group-title="Filmes e Séries",HBO2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=hbo2&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO2" tvg-logo="https://img.faz-o-eli.online/hbo2.png" group-title="Filmes e Séries",HBO2 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/hbo2/index.m3u8
+#EXTINF:-1 tvg-name="HBO Family" tvg-logo="https://img.faz-o-eli.online/hbofamily.png" group-title="Filmes e Séries",HBO Family [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=hbofamily&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Family" tvg-logo="https://img.faz-o-eli.online/hbofamily.png" group-title="Filmes e Séries",HBO Family [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=hbofamily&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Family" tvg-logo="https://img.faz-o-eli.online/hbofamily.png" group-title="Filmes e Séries",HBO Family [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/hbofamily/index.m3u8
+#EXTINF:-1 tvg-name="HBO Mundi" tvg-logo="https://img.faz-o-eli.online/hbomundi.png" group-title="Filmes e Séries",HBO Mundi [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=hbomundi&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Mundi" tvg-logo="https://img.faz-o-eli.online/hbomundi.png" group-title="Filmes e Séries",HBO Mundi [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=hbomundi&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Mundi" tvg-logo="https://img.faz-o-eli.online/hbomundi.png" group-title="Filmes e Séries",HBO Mundi [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/hbomundi/index.m3u8
+#EXTINF:-1 tvg-name="HBO Plus" tvg-logo="https://img.faz-o-eli.online/hboplus.png" group-title="Filmes e Séries",HBO Plus [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=hboplus&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Plus" tvg-logo="https://img.faz-o-eli.online/hboplus.png" group-title="Filmes e Séries",HBO Plus [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=hboplus&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Plus" tvg-logo="https://img.faz-o-eli.online/hboplus.png" group-title="Filmes e Séries",HBO Plus [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/hboplus/index.m3u8
+#EXTINF:-1 tvg-name="HBO Pop" tvg-logo="https://img.faz-o-eli.online/hbopop.png" group-title="Filmes e Séries",HBO Pop [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=hbopop&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Pop" tvg-logo="https://img.faz-o-eli.online/hbopop.png" group-title="Filmes e Séries",HBO Pop [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=hbopop&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Pop" tvg-logo="https://img.faz-o-eli.online/hbopop.png" group-title="Filmes e Séries",HBO Pop [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/hbopop/index.m3u8
+#EXTINF:-1 tvg-name="HBO Signature" tvg-logo="https://mondrian.claro.com.br/channels/inverse/hbo-signature.png" group-title="Filmes e Séries",HBO Signature [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/hbosignature/index.m3u8
+#EXTINF:-1 tvg-name="HBO Xtreme" tvg-logo="https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png" group-title="Filmes e Séries",HBO Xtreme [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=hboxtreme&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Xtreme" tvg-logo="https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png" group-title="Filmes e Séries",HBO Xtreme [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=hboxtreme&ext=.m3u8
+#EXTINF:-1 tvg-name="HBO Xtreme" tvg-logo="https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png" group-title="Filmes e Séries",HBO Xtreme [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/hboxtreme/index.m3u8
+#EXTINF:-1 tvg-name="Space" tvg-logo="https://img.faz-o-eli.online/space.png" group-title="Filmes e Séries",Space [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=space&ext=.m3u8
+#EXTINF:-1 tvg-name="Space" tvg-logo="https://img.faz-o-eli.online/space.png" group-title="Filmes e Séries",Space [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=space&ext=.m3u8
+#EXTINF:-1 tvg-name="Space" tvg-logo="https://img.faz-o-eli.online/space.png" group-title="Filmes e Séries",Space [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/space/index.m3u8
+#EXTINF:-1 tvg-name="TNT" tvg-logo="https://img.faz-o-eli.online/tnt.png" group-title="Filmes e Séries",TNT [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=tnt&ext=.m3u8
+#EXTINF:-1 tvg-name="TNT" tvg-logo="https://img.faz-o-eli.online/tnt.png" group-title="Filmes e Séries",TNT [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=tnt&ext=.m3u8
+#EXTINF:-1 tvg-name="TNT" tvg-logo="https://img.faz-o-eli.online/tnt.png" group-title="Filmes e Séries",TNT [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tnt/index.m3u8
+#EXTINF:-1 tvg-name="TNT Séries" tvg-logo="https://img.faz-o-eli.online/tntseries.png" group-title="Filmes e Séries",TNT Séries [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=tntseries&ext=.m3u8
+#EXTINF:-1 tvg-name="TNT Séries" tvg-logo="https://img.faz-o-eli.online/tntseries.png" group-title="Filmes e Séries",TNT Séries [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=tntseries&ext=.m3u8
+#EXTINF:-1 tvg-name="TNT Séries" tvg-logo="https://img.faz-o-eli.online/tntseries.png" group-title="Filmes e Séries",TNT Séries [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tntseries/index.m3u8
+#EXTINF:-1 tvg-name="Universal TV" tvg-logo="https://img.faz-o-eli.online/universaltv.png" group-title="Filmes e Séries",Universal TV [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=universaltv&ext=.m3u8
+#EXTINF:-1 tvg-name="Universal TV" tvg-logo="https://img.faz-o-eli.online/universaltv.png" group-title="Filmes e Séries",Universal TV [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=universaltv&ext=.m3u8
+#EXTINF:-1 tvg-name="Universal TV" tvg-logo="https://img.faz-o-eli.online/universaltv.png" group-title="Filmes e Séries",Universal TV [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/universaltv/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="https://img.faz-o-eli.online/discoveryturbo.png" group-title="Documentários",Discovery Turbo [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=discoveryturbo&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="https://img.faz-o-eli.online/discoveryturbo.png" group-title="Documentários",Discovery Turbo [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=discoveryturbo&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="https://img.faz-o-eli.online/discoveryturbo.png" group-title="Documentários",Discovery Turbo [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/discoveryturbo/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Fun" tvg-logo="https://img.faz-o-eli.online/telecinefun.png" group-title="Filmes e Séries",Telecine Fun [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=telecinefun&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Fun" tvg-logo="https://img.faz-o-eli.online/telecinefun.png" group-title="Filmes e Séries",Telecine Fun [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=telecinefun&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Fun" tvg-logo="https://img.faz-o-eli.online/telecinefun.png" group-title="Filmes e Séries",Telecine Fun [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tcfun/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Cult" tvg-logo="https://img.faz-o-eli.online/telecinecult.png" group-title="Filmes e Séries",Telecine Cult [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=telecinecult&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Cult" tvg-logo="https://img.faz-o-eli.online/telecinecult.png" group-title="Filmes e Séries",Telecine Cult [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=telecinecult&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Cult" tvg-logo="https://img.faz-o-eli.online/telecinecult.png" group-title="Filmes e Séries",Telecine Cult [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tccult/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Touch" tvg-logo="https://img.faz-o-eli.online/telecinetouch.png" group-title="Filmes e Séries",Telecine Touch [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=telecinetouch&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Touch" tvg-logo="https://img.faz-o-eli.online/telecinetouch.png" group-title="Filmes e Séries",Telecine Touch [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=telecinetouch&ext=.m3u8
+#EXTINF:-1 tvg-name="Telecine Touch" tvg-logo="https://img.faz-o-eli.online/telecinetouch.png" group-title="Filmes e Séries",Telecine Touch [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tctouch/index.m3u8
+#EXTINF:-1 tvg-name="Tooncast" tvg-logo="https://mondrian.claro.com.br/channels/inverse/tooncast.png" group-title="Infantil",Tooncast [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tooncast/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Science" tvg-logo="https://img.faz-o-eli.online/discoveryscience.png" group-title="Documentários",Discovery Science [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=discoveryscience&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Science" tvg-logo="https://img.faz-o-eli.online/discoveryscience.png" group-title="Documentários",Discovery Science [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=discoveryscience&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Science" tvg-logo="https://img.faz-o-eli.online/discoveryscience.png" group-title="Documentários",Discovery Science [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/discoveryscience/index.m3u8
+#EXTINF:-1 tvg-name="AXN" tvg-logo="https://img.faz-o-eli.online/axn.png" group-title="Filmes e Séries",AXN [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=axn&ext=.m3u8
+#EXTINF:-1 tvg-name="AXN" tvg-logo="https://img.faz-o-eli.online/axn.png" group-title="Filmes e Séries",AXN [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=axn&ext=.m3u8
+#EXTINF:-1 tvg-name="AXN" tvg-logo="https://img.faz-o-eli.online/axn.png" group-title="Filmes e Séries",AXN [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/axn/index.m3u8
+#EXTINF:-1 tvg-name="TCM" tvg-logo="https://img.faz-o-eli.online/tcm.png" group-title="Filmes e Séries",TCM [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=tcm&ext=.m3u8
+#EXTINF:-1 tvg-name="TCM" tvg-logo="https://img.faz-o-eli.online/tcm.png" group-title="Filmes e Séries",TCM [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=tcm&ext=.m3u8
+#EXTINF:-1 tvg-name="Band News" tvg-logo="https://img.faz-o-eli.online/bandnews.png" group-title="Notícias",Band News [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=bandnews&ext=.m3u8
+#EXTINF:-1 tvg-name="Band News" tvg-logo="https://img.faz-o-eli.online/bandnews.png" group-title="Notícias",Band News [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=bandnews&ext=.m3u8
+#EXTINF:-1 tvg-name="Band News" tvg-logo="https://img.faz-o-eli.online/bandnews.png" group-title="Notícias",Band News [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/bandnews/index.m3u8
+#EXTINF:-1 tvg-name="BAND SPORTS HD" tvg-logo="https://img.faz-o-eli.online/bandsports.png" group-title="Esportes",BAND SPORTS HD [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=bandsports&ext=.m3u8
+#EXTINF:-1 tvg-name="BAND SPORTS HD" tvg-logo="https://img.faz-o-eli.online/bandsports.png" group-title="Esportes",BAND SPORTS HD [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=bandsports&ext=.m3u8
+#EXTINF:-1 tvg-name="BAND SPORTS HD" tvg-logo="https://img.faz-o-eli.online/bandsports.png" group-title="Esportes",BAND SPORTS HD [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/bandsports/index.m3u8
+#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=cultura&ext=.m3u8
+#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=cultura&ext=.m3u8
+#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tvcultura/index.m3u8
+#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [FHD · 1920x1080]
+https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8
+#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [SD · 960x540]
+https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [FHD · 1920x1080]
+https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
+#EXTINF:-1 tvg-name="ESPN 3" tvg-logo="https://img.faz-o-eli.online/espn3.png" group-title="Esportes",ESPN 3 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=espn3&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 3" tvg-logo="https://img.faz-o-eli.online/espn3.png" group-title="Esportes",ESPN 3 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=espn3&ext=.m3u8
+#EXTINF:-1 tvg-name="ESPN 3" tvg-logo="https://img.faz-o-eli.online/espn3.png" group-title="Esportes",ESPN 3 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/espn3/index.m3u8
+#EXTINF:-1 tvg-name="Record News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/recordnews.png" group-title="Notícias",Record News [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/recordnews/index.m3u8
+#EXTINF:-1 tvg-name="Discovery ID" tvg-logo="https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png" group-title="Documentários",Discovery ID [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=discoveryid&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery ID" tvg-logo="https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png" group-title="Documentários",Discovery ID [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=discoveryid&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery ID" tvg-logo="https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png" group-title="Documentários",Discovery ID [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/discoveryid/index.m3u8
+#EXTINF:-1 tvg-name="X Sports" tvg-logo="https://img.faz-o-eli.online/xsports.png" group-title="Esportes",X Sports [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=xsports&ext=.m3u8
+#EXTINF:-1 tvg-name="X Sports" tvg-logo="https://img.faz-o-eli.online/xsports.png" group-title="Esportes",X Sports [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=xsports&ext=.m3u8
+#EXTINF:-1 tvg-name="X Sports" tvg-logo="https://img.faz-o-eli.online/xsports.png" group-title="Esportes",X Sports [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/xsports/index.m3u8
+#EXTINF:-1 tvg-id="NSports.br@SD" tvg-logo="https://i.imgur.com/7QnJojr.png" group-title="Esportes",N SPORTS [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/nsports/index.m3u8
+#EXTINF:-1 tvg-id="NSports.br@SD" tvg-logo="https://i.imgur.com/7QnJojr.png" group-title="Esportes",N SPORTS
+https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt_720p.m3u8
+#EXTINF:-1 tvg-id="RedeGospel.br@SD" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religious",Rede Gospel [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/redegospel/index.m3u8
+#EXTINF:-1 tvg-id="RedeGospel.br@SD" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religious",Rede Gospel [FHD · 1920x1080]
+https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TVEvangelizar.br@SD" tvg-logo="https://i.imgur.com/IrYR7Kp.png" group-title="Religious",TV Evangelizar [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tvevangelizar/index.m3u8
+#EXTINF:-1 tvg-id="TVEvangelizar.br@SD" tvg-logo="https://i.imgur.com/IrYR7Kp.png" group-title="Religious",TV Evangelizar [HD · 1280x720]
+http://170.83.16.50/TV_EVANGELIZAR/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Home &amp; Health" tvg-logo="https://img.faz-o-eli.online/discoveryhh.png" group-title="Documentários",Discovery Home & Health [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=discoveryhh&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Home &amp; Health" tvg-logo="https://img.faz-o-eli.online/discoveryhh.png" group-title="Documentários",Discovery Home & Health [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=discoveryhh&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery Home &amp; Health" tvg-logo="https://img.faz-o-eli.online/discoveryhh.png" group-title="Documentários",Discovery Home & Health [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/discoveryhh/index.m3u8
+#EXTINF:-1 tvg-name="Combate" tvg-logo="https://img.faz-o-eli.online/combate.png" group-title="Esportes",Combate [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=combate&ext=.m3u8
+#EXTINF:-1 tvg-name="Combate" tvg-logo="https://img.faz-o-eli.online/combate.png" group-title="Esportes",Combate [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=combate&ext=.m3u8
+#EXTINF:-1 tvg-name="Combate" tvg-logo="https://img.faz-o-eli.online/combate.png" group-title="Esportes",Combate [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/combate/index.m3u8
+#EXTINF:-1 tvg-name="Studio Universal" tvg-logo="https://img.faz-o-eli.online/studiouniversal.png" group-title="Filmes e Séries",Studio Universal [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=studiouniversal&ext=.m3u8
+#EXTINF:-1 tvg-name="Studio Universal" tvg-logo="https://img.faz-o-eli.online/studiouniversal.png" group-title="Filmes e Séries",Studio Universal [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=studiouniversal&ext=.m3u8
+#EXTINF:-1 tvg-name="Studio Universal" tvg-logo="https://img.faz-o-eli.online/studiouniversal.png" group-title="Filmes e Séries",Studio Universal [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/studiouniversal/index.m3u8
+#EXTINF:-1 tvg-name="Gloob" tvg-logo="https://img.faz-o-eli.online/gloob.png" group-title="Infantil",Gloob [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=gloob&ext=.m3u8
+#EXTINF:-1 tvg-name="Gloob" tvg-logo="https://img.faz-o-eli.online/gloob.png" group-title="Infantil",Gloob [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=gloob&ext=.m3u8
+#EXTINF:-1 tvg-name="Gloob" tvg-logo="https://img.faz-o-eli.online/gloob.png" group-title="Infantil",Gloob [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/gloob/index.m3u8
+#EXTINF:-1 tvg-name="Gloobinho" tvg-logo="https://logos.imperioapps.top/GLOBINHO.png" group-title="Infantil",Gloobinho [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/gloobinho/index.m3u8
+#EXTINF:-1 tvg-name="TV Rá Tim Bum" tvg-logo="https://logos.imperioapps.top/TV_RA_TIM_BUM.png" group-title="Infantil",TV Rá Tim Bum [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/tvratimbum/index.m3u8
+#EXTINF:-1 tvg-name="Discovery World" tvg-logo="https://img.faz-o-eli.online/discoveryworld.png" group-title="Documentários",Discovery World [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=discoveryworld&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery World" tvg-logo="https://img.faz-o-eli.online/discoveryworld.png" group-title="Documentários",Discovery World [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=discoveryworld&ext=.m3u8
+#EXTINF:-1 tvg-name="Discovery World" tvg-logo="https://img.faz-o-eli.online/discoveryworld.png" group-title="Documentários",Discovery World [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d2-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/discoveryworld/index.m3u8
+#EXTINF:-1 tvg-name="CazeTV 1" tvg-logo="https://img.faz-o-eli.online/cazetv.png" group-title="Esportes",CazeTV 1 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=caze1&ext=.m3u8
+#EXTINF:-1 tvg-name="CazeTV 1" tvg-logo="https://img.faz-o-eli.online/cazetv.png" group-title="Esportes",CazeTV 1 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=caze1&ext=.m3u8
+#EXTINF:-1 tvg-name="CazeTV 1" tvg-logo="https://img.faz-o-eli.online/cazetv.png" group-title="Esportes",CazeTV 1 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/cazetv/index.m3u8
+#EXTINF:-1 tvg-name="CazeTV 2" tvg-logo="https://img.faz-o-eli.online/cazetv.png" group-title="Esportes",CazeTV 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=caze2&ext=.m3u8
+#EXTINF:-1 tvg-name="CazeTV 2" tvg-logo="https://img.faz-o-eli.online/cazetv.png" group-title="Esportes",CazeTV 2 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=caze2&ext=.m3u8
+#EXTINF:-1 tvg-name="CazeTV 2" tvg-logo="https://img.faz-o-eli.online/cazetv.png" group-title="Esportes",CazeTV 2 [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/cazetv2/index.m3u8
+#EXTINF:-1 tvg-name="Globo RJ" tvg-logo="https://img.faz-o-eli.online/globorj.png" group-title="TV Aberta",Globo RJ [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=globorj&ext=.m3u8
+#EXTINF:-1 tvg-name="Globo RJ" tvg-logo="https://img.faz-o-eli.online/globorj.png" group-title="TV Aberta",Globo RJ [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=globorj&ext=.m3u8
+#EXTINF:-1 tvg-name="Globo RJ" tvg-logo="https://img.faz-o-eli.online/globorj.png" group-title="TV Aberta",Globo RJ [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/globorj/index.m3u8
+#EXTINF:-1 tvg-name="MTV" tvg-logo="https://img.faz-o-eli.online/mtv.png" group-title="Músicas",MTV [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=mtv&ext=.m3u8
+#EXTINF:-1 tvg-name="MTV" tvg-logo="https://img.faz-o-eli.online/mtv.png" group-title="Músicas",MTV [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=mtv&ext=.m3u8
+#EXTINF:-1 tvg-name="MTV" tvg-logo="https://img.faz-o-eli.online/mtv.png" group-title="Músicas",MTV [FHD]
+#EXTVLCOPT:http-referrer=https://embedcanaisdetv.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://d1-ywppjexvlyulasvmgzjdftfjikth2210oq80soveui6lkbi2iza2zf.cdn13embed.xyz/mtv/index.m3u8
+#EXTINF:-1 tvg-name="Paramount Plus 1" tvg-logo="https://vipcanais.net/images/paramountplus.png" group-title="Filmes e Séries",Paramount Plus 1 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv2.workers.dev/?id=paramountplus&ext=.m3u8
+#EXTINF:-1 tvg-name="Paramount Plus 1" tvg-logo="https://vipcanais.net/images/paramountplus.png" group-title="Filmes e Séries",Paramount Plus 1 [HD · 1280x720]
+#EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://proxy-embedtv.proxyembedtv3.workers.dev/?id=paramountplus&ext=.m3u8

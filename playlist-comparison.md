@@ -1,31 +1,28 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-06T14:07:50.690543+00:00
-- Canais publicados: 174
-- Fontes testadas: 851
-- Fontes reaproveitadas do cache: 181
-- Canais mantidos temporariamente: 3
+- Execução: 2026-11-06T14:43:50.938404+00:00
+- Canais publicados: 175
+- Fontes testadas: 839
+- Fontes reaproveitadas do cache: 193
+- Canais mantidos temporariamente: 2
 
 ## Melhoraram (0)
 
 - Nenhum.
 
-## Pioraram (2)
+## Pioraram (0)
 
-- playtv — score 0.913 → 0.859
-- rede gospel — score 0.974 → 0.919
+- Nenhum.
 
-## Trocaram de fonte (3)
+## Trocaram de fonte (0)
 
-- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
-- rede gospel — fonte anterior: Rede Gospel (1080p) | nova: Rede Gospel [FHD · 1920x1080]
-- tv evangelizar — fonte anterior: TV Evangelizar (720p) | nova: TV Evangelizar [HD · 1280x720]
+- Nenhum.
 
-## Desapareceram (1)
+## Desapareceram (0)
 
-- gnt — GNT [FHD · 1920x1080]
+- Nenhum.
 
 ## Novos canais (1)
 
-- sbt nova mutum — SBT Nova Mutum
+- gnt — GNT [FHD · 1920x1080]
 

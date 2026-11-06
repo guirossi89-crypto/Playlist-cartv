@@ -1,31 +1,35 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-06T18:39:00.944560+00:00
-- Canais publicados: 174
-- Fontes testadas: 857
-- Fontes reaproveitadas do cache: 175
+- Execução: 2026-11-06T20:12:36.515237+00:00
+- Canais publicados: 175
+- Fontes testadas: 1032
+- Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 1
 
-## Melhoraram (0)
+## Melhoraram (5)
+
+- mtv shore — score 0.941 → 0.980
+- pluto tv animais — score 0.947 → 0.984
+- pluto tv filmes acao — score 0.942 → 0.979
+- pluto tv policial — score 0.945 → 0.980
+- sbt news — score 0.923 → 0.963
+
+## Pioraram (0)
 
 - Nenhum.
 
-## Pioraram (1)
-
-- hbo2 — score 0.918 → 0.875
-
 ## Trocaram de fonte (4)
 
-- discovery turbo — fonte anterior: Discovery Turbo [FHD · 1920x1080] | nova: Discovery Turbo [HD · 1280x720]
+- fifa+ português — fonte anterior: FIFA+ Português [SD] | nova: FIFA+ Português [SD · 384x216]
 - fish tv — fonte anterior: Fish TV [HD · 1280x720] | nova: Fish TV [HD · 1280x720]
-- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
-- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
+- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
+- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
 
-## Desapareceram (1)
+## Desapareceram (0)
 
-- sony channel — Sony Channel [HD · 1280x720]
+- Nenhum.
 
 ## Novos canais (1)
 
-- bis — BIS [FHD · 1920x1080]
+- sony channel — Sony Channel [HD · 1280x720]
 

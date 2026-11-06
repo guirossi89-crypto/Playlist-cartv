@@ -1,32 +1,30 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-06T15:37:00.316897+00:00
-- Canais publicados: 174
-- Fontes testadas: 1020
-- Fontes reaproveitadas do cache: 12
-- Canais mantidos temporariamente: 3
+- Execução: 2026-11-06T16:39:22.390578+00:00
+- Canais publicados: 175
+- Fontes testadas: 853
+- Fontes reaproveitadas do cache: 179
+- Canais mantidos temporariamente: 2
 
-## Melhoraram (3)
-
-- hbo2 — score 0.868 → 0.918
-- mtv classic br — score 0.944 → 0.975
-- pluto tv junior — score 0.943 → 0.976
-
-## Pioraram (0)
+## Melhoraram (0)
 
 - Nenhum.
 
-## Trocaram de fonte (3)
+## Pioraram (2)
 
-- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [FHD · 1920x1080]
-- espn 4 — fonte anterior: ESPN 4 [FHD · 1920x1080] | nova: ESPN 4 [HD · 1280x720]
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
+- hbo2 — score 0.918 → 0.860
+- tv cultura — score 0.908 → 0.801
 
-## Desapareceram (1)
+## Trocaram de fonte (2)
+
+- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
+- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
+
+## Desapareceram (0)
+
+- Nenhum.
+
+## Novos canais (1)
 
 - telecine cult — Telecine Cult [FHD · 1920x1080]
-
-## Novos canais (0)
-
-- Nenhum.
 

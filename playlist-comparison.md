@@ -1,28 +1,23 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-06T03:41:13.042300+00:00
+- Execução: 2026-11-06T04:45:38.203308+00:00
 - Canais publicados: 174
-- Fontes testadas: 795
-- Fontes reaproveitadas do cache: 10
-- Canais mantidos temporariamente: 4
+- Fontes testadas: 634
+- Fontes reaproveitadas do cache: 171
+- Canais mantidos temporariamente: 2
 
-## Melhoraram (3)
+## Melhoraram (1)
 
-- hbo2 — score 0.822 → 0.890
-- megapix — score 0.848 → 0.890
-- retro cartoon — score 0.916 → 0.954
+- kpoptv play — score 0.872 → 0.913
 
-## Pioraram (3)
+## Pioraram (1)
 
-- band — score 0.900 → 0.818
-- discovery turbo — score 0.948 → 0.890
-- mtv drag — score 0.984 → 0.954
+- band — score 0.818 → 0.786
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (3)
 
-- band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
-- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [FHD · 1920x1080]
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
+- band — fonte anterior: Band [HD · 1280x720] | nova: Band [Fonte 8]
+- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [FHD · 1920x1080]
 - jovem pan news — fonte anterior: Jovem Pan News [FHD · 1920x1080] | nova: Jovem Pan News [FHD · 1920x1080]
 
 ## Desapareceram (0)

@@ -1,31 +1,33 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-06T00:00:10.411539+00:00
-- Canais publicados: 175
-- Fontes testadas: 801
-- Fontes reaproveitadas do cache: 4
-- Canais mantidos temporariamente: 4
+- Execução: 2026-11-06T00:37:20.023693+00:00
+- Canais publicados: 174
+- Fontes testadas: 626
+- Fontes reaproveitadas do cache: 179
+- Canais mantidos temporariamente: 3
 
-## Melhoraram (1)
+## Melhoraram (7)
 
-- discovery turbo — score 0.902 → 0.935
+- canal off — score 0.867 → 0.904
+- cinemax — score 0.844 → 0.876
+- gnt — score 0.851 → 0.891
+- hbo xtreme — score 0.877 → 0.914
+- kpoptv play — score 0.870 → 0.918
+- megapix — score 0.851 → 0.886
+- playtv — score 0.861 → 0.903
 
-## Pioraram (3)
-
-- gnt — score 0.896 → 0.851
-- mtv rocks — score 0.991 → 0.959
-- mytime movie network (brazil) — score 0.980 → 0.947
-
-## Trocaram de fonte (4)
-
-- discovery turbo — fonte anterior: Discovery Turbo [FHD · 1920x1080] | nova: Discovery Turbo [HD · 1280x720]
-- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [FHD · 1920x1080]
-- fifa+ português — fonte anterior: FIFA+ Português [SD] | nova: FIFA+ Português [SD · 384x216]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
-
-## Desapareceram (0)
+## Pioraram (0)
 
 - Nenhum.
+
+## Trocaram de fonte (2)
+
+- fish tv — fonte anterior: Fish TV [HD · 1280x720] | nova: Fish TV [HD · 1280x720]
+- playtv — fonte anterior: PlayTV [FHD · 1920x1080] | nova: PlayTV [HD · 1280x720]
+
+## Desapareceram (1)
+
+- sbt rondonopolis — SBT Rondonopolis
 
 ## Novos canais (0)
 

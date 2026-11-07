@@ -1,35 +1,28 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-07T00:47:31.616347+00:00
-- Canais publicados: 175
-- Fontes testadas: 854
-- Fontes reaproveitadas do cache: 178
-- Canais mantidos temporariamente: 3
+- Execução: 2026-11-07T01:48:01.721228+00:00
+- Canais publicados: 173
+- Fontes testadas: 842
+- Fontes reaproveitadas do cache: 190
+- Canais mantidos temporariamente: 1
 
-## Melhoraram (4)
+## Melhoraram (1)
 
-- axn — score 0.900 → 0.932
-- band — score 0.793 → 0.897
-- cinemax — score 0.859 → 0.912
-- discovery kids — score 0.889 → 0.930
+- tv cultura — score 0.796 → 0.904
 
 ## Pioraram (0)
 
 - Nenhum.
 
-## Trocaram de fonte (7)
+## Trocaram de fonte (2)
 
-- axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [HD · 1280x720]
-- band — fonte anterior: Band [Fonte 8] | nova: Band [HD · 1280x720]
-- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
-- discovery kids — fonte anterior: Discovery Kids [HD · 1280x720] | nova: Discovery Kids [FHD · 1920x1080]
-- discovery theater — fonte anterior: Discovery Theater [HD · 1280x720] | nova: Discovery Theater [FHD · 1920x1080]
-- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [FHD · 1920x1080]
-- record — fonte anterior: Record [HD · 1280x720] | nova: Record [FHD · 1920x1080]
+- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
+- record — fonte anterior: Record [FHD · 1920x1080] | nova: Record [HD · 1280x720]
 
-## Desapareceram (0)
+## Desapareceram (2)
 
-- Nenhum.
+- premiere 8 — Premiere 8 [FHD · 1920x1080]
+- premiere clubes — Premiere Clubes [FHD · 1920x1080]
 
 ## Novos canais (0)
 

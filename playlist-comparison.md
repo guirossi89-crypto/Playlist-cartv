@@ -1,27 +1,28 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-07T20:33:19.876312+00:00
+- Execução: 2026-11-07T21:24:57.206960+00:00
 - Canais publicados: 171
-- Fontes testadas: 852
-- Fontes reaproveitadas do cache: 180
-- Canais mantidos temporariamente: 1
+- Fontes testadas: 873
+- Fontes reaproveitadas do cache: 159
+- Canais mantidos temporariamente: 5
 
 ## Melhoraram (1)
 
-- history — score 0.839 → 0.939
+- cinemax — score 0.880 → 0.920
 
-## Pioraram (1)
+## Pioraram (0)
 
-- kpoptv play — score 0.922 → 0.867
+- Nenhum.
 
-## Trocaram de fonte (2)
+## Trocaram de fonte (3)
 
-- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
-- playtv — fonte anterior: PlayTV [FHD · 1920x1080] | nova: PlayTV [HD · 1280x720]
+- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
+- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
+- space — fonte anterior: Space [HD · 1280x720] | nova: Space [HD · 1280x720]
 
-## Desapareceram (1)
+## Desapareceram (0)
 
-- globo bahia — Globo Bahia [FHD · 1920x1080]
+- Nenhum.
 
 ## Novos canais (0)
 

@@ -1,25 +1,26 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-07T19:18:47.360758+00:00
+- Execução: 2026-11-07T20:00:23.678658+00:00
 - Canais publicados: 172
-- Fontes testadas: 872
-- Fontes reaproveitadas do cache: 160
-- Canais mantidos temporariamente: 0
+- Fontes testadas: 1005
+- Fontes reaproveitadas do cache: 27
+- Canais mantidos temporariamente: 9
 
-## Melhoraram (1)
+## Melhoraram (3)
 
-- band — score 0.809 → 0.905
+- hbo mundi — score 0.901 → 0.933
+- nbx tv kids — score 0.930 → 0.962
+- sbt news — score 0.942 → 0.978
 
 ## Pioraram (1)
 
-- playtv — score 0.907 → 0.857
+- history — score 0.932 → 0.839
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (3)
 
-- band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
-- band sports hd — fonte anterior: BAND SPORTS HD [HD · 1280x720] | nova: BAND SPORTS HD [FHD · 1920x1080]
+- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
 - discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
-- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
+- history — fonte anterior: History [HD · 1280x720] | nova: History [FHD · 1920x1080]
 
 ## Desapareceram (0)
 

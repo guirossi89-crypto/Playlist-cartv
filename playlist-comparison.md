@@ -1,29 +1,32 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-07T05:37:14.791107+00:00
-- Canais publicados: 175
-- Fontes testadas: 849
-- Fontes reaproveitadas do cache: 183
+- Execução: 2026-11-07T06:39:50.249848+00:00
+- Canais publicados: 173
+- Fontes testadas: 1024
+- Fontes reaproveitadas do cache: 8
 - Canais mantidos temporariamente: 3
 
 ## Melhoraram (1)
 
-- tv cultura — score 0.814 → 0.912
+- hbo2 — score 0.859 → 0.915
 
-## Pioraram (0)
+## Pioraram (1)
+
+- tv cultura — score 0.912 → 0.807
+
+## Trocaram de fonte (4)
+
+- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [FHD · 1920x1080]
+- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- tv cultura — fonte anterior: TV Cultura (720p) | nova: TV Cultura [FHD · 1920x1080]
+
+## Desapareceram (2)
+
+- sbt nova mutum — SBT Nova Mutum
+- top tv — Top TV [FHD · 1920x1080]
+
+## Novos canais (0)
 
 - Nenhum.
-
-## Trocaram de fonte (1)
-
-- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura (720p)
-
-## Desapareceram (0)
-
-- Nenhum.
-
-## Novos canais (2)
-
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
-- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked]
 

@@ -1,30 +1,29 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-07T03:37:40.580070+00:00
+- Execução: 2026-11-07T04:39:57.942134+00:00
 - Canais publicados: 173
-- Fontes testadas: 846
-- Fontes reaproveitadas do cache: 186
-- Canais mantidos temporariamente: 2
+- Fontes testadas: 1027
+- Fontes reaproveitadas do cache: 5
+- Canais mantidos temporariamente: 1
 
-## Melhoraram (1)
-
-- tv cultura — score 0.810 → 0.918
-
-## Pioraram (0)
+## Melhoraram (0)
 
 - Nenhum.
 
+## Pioraram (1)
+
+- tv cultura — score 0.918 → 0.814
+
 ## Trocaram de fonte (4)
 
-- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
-- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
-- jovem pan news — fonte anterior: Jovem Pan News [FHD · 1920x1080] | nova: Jovem Pan News [FHD · 1920x1080]
+- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
 - tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
+- tv cultura — fonte anterior: TV Cultura (720p) | nova: TV Cultura [FHD · 1920x1080]
 
-## Desapareceram (2)
+## Desapareceram (0)
 
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
-- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked]
+- Nenhum.
 
 ## Novos canais (0)
 

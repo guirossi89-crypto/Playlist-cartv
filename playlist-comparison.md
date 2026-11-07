@@ -1,30 +1,31 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-07T07:48:42.043493+00:00
+- Execução: 2026-11-07T08:39:06.746956+00:00
 - Canais publicados: 175
-- Fontes testadas: 851
-- Fontes reaproveitadas do cache: 181
+- Fontes testadas: 1019
+- Fontes reaproveitadas do cache: 13
 - Canais mantidos temporariamente: 0
 
-## Melhoraram (1)
+## Melhoraram (0)
 
-- tv cultura — score 0.807 → 0.914
+- Nenhum.
 
 ## Pioraram (1)
 
-- hbo2 — score 0.915 → 0.874
+- tv evangelizar — score 0.944 → 0.900
 
-## Trocaram de fonte (2)
+## Trocaram de fonte (4)
 
-- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
-- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura (720p)
+- espn — fonte anterior: ESPN [FHD · 1920x1080] | nova: ESPN [HD · 1280x720]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
+- tv evangelizar — fonte anterior: TV Evangelizar [HD · 1280x720] | nova: TV Evangelizar (720p)
 
 ## Desapareceram (0)
 
 - Nenhum.
 
-## Novos canais (2)
+## Novos canais (0)
 
-- sbt nova mutum — SBT Nova Mutum
-- top tv — Top TV [FHD · 1920x1080]
+- Nenhum.
 

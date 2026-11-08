@@ -1,28 +1,30 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T15:59:41.798001+00:00
+- Execução: 2026-11-08T16:33:32.481625+00:00
 - Canais publicados: 172
-- Fontes testadas: 878
-- Fontes reaproveitadas do cache: 154
+- Fontes testadas: 998
+- Fontes reaproveitadas do cache: 34
 - Canais mantidos temporariamente: 4
 
-## Melhoraram (2)
+## Melhoraram (1)
 
-- hbo2 — score 0.887 → 0.920
-- history — score 0.831 → 0.932
+- hbo xtreme — score 0.873 → 0.904
 
-## Pioraram (1)
+## Pioraram (3)
 
-- playtv — score 0.899 → 0.838
+- geekdot — score 0.953 → 0.909
+- hbo2 — score 0.920 → 0.883
+- history — score 0.932 → 0.824
 
-## Trocaram de fonte (6)
+## Trocaram de fonte (7)
 
-- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [HD · 1280x720]
-- discovery turbo — fonte anterior: Discovery Turbo [FHD · 1920x1080] | nova: Discovery Turbo [HD · 1280x720]
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
-- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
-- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
-- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
+- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
+- discovery theater — fonte anterior: Discovery Theater [FHD · 1920x1080] | nova: Discovery Theater [HD · 1280x720]
+- discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
+- fifa+ português — fonte anterior: FIFA+ Português [SD] | nova: FIFA+ Português [SD · 384x216]
+- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
 
 ## Desapareceram (0)
 

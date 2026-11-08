@@ -1,35 +1,33 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T14:09:54.395765+00:00
-- Canais publicados: 171
-- Fontes testadas: 879
-- Fontes reaproveitadas do cache: 153
-- Canais mantidos temporariamente: 2
+- Execução: 2026-11-08T15:01:53.820161+00:00
+- Canais publicados: 172
+- Fontes testadas: 1000
+- Fontes reaproveitadas do cache: 32
+- Canais mantidos temporariamente: 4
 
-## Melhoraram (3)
+## Melhoraram (2)
 
-- cinemax — score 0.884 → 0.914
-- history — score 0.833 → 0.930
-- tv cultura — score 0.805 → 0.913
+- geekdot — score 0.919 → 0.953
+- playtv — score 0.853 → 0.899
 
 ## Pioraram (1)
 
-- rede gospel — score 0.953 → 0.907
+- history — score 0.930 → 0.831
 
-## Trocaram de fonte (6)
+## Trocaram de fonte (5)
 
-- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
-- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [FHD · 1920x1080]
-- dumdum — fonte anterior: DumDum [FHD · 1920x1080] | nova: DumDum [HD · 1280x720]
-- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
-- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
-- rede gospel — fonte anterior: Rede Gospel (1080p) | nova: Rede Gospel [FHD · 1920x1080]
+- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
+- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
+- history — fonte anterior: History [HD · 1280x720] | nova: History [FHD · 1920x1080]
+- playtv — fonte anterior: PlayTV [FHD · 1920x1080] | nova: PlayTV [HD · 1280x720]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
 
-## Desapareceram (1)
-
-- gospel cartoon — Gospel Cartoon [SD · 640x360]
-
-## Novos canais (0)
+## Desapareceram (0)
 
 - Nenhum.
+
+## Novos canais (1)
+
+- gospel cartoon — Gospel Cartoon [SD · 640x360]
 

@@ -25,6 +25,8 @@ http://45.185.11.126:8000/play/a05j/index.m3u8
 http://45.185.11.126:8000/play/a05k/index.m3u8
 #EXTINF:-1 tvg-name="Premiere 8" tvg-logo="https://mondrian.claro.com.br/channels/inverse/premiere.png" group-title="Esportes",Premiere 8 [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a05l/index.m3u8
+#EXTINF:-1 tvg-name="Premiere Clubes" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere Clubes [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a06g/index.m3u8
 #EXTINF:-1 tvg-name="SBT" tvg-logo="https://mondrian.claro.com.br/channels/inverse/sbt.png" group-title="TV Aberta",SBT [FHD · 1920x1080]
 https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
 #EXTINF:-1 tvg-name="SBT News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/sbt-news.png" group-title="Notícias",SBT News [HD · 1280x720]
@@ -67,8 +69,8 @@ http://45.185.11.126:8000/play/a05n/index.m3u8
 http://45.185.11.126:8000/play/a084/index.m3u8
 #EXTINF:-1 tvg-name="HBO" tvg-logo="https://img.faz-o-eli.online/hbo.png" group-title="Filmes e Séries",HBO [HD · 1280x720]
 http://138.204.86.4:8080/HBO/index.m3u8
-#EXTINF:-1 tvg-name="HBO2" tvg-logo="https://img.faz-o-eli.online/hbo2.png" group-title="Filmes e Séries",HBO2 [FHD · 1920x1080]
-http://45.185.11.126:8000/play/a08o/index.m3u8
+#EXTINF:-1 tvg-name="HBO2" tvg-logo="https://img.faz-o-eli.online/hbo2.png" group-title="Filmes e Séries",HBO2 [HD · 1280x720]
+http://138.204.86.4:8080/HBO2/index.m3u8
 #EXTINF:-1 tvg-name="HBO Family" tvg-logo="https://img.faz-o-eli.online/hbofamily.png" group-title="Filmes e Séries",HBO Family [HD · 1280x720]
 http://138.204.86.4:8080/HBO_FAMILY/index.m3u8
 #EXTINF:-1 tvg-name="HBO Mundi" tvg-logo="https://img.faz-o-eli.online/hbomundi.png" group-title="Filmes e Séries",HBO Mundi [HD · 1280x720]
@@ -89,8 +91,8 @@ http://138.204.86.4:8080/SPACE_HD/index.m3u8
 http://45.162.64.114/TNT/index.m3u8
 #EXTINF:-1 tvg-name="Universal TV" tvg-logo="https://img.faz-o-eli.online/universaltv.png" group-title="Filmes e Séries",Universal TV [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a0af/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="https://img.faz-o-eli.online/discoveryturbo.png" group-title="Documentários",Discovery Turbo [HD · 1280x720]
-http://138.204.86.4:8080/DISCOVERY_TURBO_HD/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="https://img.faz-o-eli.online/discoveryturbo.png" group-title="Documentários",Discovery Turbo [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a07z/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Fun" tvg-logo="https://img.faz-o-eli.online/telecinefun.png" group-title="Filmes e Séries",Telecine Fun [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a059/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Cult" tvg-logo="https://img.faz-o-eli.online/telecinecult.png" group-title="Filmes e Séries",Telecine Cult [FHD · 1920x1080]
@@ -125,8 +127,8 @@ http://170.83.49.66:8083/BOXKIDSHD/index.m3u8
 https://isaocorp.cloudecast.com/playtv/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Home &amp; Health" tvg-logo="https://img.faz-o-eli.online/discoveryhh.png" group-title="Documentários",Discovery Home & Health [HD · 1280x720]
 http://45.162.64.114/DISCOVERY_H_H/index.m3u8
-#EXTINF:-1 tvg-name="DumDum" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg" group-title="Infantil",DumDum [HD · 1280x720]
-http://45.162.64.114/ZOOMOO_KIDS/index.m3u8
+#EXTINF:-1 tvg-name="DumDum" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg" group-title="Infantil",DumDum [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a078/index.m3u8
 #EXTINF:-1 tvg-name="MTV Biggest Pop" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="Músicas",MTV Biggest Pop [HD · 1280x720]
 https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
 #EXTINF:-1 tvg-name="MTV Rocks" tvg-logo="https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png" group-title="Músicas",MTV Rocks [SD · 1216x684]
@@ -138,7 +140,7 @@ https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8
 #EXTINF:-1 tvg-name="BIS" tvg-logo="http://www.fontedecanais.me/logos/canais/bis.png" group-title="Variedades",BIS [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a07w/index.m3u8
 #EXTINF:-1 tvg-name="Discovery World" tvg-logo="https://img.faz-o-eli.online/discoveryworld.png" group-title="Documentários",Discovery World [HD · 1280x720]
-http://138.204.86.4:8080/DISCOVERY_WORLD_HD/index.m3u8
+http://45.162.64.114/DISCOVERY_WORLD/index.m3u8
 #EXTINF:-1 tvg-name="Anime Channel TV" group-title="Infantil",Anime Channel TV [SD · 640x360]
 #EXTVLCOPT:http-referrer=https://meufut.top/anime-tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
@@ -147,6 +149,8 @@ https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8
 https://stmv1.srvif.com/anime/anime/playlist.m3u8
 #EXTINF:-1 tvg-name="Geekdot" group-title="Infantil",Geekdot [HD · 1280x720]
 https://stream.ichibansys.com:3764/hybrid/play.m3u8
+#EXTINF:-1 tvg-name="NBX TV Kids" group-title="Infantil",NBX TV Kids [FHD · 1920x1080]
+https://stmv4.voxtvhd.com.br/bnxkids/bnxkids/playlist.m3u8
 #EXTINF:-1 tvg-name="SBC Kids" group-title="Infantil",SBC Kids [FHD · 1920x1080]
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Crianças" group-title="Infantil",Rede Crianças [HD · 1280x720]
@@ -163,8 +167,6 @@ https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
 https://c2657533.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UGxleC1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
 #EXTINF:-1 tvg-name="Globo Bahia" tvg-logo="https://img.faz-o-eli.online/globo.png" group-title="TV Aberta",Globo Bahia [FHD · 1920x1080]
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 tvg-name="Top TV" group-title="Músicas",Top TV [FHD · 1920x1080]
-https://isaocorp.cloudecast.com/toptv/index.m3u8
 #EXTINF:-1 tvg-name="Classique Faroeste" group-title="Filmes e Séries",Classique Faroeste [HD · 1280x720]
 https://amogonetworx-grjngo-1-eu.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Loading TV" group-title="Infantil",Loading TV [HD · 1280x720]
@@ -185,6 +187,8 @@ http://170.83.49.66:8083/AMCHD/index.m3u8
 https://jmp2.uk/plu-5ff768b6a4c8b80008498610.m3u8
 #EXTINF:-1 tvg-id="BobEsponjaCalcaQuadrada.us@BR" tvg-logo="https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png" group-title="Infantil",Bob Esponja Calca Quadrada (720p)
 https://jmp2.uk/plu-62545c0b002f4b0007688b61.m3u8
+#EXTINF:-1 tvg-id="CazeTV.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Caz%C3%A9TV_logo.svg/1280px-Caz%C3%A9TV_logo.svg.png" group-title="Esportes",CazeTV
+http://138.204.86.4:8080/CAZE_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="CineTerror.us@BR" tvg-logo="https://images.pluto.tv/channels/5f12111c9e6c2c00078ef3bb/colorLogoPNG.png" group-title="Filmes e Séries",Cine Terror BR
 https://jmp2.uk/plu-5f12111c9e6c2c00078ef3bb.m3u8
 #EXTINF:-1 tvg-id="ClassiqueTV.br@SD" tvg-logo="https://i.imgur.com/rHxcraT.png" group-title="Filmes e Séries",Classique TV (360p)
@@ -345,11 +349,5 @@ http://200.189.113.201/hls/tve.m3u8
 https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 #EXTINF:-1 tvg-id="RedeGospel.br@SD" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religious",Rede Gospel [FHD · 1920x1080]
 https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="KpopTVPlay.br@SD" tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Músicas",KpopTV Play (576p)
-https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
-#EXTINF:-1 tvg-name="Premiere Clubes" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere Clubes [FHD · 1920x1080]
-http://45.185.11.126:8000/play/a06g/index.m3u8
-#EXTINF:-1 tvg-id="CazeTV.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Caz%C3%A9TV_logo.svg/1280px-Caz%C3%A9TV_logo.svg.png" group-title="Esportes",CazeTV
-http://138.204.86.4:8080/CAZE_TV/playlist.m3u8
-#EXTINF:-1 tvg-name="NBX TV Kids" group-title="Infantil",NBX TV Kids [FHD · 1920x1080]
-https://stmv4.voxtvhd.com.br/bnxkids/bnxkids/playlist.m3u8
+#EXTINF:-1 tvg-name="Top TV" group-title="Músicas",Top TV [FHD · 1920x1080]
+https://isaocorp.cloudecast.com/toptv/index.m3u8

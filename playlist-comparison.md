@@ -1,44 +1,32 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T22:00:08.625099+00:00
-- Canais publicados: 175
-- Fontes testadas: 1021
-- Fontes reaproveitadas do cache: 11
-- Canais mantidos temporariamente: 4
+- Execução: 2026-11-08T22:33:22.271532+00:00
+- Canais publicados: 174
+- Fontes testadas: 860
+- Fontes reaproveitadas do cache: 172
+- Canais mantidos temporariamente: 1
 
-## Melhoraram (1)
+## Melhoraram (2)
 
-- history — score 0.844 → 0.923
+- bis — score 0.877 → 0.910
+- hbo2 — score 0.881 → 0.914
 
-## Pioraram (6)
-
-- detetives medicos — score 0.977 → 0.943
-- pluto tv cine crime — score 0.975 → 0.944
-- pluto tv cozinha — score 0.966 → 0.931
-- pluto tv esportes — score 0.971 → 0.939
-- pluto tv netmovies — score 0.979 → 0.945
-- tv cultura — score 0.869 → 0.806
-
-## Trocaram de fonte (7)
-
-- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [HD · 1280x720]
-- dumdum — fonte anterior: DumDum [FHD · 1920x1080] | nova: DumDum [HD · 1280x720]
-- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [FHD · 1920x1080]
-- espn 4 — fonte anterior: ESPN 4 [HD · 1280x720] | nova: ESPN 4 [FHD · 1920x1080]
-- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
-- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura (720p)
-
-## Desapareceram (0)
+## Pioraram (0)
 
 - Nenhum.
 
-## Novos canais (6)
+## Trocaram de fonte (4)
 
-- a&e latin america brazil — A&E Latin America Brazil (720p)
-- globo bahia — Globo Bahia [FHD · 1920x1080]
-- nicktoons brasil — NickToons Brasil [SD · 854x480]
-- sony channel — Sony Channel [HD · 1280x720]
-- tooncast — Tooncast [HD · 1280x720]
-- top tv — Top TV [FHD · 1920x1080]
+- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [FHD · 1920x1080]
+- discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
+- dumdum — fonte anterior: DumDum [HD · 1280x720] | nova: DumDum [FHD · 1920x1080]
+- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
+
+## Desapareceram (1)
+
+- kpoptv play — KpopTV Play (576p)
+
+## Novos canais (0)
+
+- Nenhum.
 

@@ -1,10 +1,10 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T20:04:17.738887+00:00
-- Canais publicados: 170
-- Fontes testadas: 1026
-- Fontes reaproveitadas do cache: 6
-- Canais mantidos temporariamente: 10
+- Execução: 2026-11-08T21:00:40.408496+00:00
+- Canais publicados: 169
+- Fontes testadas: 856
+- Fontes reaproveitadas do cache: 176
+- Canais mantidos temporariamente: 0
 
 ## Melhoraram (0)
 
@@ -12,18 +12,17 @@
 
 ## Pioraram (1)
 
-- playtv — score 0.900 → 0.829
+- history — score 0.921 → 0.844
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (3)
 
-- dumdum — fonte anterior: DumDum [HD · 1280x720] | nova: DumDum [FHD · 1920x1080]
-- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
-- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
+- discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
+- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
+- history — fonte anterior: History [HD · 1280x720] | nova: History [FHD · 1920x1080]
 
-## Desapareceram (0)
+## Desapareceram (1)
 
-- Nenhum.
+- nicktoons brasil — NickToons Brasil [SD · 854x480]
 
 ## Novos canais (0)
 

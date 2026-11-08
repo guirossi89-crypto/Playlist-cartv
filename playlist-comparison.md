@@ -1,33 +1,34 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T15:01:53.820161+00:00
+- Execução: 2026-11-08T15:59:41.798001+00:00
 - Canais publicados: 172
-- Fontes testadas: 1000
-- Fontes reaproveitadas do cache: 32
+- Fontes testadas: 878
+- Fontes reaproveitadas do cache: 154
 - Canais mantidos temporariamente: 4
 
 ## Melhoraram (2)
 
-- geekdot — score 0.919 → 0.953
-- playtv — score 0.853 → 0.899
+- hbo2 — score 0.887 → 0.920
+- history — score 0.831 → 0.932
 
 ## Pioraram (1)
 
-- history — score 0.930 → 0.831
+- playtv — score 0.899 → 0.838
 
-## Trocaram de fonte (5)
+## Trocaram de fonte (6)
 
-- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
-- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
-- history — fonte anterior: History [HD · 1280x720] | nova: History [FHD · 1920x1080]
-- playtv — fonte anterior: PlayTV [FHD · 1920x1080] | nova: PlayTV [HD · 1280x720]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [HD · 1280x720]
+- discovery turbo — fonte anterior: Discovery Turbo [FHD · 1920x1080] | nova: Discovery Turbo [HD · 1280x720]
+- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
+- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
+- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
+- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
 
 ## Desapareceram (0)
 
 - Nenhum.
 
-## Novos canais (1)
+## Novos canais (0)
 
-- gospel cartoon — Gospel Cartoon [SD · 640x360]
+- Nenhum.
 

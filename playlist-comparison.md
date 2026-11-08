@@ -1,34 +1,32 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T05:38:10.842484+00:00
+- Execução: 2026-11-08T06:40:12.444217+00:00
 - Canais publicados: 171
-- Fontes testadas: 1005
-- Fontes reaproveitadas do cache: 27
-- Canais mantidos temporariamente: 5
+- Fontes testadas: 878
+- Fontes reaproveitadas do cache: 154
+- Canais mantidos temporariamente: 2
 
 ## Melhoraram (3)
 
-- geekdot — score 0.901 → 0.938
-- sbt news — score 0.939 → 0.972
-- tv cultura — score 0.804 → 0.916
+- nicktoons brasil — score 0.922 → 0.952
+- otaku sign tv — score 0.927 → 0.959
+- playtv — score 0.843 → 0.907
 
-## Pioraram (0)
+## Pioraram (1)
 
-- Nenhum.
+- history — score 0.921 → 0.831
 
-## Trocaram de fonte (5)
+## Trocaram de fonte (3)
 
-- band sports hd — fonte anterior: BAND SPORTS HD [FHD · 1920x1080] | nova: BAND SPORTS HD [HD · 1280x720]
 - discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
+- history — fonte anterior: History [HD · 1280x720] | nova: History [FHD · 1920x1080]
+- playtv — fonte anterior: PlayTV [FHD · 1920x1080] | nova: PlayTV [HD · 1280x720]
 
 ## Desapareceram (1)
 
+- hbo — HBO [HD · 1280x720]
+
+## Novos canais (1)
+
 - cartoonito — Cartoonito [FHD · 1920x1080]
-
-## Novos canais (0)
-
-- Nenhum.
 

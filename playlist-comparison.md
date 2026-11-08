@@ -1,28 +1,26 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T18:30:08.624610+00:00
-- Canais publicados: 171
-- Fontes testadas: 996
-- Fontes reaproveitadas do cache: 36
-- Canais mantidos temporariamente: 5
+- Execução: 2026-11-08T19:17:07.380039+00:00
+- Canais publicados: 170
+- Fontes testadas: 850
+- Fontes reaproveitadas do cache: 182
+- Canais mantidos temporariamente: 2
 
 ## Melhoraram (1)
 
-- playtv — score 0.844 → 0.896
+- history — score 0.830 → 0.922
 
 ## Pioraram (1)
 
-- tv cultura — score 0.913 → 0.867
+- premiere 8 — score 0.861 → 0.831
 
-## Trocaram de fonte (3)
+## Trocaram de fonte (1)
 
-- espn 4 — fonte anterior: ESPN 4 [FHD · 1920x1080] | nova: ESPN 4 [HD · 1280x720]
-- playtv — fonte anterior: PlayTV [FHD · 1920x1080] | nova: PlayTV [HD · 1280x720]
-- tv cultura — fonte anterior: TV Cultura (720p) | nova: TV Cultura [FHD · 1920x1080]
+- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
 
 ## Desapareceram (1)
 
-- top tv — Top TV [FHD · 1920x1080]
+- globo bahia — Globo Bahia [FHD · 1920x1080]
 
 ## Novos canais (0)
 

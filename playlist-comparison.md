@@ -1,10 +1,10 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T17:24:01.095561+00:00
+- Execução: 2026-11-08T17:57:33.247544+00:00
 - Canais publicados: 172
-- Fontes testadas: 848
-- Fontes reaproveitadas do cache: 184
-- Canais mantidos temporariamente: 1
+- Fontes testadas: 877
+- Fontes reaproveitadas do cache: 155
+- Canais mantidos temporariamente: 3
 
 ## Melhoraram (0)
 
@@ -14,11 +14,12 @@
 
 - Nenhum.
 
-## Trocaram de fonte (3)
+## Trocaram de fonte (4)
 
-- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
-- discovery theater — fonte anterior: Discovery Theater [HD · 1280x720] | nova: Discovery Theater [FHD · 1920x1080]
-- discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
+- cnn brasil — fonte anterior: CNN Brasil [HD · 1280x720] | nova: CNN Brasil (1080p)
+- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
+- espn 4 — fonte anterior: ESPN 4 [HD · 1280x720] | nova: ESPN 4 [FHD · 1920x1080]
+- history — fonte anterior: History [HD · 1280x720] | nova: History [FHD · 1920x1080]
 
 ## Desapareceram (0)
 

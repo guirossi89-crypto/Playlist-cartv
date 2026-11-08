@@ -1,33 +1,38 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T00:40:06.792664+00:00
-- Canais publicados: 170
-- Fontes testadas: 868
-- Fontes reaproveitadas do cache: 164
-- Canais mantidos temporariamente: 1
+- Execução: 2026-11-08T01:52:53.146349+00:00
+- Canais publicados: 171
+- Fontes testadas: 1012
+- Fontes reaproveitadas do cache: 20
+- Canais mantidos temporariamente: 3
 
-## Melhoraram (0)
+## Melhoraram (2)
 
-- Nenhum.
+- mtv drag — score 0.959 → 0.990
+- tv cultura — score 0.807 → 0.918
 
-## Pioraram (1)
+## Pioraram (2)
 
-- tv cultura — score 0.862 → 0.807
+- geekdot — score 0.944 → 0.901
+- hbo2 — score 0.929 → 0.881
 
-## Trocaram de fonte (5)
+## Trocaram de fonte (8)
 
-- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
 - discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
-- discovery kids — fonte anterior: Discovery Kids [HD · 1280x720] | nova: Discovery Kids [FHD · 1920x1080]
-- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
-- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura (720p)
+- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [FHD · 1920x1080]
+- discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
+- espn — fonte anterior: ESPN [FHD · 1920x1080] | nova: ESPN [HD · 1280x720]
+- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
+- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
+- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
 
-## Desapareceram (2)
+## Desapareceram (1)
+
+- despertar tv — Despertar TV (720p)
+
+## Novos canais (2)
 
 - premiere 8 — Premiere 8 [FHD · 1920x1080]
 - premiere clubes — Premiere Clubes [FHD · 1920x1080]
-
-## Novos canais (1)
-
-- globo bahia — Globo Bahia [FHD · 1920x1080]
 

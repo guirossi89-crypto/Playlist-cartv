@@ -1,39 +1,32 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-08T23:58:09.038390+00:00
-- Canais publicados: 174
-- Fontes testadas: 1015
-- Fontes reaproveitadas do cache: 17
-- Canais mantidos temporariamente: 4
+- Execução: 2026-11-09T00:46:00.512076+00:00
+- Canais publicados: 173
+- Fontes testadas: 861
+- Fontes reaproveitadas do cache: 171
+- Canais mantidos temporariamente: 3
 
-## Melhoraram (4)
+## Melhoraram (1)
 
-- mtv reality (united states) — score 0.942 → 0.980
-- mtv rocks — score 0.951 → 0.982
-- pluto tv cozinha — score 0.931 → 0.966
-- pluto tv kids club — score 0.936 → 0.976
+- fish tv — score 0.794 → 0.916
 
-## Pioraram (5)
+## Pioraram (1)
 
-- fish tv — score 0.916 → 0.794
-- hbo xtreme — score 0.907 → 0.869
-- playtv — score 0.902 → 0.832
-- sbt news — score 0.971 → 0.936
-- tv cultura — score 0.914 → 0.870
+- history — score 0.925 → 0.840
 
 ## Trocaram de fonte (7)
 
-- dumdum — fonte anterior: DumDum [FHD · 1920x1080] | nova: DumDum [HD · 1280x720]
-- espn — fonte anterior: ESPN [FHD · 1920x1080] | nova: ESPN [HD · 1280x720]
-- espn 4 — fonte anterior: ESPN 4 [FHD · 1920x1080] | nova: ESPN 4 [HD · 1280x720]
+- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
+- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [FHD · 1920x1080]
+- discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
+- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
+- espn 4 — fonte anterior: ESPN 4 [HD · 1280x720] | nova: ESPN 4 [HD · 1280x720]
 - fish tv — fonte anterior: Fish TV [HD · 1280x720] | nova: Fish TV [HD · 1280x720]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- playtv — fonte anterior: PlayTV [HD · 1280x720] | nova: PlayTV [FHD · 1920x1080]
-- tv cultura — fonte anterior: TV Cultura (720p) | nova: TV Cultura [FHD · 1920x1080]
+- history — fonte anterior: History [HD · 1280x720] | nova: History [FHD · 1920x1080]
 
-## Desapareceram (0)
+## Desapareceram (1)
 
-- Nenhum.
+- a&e latin america brazil — A&E Latin America Brazil (720p)
 
 ## Novos canais (0)
 

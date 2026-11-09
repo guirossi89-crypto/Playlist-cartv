@@ -1,24 +1,27 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-09T14:14:03.540586+00:00
+- Execução: 2026-11-09T15:20:50.149944+00:00
 - Canais publicados: 174
-- Fontes testadas: 849
-- Fontes reaproveitadas do cache: 183
-- Canais mantidos temporariamente: 1
+- Fontes testadas: 1022
+- Fontes reaproveitadas do cache: 10
+- Canais mantidos temporariamente: 4
 
-## Melhoraram (0)
+## Melhoraram (2)
 
-- Nenhum.
+- sportv 2 — score 0.900 → 0.933
+- tv cultura — score 0.878 → 0.916
 
-## Pioraram (0)
+## Pioraram (1)
 
-- Nenhum.
+- fish tv — score 0.920 → 0.812
 
-## Trocaram de fonte (3)
+## Trocaram de fonte (5)
 
-- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
 - discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [HD · 1280x720]
-- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
+- espn 4 — fonte anterior: ESPN 4 [HD · 1280x720] | nova: ESPN 4 [FHD · 1920x1080]
+- fifa+ português — fonte anterior: FIFA+ Português [SD] | nova: FIFA+ Português [SD · 384x216]
+- fish tv — fonte anterior: Fish TV [HD · 1280x720] | nova: Fish TV [HD · 1280x720]
+- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura (720p)
 
 ## Desapareceram (0)
 

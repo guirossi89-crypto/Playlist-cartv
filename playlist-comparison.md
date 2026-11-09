@@ -1,32 +1,32 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-09T20:19:12.614029+00:00
-- Canais publicados: 172
-- Fontes testadas: 863
-- Fontes reaproveitadas do cache: 169
-- Canais mantidos temporariamente: 4
+- Execução: 2026-11-09T21:16:33.156334+00:00
+- Canais publicados: 173
+- Fontes testadas: 1010
+- Fontes reaproveitadas do cache: 22
+- Canais mantidos temporariamente: 5
 
-## Melhoraram (2)
+## Melhoraram (1)
 
-- classique tv — score 0.943 → 0.974
-- hbo2 — score 0.890 → 0.927
+- cinemax — score 0.893 → 0.925
 
-## Pioraram (0)
+## Pioraram (1)
+
+- hbo2 — score 0.927 → 0.889
+
+## Trocaram de fonte (5)
+
+- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
+- espn — fonte anterior: ESPN [HD · 1280x720] | nova: ESPN [HD · 1280x720]
+- espn 4 — fonte anterior: ESPN 4 [HD · 1280x720] | nova: ESPN 4 [HD · 1280x720]
+- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+
+## Desapareceram (0)
 
 - Nenhum.
 
-## Trocaram de fonte (3)
-
-- band sports hd — fonte anterior: BAND SPORTS HD [FHD · 1920x1080] | nova: BAND SPORTS HD [HD · 1280x720]
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
-- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
-
-## Desapareceram (2)
+## Novos canais (1)
 
 - now rock — Now Rock [HD · 1280x720]
-- sbt rondonopolis — SBT Rondonopolis
-
-## Novos canais (0)
-
-- Nenhum.
 

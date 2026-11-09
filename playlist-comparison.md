@@ -1,23 +1,29 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-09T09:48:06.101504+00:00
+- Execução: 2026-11-09T10:45:27.038865+00:00
 - Canais publicados: 174
-- Fontes testadas: 844
-- Fontes reaproveitadas do cache: 188
-- Canais mantidos temporariamente: 1
+- Fontes testadas: 1027
+- Fontes reaproveitadas do cache: 5
+- Canais mantidos temporariamente: 2
 
-## Melhoraram (1)
+## Melhoraram (0)
 
-- tv cultura — score 0.821 → 0.881
+- Nenhum.
 
-## Pioraram (1)
+## Pioraram (4)
 
-- hbo2 — score 0.926 → 0.874
+- band — score 0.923 → 0.782
+- espn 6 — score 0.924 → 0.893
+- sbt — score 0.979 → 0.948
+- tv cultura — score 0.881 → 0.813
 
-## Trocaram de fonte (2)
+## Trocaram de fonte (5)
 
-- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
-- tv cultura — fonte anterior: TV Cultura (720p) | nova: TV Cultura [FHD · 1920x1080]
+- band — fonte anterior: Band [HD · 1280x720] | nova: Band [Fonte 8]
+- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
+- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura (720p)
 
 ## Desapareceram (0)
 

@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="AMC" tvg-logo="https://img.faz-o-eli.online/amc.png" group-title="Filmes e Séries",AMC [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a06s/index.m3u8
-#EXTINF:-1 tvg-name="Band" tvg-logo="https://mondrian.claro.com.br/channels/inverse/band.png" group-title="TV Aberta",Band [Fonte 8]
-https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/720p/index.m3u8
+#EXTINF:-1 tvg-name="Band" tvg-logo="https://mondrian.claro.com.br/channels/inverse/band.png" group-title="TV Aberta",Band [HD · 1280x720]
+http://138.204.86.4:8080/BAND_HD/index.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://img.faz-o-eli.online/cartoonnetwork.png" group-title="Infantil",Cartoon Network [HD · 1280x720]
 http://45.162.64.114/CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-name="CNN Brasil Money" tvg-logo="https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png" group-title="Notícias",CNN Brasil Money [Fonte 2]
@@ -25,6 +25,8 @@ http://45.185.11.126:8000/play/a05j/index.m3u8
 http://45.185.11.126:8000/play/a05k/index.m3u8
 #EXTINF:-1 tvg-name="Premiere 8" tvg-logo="https://mondrian.claro.com.br/channels/inverse/premiere.png" group-title="Esportes",Premiere 8 [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a05l/index.m3u8
+#EXTINF:-1 tvg-name="Premiere Clubes" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere Clubes [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a06g/index.m3u8
 #EXTINF:-1 tvg-name="SBT" tvg-logo="https://mondrian.claro.com.br/channels/inverse/sbt.png" group-title="TV Aberta",SBT [FHD · 1920x1080]
 https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
 #EXTINF:-1 tvg-name="SBT News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/sbt-news.png" group-title="Notícias",SBT News [HD · 1280x720]
@@ -47,8 +49,8 @@ http://45.185.11.126:8000/play/a08m/index.m3u8
 http://45.185.11.126:8000/play/a08c/index.m3u8
 #EXTINF:-1 tvg-name="Cartoonito" tvg-logo="https://img.faz-o-eli.online/cartoonito.png" group-title="Infantil",Cartoonito [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a0ae/index.m3u8
-#EXTINF:-1 tvg-name="Cinemax" tvg-logo="https://img.faz-o-eli.online/cinemax.png" group-title="Filmes e Séries",Cinemax [HD · 1280x720]
-http://138.204.86.4:8080/CINEMAX/index.m3u8
+#EXTINF:-1 tvg-name="Cinemax" tvg-logo="https://img.faz-o-eli.online/cinemax.png" group-title="Filmes e Séries",Cinemax [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a081/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Channel" tvg-logo="https://img.faz-o-eli.online/discoverychannel.png" group-title="Documentários",Discovery Channel [HD · 1280x720]
 http://138.204.86.4:8080/DISCOVERY_HD/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://img.faz-o-eli.online/discoverykids.png" group-title="Infantil",Discovery Kids [FHD · 1920x1080]
@@ -86,11 +88,11 @@ http://138.204.86.4:8080/RECORD/index.m3u8
 #EXTINF:-1 tvg-name="Space" tvg-logo="https://img.faz-o-eli.online/space.png" group-title="Filmes e Séries",Space [HD · 1280x720]
 http://138.204.86.4:8080/SPACE_HD/index.m3u8
 #EXTINF:-1 tvg-name="TNT" tvg-logo="https://img.faz-o-eli.online/tnt.png" group-title="Filmes e Séries",TNT [HD · 1280x720]
-http://45.162.64.114/TNT/index.m3u8
+http://138.204.86.4:8080/TNT_HD/index.m3u8
 #EXTINF:-1 tvg-name="Universal TV" tvg-logo="https://img.faz-o-eli.online/universaltv.png" group-title="Filmes e Séries",Universal TV [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a0af/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Turbo" tvg-logo="https://img.faz-o-eli.online/discoveryturbo.png" group-title="Documentários",Discovery Turbo [HD · 1280x720]
-http://45.162.64.114/DISCOVERY_TURBO/index.m3u8
+http://138.204.86.4:8080/DISCOVERY_TURBO_HD/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Fun" tvg-logo="https://img.faz-o-eli.online/telecinefun.png" group-title="Filmes e Séries",Telecine Fun [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a059/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Cult" tvg-logo="https://img.faz-o-eli.online/telecinecult.png" group-title="Filmes e Séries",Telecine Cult [FHD · 1920x1080]
@@ -116,7 +118,7 @@ http://181.78.197.59:8000/play/a081/index.m3u8
 #EXTINF:-1 tvg-name="Record News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/recordnews.png" group-title="Notícias",Record News [HD · 1280x720]
 https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8
 #EXTINF:-1 tvg-name="Discovery ID" tvg-logo="https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png" group-title="Documentários",Discovery ID [HD · 1280x720]
-http://138.204.86.4:8080/ID_HD/index.m3u8
+http://45.162.64.114/DISCOVERY_ID/index.m3u8
 #EXTINF:-1 tvg-name="Fish TV" tvg-logo="https://mondrian.claro.com.br/channels/inverse/fish-tv.png" group-title="Outdoor",Fish TV [HD · 1280x720]
 http://45.162.64.114/FISH_TV/index.m3u8
 #EXTINF:-1 tvg-name="Box Kids TV" tvg-logo="https://www.tvlogo.org/brazil/box-kids-tv-br.png" group-title="Infantil",Box Kids TV [HD · 1280x720]
@@ -179,6 +181,8 @@ https://lightning-now90s-rakuten.amagi.tv/playlist.m3u8
 http://170.83.16.50/AeE/index.m3u8
 #EXTINF:-1 tvg-id="AdrenalinaPuraTV.us@Brazil" tvg-logo="https://i.imgur.com/Pvid2iH.png" group-title="Filmes e Séries",Adrenalina Pura TV Brazil
 https://jmp2.uk/plu-61b790b985706b00072cb797.m3u8
+#EXTINF:-1 tvg-id="AMCLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="Filmes e Séries",AMC Latin America Brazil (720p)
+http://170.83.49.66:8083/AMCHD/index.m3u8
 #EXTINF:-1 tvg-id="BETPlutoTV.us@BR" tvg-logo="https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png" group-title="Documentários",BET Pluto TV BR
 https://jmp2.uk/plu-5ff768b6a4c8b80008498610.m3u8
 #EXTINF:-1 tvg-id="BobEsponjaCalcaQuadrada.us@BR" tvg-logo="https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png" group-title="Infantil",Bob Esponja Calca Quadrada (720p)
@@ -199,10 +203,6 @@ https://br.conectmy.com.br/DespertarTV/index.m3u8
 https://jmp2.uk/plu-638df93ae2f2a3000737c168.m3u8
 #EXTINF:-1 tvg-id="DiscoveryChannelLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Documentários",Discovery Channel Latin America Brazil (720p)
 http://45.162.64.114/DISCOVERY_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Brazil" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="Infantil",Discovery Kids Latin America Brazil (720p) [Geo-blocked]
-http://15.204.246.24:8080/DiscoveryKidsHD/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryWorld.us@Brazil" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="Documentários",Discovery World Brazil (720p) [Geo-blocked]
-http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8
 #EXTINF:-1 tvg-id="FailArmy.us@Brazil" tvg-logo="https://i.imgur.com/VIpQJxL.png" group-title="Comedy",FailArmy Brazil
 https://jmp2.uk/plu-5f5141c1605ddf000748eb1b.m3u8
 #EXTINF:-1 tvg-id="FilmesSuspense.us@BR" tvg-logo="https://images.pluto.tv/channels/5f171d3442a0500007362f22/colorLogoPNG.png" group-title="Filmes e Séries",Filmes Suspense
@@ -345,7 +345,7 @@ http://200.189.113.201/hls/tve.m3u8
 https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 #EXTINF:-1 tvg-id="RedeGospel.br@SD" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religious",Rede Gospel [FHD · 1920x1080]
 https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AMCLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="Filmes e Séries",AMC Latin America Brazil (720p)
-http://170.83.49.66:8083/AMCHD/index.m3u8
-#EXTINF:-1 tvg-name="Premiere Clubes" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere Clubes [FHD · 1920x1080]
-http://45.185.11.126:8000/play/a06g/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Brazil" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="Infantil",Discovery Kids Latin America Brazil (720p) [Geo-blocked]
+http://15.204.246.24:8080/DiscoveryKidsHD/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryWorld.us@Brazil" tvg-logo="https://i.imgur.com/yNFmUkE.png" group-title="Documentários",Discovery World Brazil (720p) [Geo-blocked]
+http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8

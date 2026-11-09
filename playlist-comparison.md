@@ -1,29 +1,27 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-09T10:45:27.038865+00:00
+- Execução: 2026-11-09T11:44:12.041051+00:00
 - Canais publicados: 174
-- Fontes testadas: 1027
-- Fontes reaproveitadas do cache: 5
+- Fontes testadas: 847
+- Fontes reaproveitadas do cache: 185
 - Canais mantidos temporariamente: 2
 
-## Melhoraram (0)
+## Melhoraram (2)
+
+- band — score 0.782 → 0.919
+- tv cultura — score 0.813 → 0.921
+
+## Pioraram (0)
 
 - Nenhum.
 
-## Pioraram (4)
-
-- band — score 0.923 → 0.782
-- espn 6 — score 0.924 → 0.893
-- sbt — score 0.979 → 0.948
-- tv cultura — score 0.881 → 0.813
-
 ## Trocaram de fonte (5)
 
-- band — fonte anterior: Band [HD · 1280x720] | nova: Band [Fonte 8]
-- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
-- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura (720p)
+- band — fonte anterior: Band [Fonte 8] | nova: Band [HD · 1280x720]
+- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
+- discovery id — fonte anterior: Discovery ID [HD · 1280x720] | nova: Discovery ID [HD · 1280x720]
+- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [HD · 1280x720]
+- tnt — fonte anterior: TNT [HD · 1280x720] | nova: TNT [HD · 1280x720]
 
 ## Desapareceram (0)
 

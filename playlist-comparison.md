@@ -1,31 +1,30 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-09T07:02:17.325933+00:00
-- Canais publicados: 173
-- Fontes testadas: 870
-- Fontes reaproveitadas do cache: 162
-- Canais mantidos temporariamente: 4
+- Execução: 2026-11-09T08:43:02.784771+00:00
+- Canais publicados: 174
+- Fontes testadas: 1032
+- Fontes reaproveitadas do cache: 0
+- Canais mantidos temporariamente: 6
 
-## Melhoraram (0)
+## Melhoraram (2)
 
-- Nenhum.
+- discovery theater — score 0.889 → 0.922
+- nbx tv kids — score 0.921 → 0.954
 
-## Pioraram (3)
+## Pioraram (1)
 
-- cinemax — score 0.924 → 0.887
-- discovery theater — score 0.920 → 0.889
-- nbx tv kids — score 0.954 → 0.921
+- tv cultura — score 0.882 → 0.821
 
 ## Trocaram de fonte (2)
 
-- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
-- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [FHD · 1920x1080]
+- discovery turbo — fonte anterior: Discovery Turbo [FHD · 1920x1080] | nova: Discovery Turbo [HD · 1280x720]
+- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura (720p)
 
 ## Desapareceram (0)
 
 - Nenhum.
 
-## Novos canais (0)
+## Novos canais (1)
 
-- Nenhum.
+- premiere clubes — Premiere Clubes [FHD · 1920x1080]
 

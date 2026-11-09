@@ -1,34 +1,29 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-09T05:52:24.163179+00:00
+- Execução: 2026-11-09T07:02:17.325933+00:00
 - Canais publicados: 173
-- Fontes testadas: 1008
-- Fontes reaproveitadas do cache: 24
-- Canais mantidos temporariamente: 7
+- Fontes testadas: 870
+- Fontes reaproveitadas do cache: 162
+- Canais mantidos temporariamente: 4
 
-## Melhoraram (3)
+## Melhoraram (0)
 
-- geekdot — score 0.921 → 0.973
-- sportv 2 — score 0.906 → 0.944
-- telecine fun — score 0.909 → 0.940
+- Nenhum.
 
-## Pioraram (2)
+## Pioraram (3)
 
-- now rock — score 0.947 → 0.913
-- tv cultura — score 0.920 → 0.882
+- cinemax — score 0.924 → 0.887
+- discovery theater — score 0.920 → 0.889
+- nbx tv kids — score 0.954 → 0.921
 
-## Trocaram de fonte (6)
+## Trocaram de fonte (2)
 
-- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
-- discovery world — fonte anterior: Discovery World [HD · 1280x720] | nova: Discovery World [HD · 1280x720]
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
-- tv cultura — fonte anterior: TV Cultura (720p) | nova: TV Cultura [FHD · 1920x1080]
+- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
+- discovery turbo — fonte anterior: Discovery Turbo [HD · 1280x720] | nova: Discovery Turbo [FHD · 1920x1080]
 
-## Desapareceram (1)
+## Desapareceram (0)
 
-- premiere clubes — Premiere Clubes [FHD · 1920x1080]
+- Nenhum.
 
 ## Novos canais (0)
 

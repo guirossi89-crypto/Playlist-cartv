@@ -1,39 +1,32 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-10T17:31:50.642666+00:00
-- Canais publicados: 178
-- Fontes testadas: 895
-- Fontes reaproveitadas do cache: 172
-- Canais mantidos temporariamente: 1
+- Execução: 2026-11-10T17:50:59.565489+00:00
+- Canais publicados: 179
+- Fontes testadas: 888
+- Fontes reaproveitadas do cache: 179
+- Canais mantidos temporariamente: 6
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 11
-- IEC médio das amostras válidas: 89.5/100
+- Testes contínuos sem falhas e IEC ≥ 75: 8
+- IEC médio das amostras válidas: 80.3/100
 
 ## Melhoraram (0)
 
 - Nenhum.
 
-## Pioraram (1)
+## Pioraram (0)
 
-- pluto tv bang bang — score 0.982 → 0.948
+- Nenhum.
 
-## Trocaram de fonte (2)
+## Trocaram de fonte (0)
 
-- telecine premium — fonte anterior: Telecine Premium [Candidata externa] | nova: Telecine Premium [FHD · 1920x1080]
-- telecine touch — fonte anterior: Telecine Touch [Candidata externa] | nova: Telecine Touch [FHD · 1920x1080]
+- Nenhum.
 
-## Desapareceram (1)
+## Desapareceram (0)
 
-- megapix — Megapix [FHD · 1920x1080]
+- Nenhum.
 
-## Novos canais (7)
+## Novos canais (1)
 
-- globo rpc curitiba hd — GLOBO RPC CURITIBA HD
-- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
-- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
-- globo rpc londrina hd — GLOBO RPC LONDRINA HD
-- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
-- globo rpc maringá hd — GLOBO RPC MARINGÁ HD
-- globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD
+- globo rpc curitiba fhd — GLOBO RPC CURITIBA FHD
 

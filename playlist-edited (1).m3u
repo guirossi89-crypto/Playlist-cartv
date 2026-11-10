@@ -2626,3 +2626,29 @@ http://170.83.49.66:8083/MUSICBOXBRASILHD/index.m3u8
 http://45.185.11.126:8000/play/a08e/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Touch" tvg-logo="https://img.faz-o-eli.online/telecinetouch.png" group-title="Filmes e Séries",Telecine Touch [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a08f/index.m3u8
+#EXTINF:-1 tvg-id="tv.globo.rpc.cascavel.br" tvg-name="GLOBO RPC CASCAVEL HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CASCAVEL HD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169007.ts
+#EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA FHD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CURITIBA FHD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169008.ts
+#EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CURITIBA HD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169009.ts
+#EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CURITIBA HD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169010.ts
+#EXTINF:-1 tvg-id="rpc.foz.do.iguacu.hd.tv.globo.br" tvg-name="GLOBO RPC FOZ DO IGUAÇU FHD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC FOZ DO IGUAÇU FHD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169011.ts
+#EXTINF:-1 tvg-id="rpc.guarapuava.hd.tv.globo.br" tvg-name="GLOBO RPC GUARAPUAVA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC GUARAPUAVA HD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169012.ts
+#EXTINF:-1 tvg-id="rpc.londrina.br" tvg-name="GLOBO RPC LONDRINA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC LONDRINA HD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169013.ts
+#EXTINF:-1 tvg-id="rpc.maringa.br" tvg-name="GLOBO RPC MARINGÁ FHD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC MARINGÁ FHD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169014.ts
+#EXTINF:-1 tvg-id="rpc.maringa.br" tvg-name="GLOBO RPC MARINGÁ HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC MARINGÁ HD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169015.ts
+#EXTINF:-1 tvg-id="rpc.paranavai.br" tvg-name="GLOBO RPC PARANAVAÍ HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC PARANAVAÍ HD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169016.ts
+#EXTINF:-1 tvg-id="rpc.ponta.grossa.br" tvg-name="GLOBO RPC PONTA GROSSA FHD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC PONTA GROSSA FHD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169017.ts
+#EXTINF:-1 tvg-id="rpc.ponta.grossa.br" tvg-name="GLOBO RPC PONTA GROSSA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC PONTA GROSSA HD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169018.ts
+#EXTINF:-1 tvg-id="rpc.ponta.grossa.br" tvg-name="GLOBO RPC PONTA GROSSA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC PONTA GROSSA HD
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169019.ts

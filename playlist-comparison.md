@@ -1,14 +1,14 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-10T12:37:07.591054+00:00
+- Execução: 2026-11-10T12:55:37.895942+00:00
 - Canais publicados: 168
-- Fontes testadas: 1012
-- Fontes reaproveitadas do cache: 20
-- Canais mantidos temporariamente: 2
+- Fontes testadas: 859
+- Fontes reaproveitadas do cache: 173
+- Canais mantidos temporariamente: 1
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 9
-- IEC médio das amostras válidas: 84.2/100
+- Testes contínuos sem falhas e IEC ≥ 75: 10
+- IEC médio das amostras válidas: 86.4/100
 
 ## Melhoraram (0)
 
@@ -18,10 +18,9 @@
 
 - Nenhum.
 
-## Trocaram de fonte (2)
+## Trocaram de fonte (0)
 
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
+- Nenhum.
 
 ## Desapareceram (0)
 

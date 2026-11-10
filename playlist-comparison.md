@@ -1,14 +1,14 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-10T14:11:22.711658+00:00
-- Canais publicados: 168
-- Fontes testadas: 1031
-- Fontes reaproveitadas do cache: 1
-- Canais mantidos temporariamente: 8
+- Execução: 2026-11-10T14:50:01.764090+00:00
+- Canais publicados: 171
+- Fontes testadas: 871
+- Fontes reaproveitadas do cache: 167
+- Canais mantidos temporariamente: 1
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 11
-- IEC médio das amostras válidas: 85.4/100
+- Testes contínuos sem falhas e IEC ≥ 75: 10
+- IEC médio das amostras válidas: 86.1/100
 
 ## Melhoraram (0)
 
@@ -16,21 +16,21 @@
 
 ## Pioraram (1)
 
-- band sports hd — score 0.902 → 0.842
+- universal tv — score 0.929 → 0.896
 
-## Trocaram de fonte (5)
+## Trocaram de fonte (2)
 
-- axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [FHD · 1920x1080]
-- band sports hd — fonte anterior: BAND SPORTS HD [FHD · 1920x1080] | nova: BAND SPORTS HD [HD · 1280x720]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- axn — fonte anterior: AXN [FHD · 1920x1080] | nova: AXN [HD · 1280x720]
+- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
 
-## Desapareceram (0)
+## Desapareceram (1)
 
-- Nenhum.
+- despertar tv — Despertar TV (720p)
 
-## Novos canais (0)
+## Novos canais (4)
 
-- Nenhum.
+- music box brazil — Music Box Brazil [Candidata externa]
+- telecine premium — Telecine Premium [Candidata externa]
+- telecine touch — Telecine Touch [Candidata externa]
+- tv rá tim bum — TV Rá Tim Bum [Candidata externa]
 

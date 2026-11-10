@@ -1035,6 +1035,8 @@ http://45.162.64.114/SONY_MOVIES/index.m3u8
 http://45.177.114.115/SONY_MOVIES/index.m3u8
 #EXTINF:-1 tvg-name="Globo" tvg-logo="https://mondrian.claro.com.br/channels/inverse/globo.png" group-title="TV Aberta",Globo [FHD · 1920x1080]
 http://138.204.86.4:8080/GLOBO_HD/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Globo" tvg-logo="https://docdog.top/logo/countries/brazil/globosp.png" group-title="TV Aberta",Globo [Fonte externa]
+http://31.43.191.125:8080/restream/restream/4865
 #EXTINF:-1 tvg-name="Tooncast" tvg-logo="https://mondrian.claro.com.br/channels/inverse/tooncast.png" group-title="Infantil",Tooncast [HD · 1280x720]
 http://170.83.16.50:80/TOONCAST/index.m3u8
 #EXTINF:-1 tvg-name="Tooncast" tvg-logo="https://mondrian.claro.com.br/channels/inverse/tooncast.png" group-title="Infantil",Tooncast [FHD · 1920x1080]

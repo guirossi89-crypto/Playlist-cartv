@@ -1,46 +1,43 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-10T21:29:39.377793+00:00
-- Canais publicados: 176
-- Fontes testadas: 893
-- Fontes reaproveitadas do cache: 174
+- Execução: 2026-11-10T22:12:55.230374+00:00
+- Canais publicados: 175
+- Fontes testadas: 1058
+- Fontes reaproveitadas do cache: 9
 - Canais mantidos temporariamente: 4
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 0
-- IEC médio das amostras válidas: 33.2/100
+- Testes contínuos sem falhas e IEC ≥ 75: 3
+- IEC médio das amostras válidas: 59.1/100
 
-## Melhoraram (4)
+## Melhoraram (2)
 
-- band — score 0.760 → 0.791
-- cinemax — score 0.735 → 0.818
-- globo rpc curitiba hd — score 0.806 → 0.843
-- globo rpc ponta grossa hd — score 0.720 → 0.766
+- globo rpc ponta grossa hd — score 0.766 → 0.822
+- tooncast — score 0.845 → 0.888
 
-## Pioraram (11)
+## Pioraram (8)
 
-- hbo family — score 0.925 → 0.712
-- hbo mundi — score 0.929 → 0.724
-- hbo plus — score 0.920 → 0.724
-- hbo pop — score 0.916 → 0.786
-- hbo signature — score 0.933 → 0.738
-- hbo xtreme — score 0.911 → 0.783
-- record — score 0.921 → 0.733
-- space — score 0.941 → 0.762
-- tnt — score 0.903 → 0.733
-- tv cultura — score 0.917 → 0.879
-- universal tv — score 0.925 → 0.814
+- axn — score 0.933 → 0.897
+- cinemax — score 0.818 → 0.734
+- discovery science — score 0.929 → 0.738
+- discovery turbo — score 0.910 → 0.804
+- globo — score 0.938 → 0.739
+- jovem pan news — score 0.963 → 0.933
+- telecine cult — score 0.915 → 0.800
+- telecine fun — score 0.933 → 0.804
 
-## Trocaram de fonte (3)
+## Trocaram de fonte (6)
 
+- axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [FHD · 1920x1080]
 - band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
-- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
-- tv cultura — fonte anterior: TV Cultura [SD · 960x540] | nova: TV Cultura [FHD · 1920x1080]
+- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
+- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
+- jovem pan news — fonte anterior: Jovem Pan News [Fonte 20] | nova: Jovem Pan News [FHD · 1920x1080]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
 
-## Desapareceram (2)
+## Desapareceram (1)
 
-- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
-- sbt nova mutum — SBT Nova Mutum
+- playtv — PlayTV [FHD · 1920x1080]
 
 ## Novos canais (0)
 

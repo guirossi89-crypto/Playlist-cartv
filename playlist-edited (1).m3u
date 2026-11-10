@@ -2652,3 +2652,30 @@ http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169017.ts
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169018.ts
 #EXTINF:-1 tvg-id="rpc.ponta.grossa.br" tvg-name="GLOBO RPC PONTA GROSSA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC PONTA GROSSA HD
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169019.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RPC Cascavel HD" tvg-logo="" group-title="RPC",RPC Cascavel HD [Fonte alternativa]
+http://64.31.23.207:80/5299123.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Curitiba FHD" tvg-logo="" group-title="RPC",RPC Curitiba FHD [Fonte alternativa]
+http://64.31.23.207:80/5298290.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Curitiba HD" tvg-logo="" group-title="RPC",RPC Curitiba HD [Fonte alternativa]
+http://64.31.23.207:80/5298291.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Curitiba SD" tvg-logo="" group-title="RPC",RPC Curitiba SD [Fonte alternativa]
+http://64.31.23.207:80/5298292.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Foz do Iguaçu FHD" tvg-logo="" group-title="RPC",RPC Foz do Iguaçu FHD [Fonte alternativa]
+http://64.31.23.207:80/5299124.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Guarapuava HD" tvg-logo="" group-title="RPC",RPC Guarapuava HD [Fonte alternativa]
+http://64.31.23.207:80/5299134.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Londrina HD" tvg-logo="" group-title="RPC",RPC Londrina HD [Fonte alternativa]
+http://64.31.23.207:80/5299125.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Maringá FHD" tvg-logo="" group-title="RPC",RPC Maringá FHD [Fonte alternativa]
+http://64.31.23.207:80/5299126.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Maringá HD" tvg-logo="" group-title="RPC",RPC Maringá HD [Fonte alternativa]
+http://64.31.23.207:80/5299127.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Paranavaí HD" tvg-logo="" group-title="RPC",RPC Paranavaí HD [Fonte alternativa]
+http://64.31.23.207:80/5299128.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Ponta Grossa FHD" tvg-logo="" group-title="RPC",RPC Ponta Grossa FHD [Fonte alternativa]
+http://64.31.23.207:80/5299129.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Ponta Grossa HD" tvg-logo="" group-title="RPC",RPC Ponta Grossa HD [Fonte alternativa]
+http://64.31.23.207:80/5299130.ts
+#EXTINF:-1 tvg-id="" tvg-name="RPC Ponta Grossa SD" tvg-logo="" group-title="RPC",RPC Ponta Grossa SD [Fonte alternativa]
+http://64.31.23.207:80/5299131.ts

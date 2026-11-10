@@ -494,7 +494,7 @@ def main():
         last=float(h.get("last_continuous_test_ts",0) or 0)
         if now_ts-last >= CONTINUOUS_TEST_INTERVAL:
             # O teste prolongado atual é para HLS; fluxos .ts continuam com a validação existente.
-            if not re.search(r"\\.ts(?:$|[?#])",result.entry.url,re.I):
+            if not re.search(r"\.ts(?:$|[?#])",result.entry.url,re.I):
                 due.append((last,result))
     due.sort(key=lambda item:(item[0],item[1].entry.order))
     selected=[item[1] for item in due[:CONTINUOUS_TESTS_PER_RUN]]

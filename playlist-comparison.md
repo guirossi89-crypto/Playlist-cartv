@@ -1,50 +1,48 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-10T20:33:51.512141+00:00
-- Canais publicados: 178
-- Fontes testadas: 1060
-- Fontes reaproveitadas do cache: 7
-- Canais mantidos temporariamente: 2
+- Execução: 2026-11-10T21:29:39.377793+00:00
+- Canais publicados: 176
+- Fontes testadas: 893
+- Fontes reaproveitadas do cache: 174
+- Canais mantidos temporariamente: 4
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 2
-- IEC médio das amostras válidas: 53.1/100
+- Testes contínuos sem falhas e IEC ≥ 75: 0
+- IEC médio das amostras válidas: 33.2/100
 
-## Melhoraram (2)
+## Melhoraram (4)
 
-- discovery id — score 0.885 → 0.917
-- tv cultura — score 0.884 → 0.917
+- band — score 0.760 → 0.791
+- cinemax — score 0.735 → 0.818
+- globo rpc curitiba hd — score 0.806 → 0.843
+- globo rpc ponta grossa hd — score 0.720 → 0.766
 
-## Pioraram (14)
+## Pioraram (11)
 
-- cinemax — score 0.817 → 0.735
-- classique faroeste — score 0.993 → 0.962
-- detetives medicos — score 0.988 → 0.957
-- discovery kids — score 0.913 → 0.807
-- discovery theater — score 0.926 → 0.802
-- espn 2 — score 0.930 → 0.731
-- espn 5 — score 0.901 → 0.798
-- espn 6 — score 0.924 → 0.786
-- globo rpc curitiba hd — score 0.840 → 0.806
-- globo rpc ponta grossa hd — score 0.803 → 0.720
-- hbo — score 0.920 → 0.778
-- hbo2 — score 0.885 → 0.805
-- mtv classic br — score 0.981 → 0.950
-- sbt news — score 0.983 → 0.910
+- hbo family — score 0.925 → 0.712
+- hbo mundi — score 0.929 → 0.724
+- hbo plus — score 0.920 → 0.724
+- hbo pop — score 0.916 → 0.786
+- hbo signature — score 0.933 → 0.738
+- hbo xtreme — score 0.911 → 0.783
+- record — score 0.921 → 0.733
+- space — score 0.941 → 0.762
+- tnt — score 0.903 → 0.733
+- tv cultura — score 0.917 → 0.879
+- universal tv — score 0.925 → 0.814
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (3)
 
-- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
-- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
-- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura [SD · 960x540]
+- band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
+- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
+- tv cultura — fonte anterior: TV Cultura [SD · 960x540] | nova: TV Cultura [FHD · 1920x1080]
 
-## Desapareceram (0)
+## Desapareceram (2)
+
+- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
+- sbt nova mutum — SBT Nova Mutum
+
+## Novos canais (0)
 
 - Nenhum.
-
-## Novos canais (2)
-
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
-- playtv — PlayTV [FHD · 1920x1080]
 

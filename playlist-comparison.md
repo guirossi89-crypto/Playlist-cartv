@@ -1,34 +1,34 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-10T10:44:39.179582+00:00
+- Execução: 2026-11-10T11:42:19.056653+00:00
 - Canais publicados: 168
-- Fontes testadas: 1013
-- Fontes reaproveitadas do cache: 19
-- Canais mantidos temporariamente: 3
+- Fontes testadas: 881
+- Fontes reaproveitadas do cache: 151
+- Canais mantidos temporariamente: 2
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
 - Testes contínuos sem falhas e IEC ≥ 75: 9
-- IEC médio das amostras válidas: 85.2/100
+- IEC médio das amostras válidas: 89.2/100
 
 ## Melhoraram (1)
 
-- history — score 0.847 → 0.929
+- tv cultura — score 0.771 → 0.880
 
-## Pioraram (1)
+## Pioraram (0)
 
-- tv cultura — score 0.885 → 0.771
+- Nenhum.
 
 ## Trocaram de fonte (3)
 
-- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
-- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
-- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura [SD · 960x540]
+- dumdum — fonte anterior: DumDum [SD · 720x576] | nova: DumDum [FHD · 1920x1080]
+- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
+- tv cultura — fonte anterior: TV Cultura [SD · 960x540] | nova: TV Cultura [FHD · 1920x1080]
 
 ## Desapareceram (0)
 
 - Nenhum.
 
-## Novos canais (1)
+## Novos canais (0)
 
-- premiere clubes — Premiere Clubes [FHD · 1920x1080]
+- Nenhum.
 

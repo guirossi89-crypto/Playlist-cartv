@@ -1,36 +1,32 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-10T02:39:52.296517+00:00
-- Canais publicados: 167
-- Fontes testadas: 1016
-- Fontes reaproveitadas do cache: 16
-- Canais mantidos temporariamente: 2
+- Execução: 2026-11-10T03:47:29.528199+00:00
+- Canais publicados: 168
+- Fontes testadas: 878
+- Fontes reaproveitadas do cache: 154
+- Canais mantidos temporariamente: 0
 
 ## Melhoraram (2)
 
-- filmes suspense — score 0.946 → 0.983
-- pluto tv animais — score 0.950 → 0.983
+- history — score 0.836 → 0.921
+- tv cultura — score 0.754 → 0.875
 
-## Pioraram (3)
+## Pioraram (0)
 
-- hbo2 — score 0.912 → 0.877
-- history — score 0.922 → 0.836
-- tv cultura — score 0.874 → 0.754
+- Nenhum.
 
-## Trocaram de fonte (5)
+## Trocaram de fonte (4)
 
-- discovery kids — fonte anterior: Discovery Kids [HD · 1280x720] | nova: Discovery Kids [FHD · 1920x1080]
-- dumdum — fonte anterior: DumDum [SD · 720x576] | nova: DumDum [FHD · 1920x1080]
-- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
-- history — fonte anterior: History [HD · 1280x720] | nova: History [FHD · 1920x1080]
-- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura [SD · 960x540]
+- dumdum — fonte anterior: DumDum [FHD · 1920x1080] | nova: DumDum [SD · 720x576]
+- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
+- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
+- tv cultura — fonte anterior: TV Cultura [SD · 960x540] | nova: TV Cultura [FHD · 1920x1080]
 
 ## Desapareceram (0)
 
 - Nenhum.
 
-## Novos canais (2)
+## Novos canais (1)
 
-- hbo — HBO [HD · 1280x720]
-- woohoo — Woohoo [HD · 1280x720]
+- plenitude tv — Plenitude TV
 

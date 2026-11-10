@@ -8,12 +8,17 @@ from pathlib import Path
 from urllib.parse import urljoin
 import requests
 from urllib3.util import Timeout as Urllib3Timeout
+from continuous_stability import test_continuous
 
 TIMEOUT = 12
 WORKERS = 16
 SOURCE_BUDGET = 12
 SEGMENTS_TO_TEST = 3
 FAILURES_BEFORE_REMOVAL = 2
+CONTINUOUS_TEST_DURATION = 120
+CONTINUOUS_TEST_INTERVAL = 3 * 60 * 60
+CONTINUOUS_TESTS_PER_RUN = 12
+CONTINUOUS_TEST_WORKERS = 4
 UA = "Mozilla/5.0 (compatible; PlaylistHealthCheck/1.0)"
 
 @dataclass
@@ -454,7 +459,13 @@ def main():
         max_quality=max((x.quality for x in candidates),default=1) or 1
         quality_component=max(0,min(1,result.quality/max_quality))
         latency_component=1/(1+max(0,result.latency)/2000)
-        score=0.50*quality_component+0.35*reliability+0.15*latency_component
+        continuous_tests=int(h.get("continuous_tests",0))
+        if continuous_tests>=2 and h.get("stability_score") is not None:
+            stability=max(0,min(1,float(h.get("stability_score",0))/100))
+            score=0.35*quality_component+0.25*reliability+0.10*latency_component+0.30*stability
+        else:
+            # Mantém o ranking histórico até haver pelo menos duas amostras sustentadas.
+            score=0.50*quality_component+0.35*reliability+0.15*latency_component
         return score
 
     # Reavalia por FFprobe apenas as duas melhores candidatas já aprovadas de cada canal.
@@ -471,6 +482,55 @@ def main():
                 h['last_codec']=result.codec
                 h['last_fps']=round(result.fps,3)
                 h['last_score']=int(result.quality)
+
+    # Teste prolongado em rodízio: até 2 candidatas por canal, 12 fontes por execução.
+    continuous_candidates=[]
+    for items in good.values():
+        ordered=sorted(items,key=lambda x:(ranking(x,items),x.quality,-x.latency),reverse=True)
+        continuous_candidates.extend(ordered[:2])
+    due=[]
+    for result in continuous_candidates:
+        h=history.get(result.entry.url,{})
+        last=float(h.get("last_continuous_test_ts",0) or 0)
+        if now_ts-last >= CONTINUOUS_TEST_INTERVAL:
+            # O teste prolongado atual é para HLS; fluxos .ts continuam com a validação existente.
+            if not re.search(r"\\.ts(?:$|[?#])",result.entry.url,re.I):
+                due.append((last,result))
+    due.sort(key=lambda item:(item[0],item[1].entry.order))
+    selected=[item[1] for item in due[:CONTINUOUS_TESTS_PER_RUN]]
+    continuous_summary={"tested":len(selected),"valid":0,"successful":0,"scores":[]}
+    if selected:
+        print(f"Estabilidade contínua: {len(selected)} fontes nesta execução; janela de {CONTINUOUS_TEST_DURATION}s, até {CONTINUOUS_TEST_WORKERS} simultâneas.",flush=True)
+        def _continuous_one(result):
+            return result, test_continuous(result.entry.url,result.entry.headers,CONTINUOUS_TEST_DURATION,a.timeout)
+        with ThreadPoolExecutor(max_workers=CONTINUOUS_TEST_WORKERS) as pool:
+            futures=[pool.submit(_continuous_one,result) for result in selected]
+            for future in as_completed(futures):
+                result,measurement=future.result()
+                h=history.setdefault(result.entry.url,{})
+                h["last_continuous_test_ts"]=now_ts
+                h["last_continuous_test"]=now_iso
+                h["continuous_attempts"]=int(h.get("continuous_attempts",0))+1
+                if measurement["valid"]:
+                    h["continuous_tests"]=int(h.get("continuous_tests",0))+1
+                    if measurement["successful"]:
+                        h["continuous_successes"]=int(h.get("continuous_successes",0))+1
+                    h["stability_score"]=int(measurement["score"])
+                    h["last_stability_score"]=int(measurement["score"])
+                    h["last_continuous_segments"]=int(measurement["segments"])
+                    h["last_continuous_duration"]=float(measurement["duration_seconds"])
+                    h["last_segment_avg_download"]=float(measurement["avg_download"])
+                    h["last_segment_max_download"]=float(measurement["max_download"])
+                    h["last_segment_deadline_misses"]=int(measurement["deadline_misses"])
+                    h["last_stream_interruptions"]=int(measurement["failures"])
+                    h["segment_deadline_misses_total"]=int(h.get("segment_deadline_misses_total",0))+int(measurement["deadline_misses"])
+                    h["stream_interruptions_total"]=int(h.get("stream_interruptions_total",0))+int(measurement["failures"])
+                    continuous_summary["valid"]+=1
+                    continuous_summary["scores"].append(int(measurement["score"]))
+                h["last_continuous_error"]=str(measurement.get("last_error",""))[:100]
+                if measurement["successful"]:
+                    continuous_summary["successful"]+=1
+                print(f"  IEC {result.entry.label}: {measurement['score']}/100, {measurement['segments']} segmentos, {measurement['failures']} falhas.",flush=True)
 
     winners={}; winner_scores={}
     for key,items in good.items():
@@ -527,7 +587,8 @@ def main():
 
     output.write_text("\n".join(out)+"\n",encoding="utf-8")
     state_path.write_text(json.dumps({"version":2,"failures":new_failures,"sources":history},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    lines=["# Relatório comparativo da playlist","",f"- Execução: {now_iso}",f"- Canais publicados: {len(winners)}",f"- Fontes testadas: {len(pending)}",f"- Fontes reaproveitadas do cache: {len(cached)}",f"- Canais mantidos temporariamente: {retained}",""]
+    avg_iec=(sum(continuous_summary["scores"])/len(continuous_summary["scores"])) if continuous_summary["scores"] else 0
+    lines=["# Relatório comparativo da playlist","",f"- Execução: {now_iso}",f"- Canais publicados: {len(winners)}",f"- Fontes testadas: {len(pending)}",f"- Fontes reaproveitadas do cache: {len(cached)}",f"- Canais mantidos temporariamente: {retained}",f"- Testes de estabilidade contínua nesta execução: {continuous_summary['tested']}",f"- Testes contínuos válidos: {continuous_summary['valid']}",f"- Testes contínuos sem falhas e IEC ≥ 75: {continuous_summary['successful']}",f"- IEC médio das amostras válidas: {avg_iec:.1f}/100",""]
     def section(title,items,formatter):
         lines.extend([f"## {title} ({len(items)})",""])
         if not items: lines.append("- Nenhum.")

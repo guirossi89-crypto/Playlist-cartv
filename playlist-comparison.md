@@ -1,49 +1,52 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-10T18:34:19.444952+00:00
-- Canais publicados: 178
-- Fontes testadas: 1060
-- Fontes reaproveitadas do cache: 7
-- Canais mantidos temporariamente: 9
+- Execução: 2026-11-10T19:01:09.273323+00:00
+- Canais publicados: 175
+- Fontes testadas: 895
+- Fontes reaproveitadas do cache: 172
+- Canais mantidos temporariamente: 4
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 5
-- IEC médio das amostras válidas: 65.1/100
+- Testes contínuos sem falhas e IEC ≥ 75: 4
+- IEC médio das amostras válidas: 64.9/100
 
-## Melhoraram (1)
+## Melhoraram (3)
 
-- jovem pan news — score 0.925 → 0.964
+- cinemax — score 0.873 → 0.922
+- hbo2 — score 0.894 → 0.925
+- history — score 0.845 → 0.884
 
 ## Pioraram (11)
 
-- amc — score 0.937 → 0.841
-- band — score 0.910 → 0.761
-- cnn brasil money — score 0.966 → 0.922
-- ge tv — score 0.989 → 0.953
-- globo rpc curitiba hd — score 0.898 → 0.820
-- globo rpc foz do iguaçu fhd — score 0.924 → 0.892
-- globonews — score 0.915 → 0.775
-- gnt — score 0.904 → 0.761
-- history — score 0.938 → 0.845
-- mtv pluto tv br — score 0.986 → 0.954
-- pluto tv esportes — score 0.984 → 0.951
+- discovery id — score 0.930 → 0.885
+- dumdum — score 0.910 → 0.880
+- megapix — score 0.906 → 0.785
+- premiere 6 — score 0.927 → 0.776
+- premiere 7 — score 0.926 → 0.779
+- premiere 8 — score 0.878 → 0.719
+- premiere clubes — score 0.848 → 0.760
+- sbt news — score 0.974 → 0.927
+- sportv 2 — score 0.945 → 0.837
+- sportv 3 — score 0.905 → 0.780
+- telecine premium — score 0.950 → 0.919
 
-## Trocaram de fonte (7)
+## Trocaram de fonte (4)
 
-- discovery kids — fonte anterior: Discovery Kids [FHD · 1920x1080] | nova: Discovery Kids [HD · 1280x720]
-- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
-- history — fonte anterior: History [HD · 1280x720] | nova: History [HD · 1280x720]
-- jovem pan news — fonte anterior: Jovem Pan News [FHD · 1920x1080] | nova: Jovem Pan News [Fonte 20]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [HD · 1280x720]
+- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
+- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
+- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
 
-## Desapareceram (2)
+## Desapareceram (5)
+
+- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
+- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked]
+- playtv — PlayTV [FHD · 1920x1080]
+- retro cartoon — Retro Cartoon (720p)
+- retrô cartoon — Retrô Cartoon [HD · 1280x720]
+
+## Novos canais (2)
 
 - globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD
 - sony channel — Sony Channel [HD · 1280x720]
-
-## Novos canais (1)
-
-- megapix — Megapix [FHD · 1920x1080]
 

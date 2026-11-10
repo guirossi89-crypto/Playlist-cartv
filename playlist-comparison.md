@@ -1,32 +1,34 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-10T03:47:29.528199+00:00
+- Execução: 2026-11-10T04:23:45.559234+00:00
 - Canais publicados: 168
-- Fontes testadas: 878
-- Fontes reaproveitadas do cache: 154
-- Canais mantidos temporariamente: 0
+- Fontes testadas: 1015
+- Fontes reaproveitadas do cache: 17
+- Canais mantidos temporariamente: 3
+- Testes de estabilidade contínua nesta execução: 12
+- Testes contínuos válidos: 12
+- Testes contínuos sem falhas e IEC ≥ 75: 8
+- IEC médio das amostras válidas: 81.8/100
 
-## Melhoraram (2)
-
-- history — score 0.836 → 0.921
-- tv cultura — score 0.754 → 0.875
-
-## Pioraram (0)
+## Melhoraram (0)
 
 - Nenhum.
 
-## Trocaram de fonte (4)
+## Pioraram (1)
 
-- dumdum — fonte anterior: DumDum [FHD · 1920x1080] | nova: DumDum [SD · 720x576]
-- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
-- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
-- tv cultura — fonte anterior: TV Cultura [SD · 960x540] | nova: TV Cultura [FHD · 1920x1080]
+- history — score 0.921 → 0.820
+
+## Trocaram de fonte (3)
+
+- dumdum — fonte anterior: DumDum [SD · 720x576] | nova: DumDum [FHD · 1920x1080]
+- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
+- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
 
 ## Desapareceram (0)
 
 - Nenhum.
 
-## Novos canais (1)
+## Novos canais (0)
 
-- plenitude tv — Plenitude TV
+- Nenhum.
 

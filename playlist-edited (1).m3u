@@ -2620,3 +2620,7 @@ http://45.185.15.154:9080/stream/29/index.m3u8
 http://170.83.49.66:8083/TVRATIMBUMHD/index.m3u8
 #EXTINF:-1 tvg-name="Music Box Brazil" tvg-logo="https://i.imgur.com/CDPCF2X.png" group-title="Músicas",Music Box Brazil [Candidata externa]
 http://170.83.49.66:8083/MUSICBOXBRASILHD/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Premium" tvg-logo="https://img.faz-o-eli.online/telecinepremium.png" group-title="Filmes e Séries",Telecine Premium [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a08e/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Touch" tvg-logo="https://img.faz-o-eli.online/telecinetouch.png" group-title="Filmes e Séries",Telecine Touch [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a08f/index.m3u8

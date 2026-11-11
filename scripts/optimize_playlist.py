@@ -627,7 +627,7 @@ def main():
     output.write_text("\n".join(out)+"\n",encoding="utf-8")
     state_path.write_text(json.dumps({"version":2,"failures":new_failures,"sources":history},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     avg_iec=(sum(continuous_summary["scores"])/len(continuous_summary["scores"])) if continuous_summary["scores"] else 0
-    lines=["# Relatório comparativo da playlist","",f"- Execução: {now_iso}",f"- Canais publicados: {len(winners)}",f"- Fontes testadas: {len(pending)}",f"- Fontes reaproveitadas do cache: {len(cached)}",f"- Canais mantidos temporariamente: {retained}",f"- Testes de estabilidade contínua nesta execução: {continuous_summary['tested']}",f"- Testes contínuos válidos: {continuous_summary['valid']}",f"- Testes contínuos sem falhas e IEC ≥ 75: {continuous_summary['successful']}",f"- IEC médio das amostras válidas: {avg_iec:.1f}/100",""]
+    lines=["# Relatório comparativo da playlist","",f"- Execução: {now_iso}",f"- Canais publicados: {len(winners)}",f"- Fontes testadas: {len(pending)}",f"- Fontes reaproveitadas do cache: {len(cached)}",f"- Canais mantidos temporariamente: {retained}",f"- Canais preservados por estabilidade comprovada: {len(protected_retained)}",f"- Testes de estabilidade contínua nesta execução: {continuous_summary['tested']}",f"- Testes contínuos válidos: {continuous_summary['valid']}",f"- Testes contínuos sem falhas e IEC ≥ 75: {continuous_summary['successful']}",f"- IEC médio das amostras válidas: {avg_iec:.1f}/100",""]
     def section(title,items,formatter):
         lines.extend([f"## {title} ({len(items)})",""])
         if not items: lines.append("- Nenhum.")
@@ -637,6 +637,7 @@ def main():
     section("Pioraram",worsened,lambda x:f"{x[0]} — score {x[1]:.3f} → {x[2]:.3f}")
     section("Trocaram de fonte",changed,lambda x:f"{x[0]} — fonte anterior: {x[1]} | nova: {x[2]}")
     section("Desapareceram",disappeared,lambda x:f"{x[0]} — {x[1]}")
+    section("Preservados por estabilidade comprovada",protected_retained,lambda x:f"{x[0]} — {x[1]} (estabilidade {x[2]:.0f}/100; {x[3]} testes contínuos bem-sucedidos; {x[4]}/{PROTECTED_MAX_QUICK_FAILURES} falhas rápidas)")
     section("Novos canais",appeared,lambda x:f"{x[0]} — {x[1]}")
     Path(a.report).write_text("\n".join(lines)+"\n",encoding="utf-8")
     valid=sum(x.ok for x in results)

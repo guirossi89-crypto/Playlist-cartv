@@ -1,46 +1,47 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-11T03:41:55.724118+00:00
-- Canais publicados: 176
-- Fontes testadas: 1049
-- Fontes reaproveitadas do cache: 18
-- Canais mantidos temporariamente: 4
+- Execução: 2026-11-11T04:46:46.156696+00:00
+- Canais publicados: 173
+- Fontes testadas: 906
+- Fontes reaproveitadas do cache: 161
+- Canais mantidos temporariamente: 7
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 8
-- IEC médio das amostras válidas: 81.8/100
+- Testes contínuos sem falhas e IEC ≥ 75: 9
+- IEC médio das amostras válidas: 83.5/100
 
-## Melhoraram (3)
+## Melhoraram (2)
 
-- cinemax — score 0.734 → 0.820
-- despertar tv — score 0.865 → 0.907
-- plenitude tv — score 0.875 → 0.919
+- band — score 0.747 → 0.784
+- hbo2 — score 0.720 → 0.807
 
-## Pioraram (7)
+## Pioraram (10)
 
-- band — score 0.790 → 0.747
-- hbo pop — score 0.786 → 0.722
-- hbo2 — score 0.806 → 0.720
-- nick jr. club (united states) br — score 0.942 → 0.887
-- nickelodeon teen — score 0.974 → 0.876
-- nickelodeon toons — score 0.973 → 0.922
-- sbt news — score 0.980 → 0.909
+- globo rpc curitiba fhd — score 0.879 → 0.849
+- globo rpc curitiba hd — score 0.818 → 0.759
+- pluto tv bang bang — score 0.954 → 0.889
+- pluto tv canal uol — score 0.970 → 0.923
+- pluto tv cine classicos — score 0.968 → 0.937
+- pluto tv cine drama — score 0.971 → 0.933
+- pluto tv cine familia — score 0.966 → 0.920
+- pluto tv cine inspiracao — score 0.977 → 0.898
+- pluto tv cine romance — score 0.975 → 0.933
+- pluto tv cine sucessos — score 0.966 → 0.935
 
-## Trocaram de fonte (7)
+## Trocaram de fonte (4)
 
 - band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
-- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
-- telecine premium — fonte anterior: Telecine Premium [FHD · 1920x1080] | nova: Telecine Premium [Candidata externa]
+- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
+- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
+- telecine premium — fonte anterior: Telecine Premium [Candidata externa] | nova: Telecine Premium [FHD · 1920x1080]
 
-## Desapareceram (0)
+## Desapareceram (3)
+
+- globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD
+- globonews — GloboNews [FHD · 1920x1080]
+- premiere 8 — Premiere 8 [FHD · 1920x1080]
+
+## Novos canais (0)
 
 - Nenhum.
-
-## Novos canais (1)
-
-- globo rpc curitiba hd — GLOBO RPC CURITIBA HD
 

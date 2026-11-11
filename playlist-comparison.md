@@ -1,47 +1,46 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-11T16:54:46.540054+00:00
-- Canais publicados: 178
-- Fontes testadas: 1067
-- Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 6
+- Execução: 2026-11-11T17:46:02.304737+00:00
+- Canais publicados: 175
+- Fontes testadas: 897
+- Fontes reaproveitadas do cache: 170
+- Canais mantidos temporariamente: 4
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 6
-- Testes contínuos sem falhas e IEC ≥ 75: 1
-- IEC médio das amostras válidas: 49.2/100
+- Testes contínuos válidos: 8
+- Testes contínuos sem falhas e IEC ≥ 75: 0
+- IEC médio das amostras válidas: 40.8/100
 
-## Melhoraram (3)
+## Melhoraram (4)
 
-- globo rpc ponta grossa hd — score 0.738 → 0.796
-- telecine cult — score 0.806 → 0.915
-- telecine fun — score 0.824 → 0.959
+- discovery kids — score 0.740 → 0.809
+- hbo family — score 0.715 → 0.760
+- hbo plus — score 0.735 → 0.813
+- hbo2 — score 0.717 → 0.805
 
-## Pioraram (2)
+## Pioraram (4)
 
-- discovery kids — score 0.812 → 0.740
-- hbo2 — score 0.811 → 0.717
+- axn — score 0.894 → 0.748
+- hbo — score 0.786 → 0.754
+- telecine cult — score 0.915 → 0.804
+- telecine fun — score 0.959 → 0.804
 
-## Trocaram de fonte (7)
+## Trocaram de fonte (6)
 
-- axn — fonte anterior: AXN [FHD · 1920x1080] | nova: AXN [HD · 1280x720]
-- discovery kids — fonte anterior: Discovery Kids [FHD · 1920x1080] | nova: Discovery Kids [HD · 1280x720]
-- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
-- jovem pan news — fonte anterior: Jovem Pan News [Fonte 20] | nova: Jovem Pan News [FHD · 1920x1080]
-- telecine cult — fonte anterior: Telecine Cult [FHD · 1920x1080] | nova: Telecine Cult [Candidata externa]
-- telecine fun — fonte anterior: Telecine Fun [FHD · 1920x1080] | nova: Telecine Fun [Candidata externa]
+- axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [HD · 1280x720]
+- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
+- discovery kids — fonte anterior: Discovery Kids [HD · 1280x720] | nova: Discovery Kids [FHD · 1920x1080]
+- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
+- telecine cult — fonte anterior: Telecine Cult [Candidata externa] | nova: Telecine Cult [FHD · 1920x1080]
+- telecine fun — fonte anterior: Telecine Fun [Candidata externa] | nova: Telecine Fun [FHD · 1920x1080]
 
-## Desapareceram (2)
+## Desapareceram (4)
 
-- box kids tv — Box Kids TV [HD · 1280x720]
+- amc latin america brazil — AMC Latin America Brazil (720p)
+- music box brazil — Music Box Brazil [Candidata externa]
+- top tv — Top TV [FHD · 1920x1080]
+- tv rá tim bum — TV Rá Tim Bum [Candidata externa]
+
+## Novos canais (1)
+
 - hbo xtreme — HBO Xtreme [FHD · 1920x1080]
-
-## Novos canais (6)
-
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
-- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked]
-- espn 5 — ESPN 5 [HD · 1280x720]
-- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
-- megapix — Megapix [FHD · 1920x1080]
-- sbt nova mutum — SBT Nova Mutum
 

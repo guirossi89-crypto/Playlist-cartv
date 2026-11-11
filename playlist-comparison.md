@@ -1,43 +1,44 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-11T06:52:28.497184+00:00
+- Execução: 2026-11-11T08:08:40.011811+00:00
 - Canais publicados: 175
-- Fontes testadas: 906
-- Fontes reaproveitadas do cache: 161
-- Canais mantidos temporariamente: 2
+- Fontes testadas: 1048
+- Fontes reaproveitadas do cache: 19
+- Canais mantidos temporariamente: 4
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 7
-- IEC médio das amostras válidas: 89.5/100
+- Testes contínuos sem falhas e IEC ≥ 75: 12
+- IEC médio das amostras válidas: 89.0/100
 
-## Melhoraram (1)
+## Melhoraram (2)
 
-- sbt news — score 0.916 → 0.979
+- globo rpc ponta grossa hd — score 0.710 → 0.781
+- tv cultura — score 0.756 → 0.879
 
-## Pioraram (5)
+## Pioraram (6)
 
-- band — score 0.797 → 0.763
-- globo rpc ponta grossa hd — score 0.783 → 0.710
-- pluto tv natureza — score 0.981 → 0.945
-- pluto tv retro — score 0.979 → 0.947
-- tv cultura — score 0.886 → 0.756
+- cinemax — score 0.816 → 0.736
+- hbo2 — score 0.806 → 0.715
+- red bull tv br — score 0.959 → 0.897
+- sbt nacional — score 0.956 → 0.924
+- sbt news — score 0.979 → 0.914
+- trace brazuca hd — score 0.948 → 0.881
 
-## Trocaram de fonte (5)
+## Trocaram de fonte (7)
 
-- axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [FHD · 1920x1080]
-- band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
+- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
+- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [HD · 1280x720]
+- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
 - globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
-- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura [SD · 960x540]
+- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
+- tv cultura — fonte anterior: TV Cultura [SD · 960x540] | nova: TV Cultura [FHD · 1920x1080]
 
-## Desapareceram (2)
+## Desapareceram (0)
 
-- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
-- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
+- Nenhum.
 
-## Novos canais (3)
+## Novos canais (0)
 
-- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
-- premiere 8 — Premiere 8 [FHD · 1920x1080]
-- premiere clubes — Premiere Clubes [FHD · 1920x1080]
+- Nenhum.
 

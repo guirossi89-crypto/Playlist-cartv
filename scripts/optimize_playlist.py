@@ -17,7 +17,7 @@ SEGMENTS_TO_TEST = 3
 FAILURES_BEFORE_REMOVAL = 2
 PROTECTED_STABILITY_SCORE = 90
 PROTECTED_CONTINUOUS_SUCCESSES = 2
-PROTECTED_MAX_QUICK_FAILURES = 5
+PROTECTED_MAX_CONTINUOUS_FAILURES = 3
 CONTINUOUS_TEST_DURATION = 120
 CONTINUOUS_TEST_INTERVAL = 3 * 60 * 60
 CONTINUOUS_TESTS_PER_RUN = 12
@@ -486,7 +486,19 @@ def main():
                 h['last_score']=int(result.quality)
 
     # Teste prolongado em rodízio: até 2 candidatas por canal, 12 fontes por execução.
+    # Fontes publicadas e comprovadamente estáveis que falharam no teste rápido
+    # entram obrigatoriamente na fila para revalidação, mesmo sem aprovação rápida.
     continuous_candidates=[]
+    forced_rechecks=[]
+    for key,published in previous.items():
+        h=history.get(published.url,{})
+        proven_score=float(h.get("proven_stability_score",h.get("stability_score",0)) or 0)
+        proven_successes=int(h.get("continuous_successes",0) or 0)
+        candidate=next((x for x in results if x.entry.url==published.url),None)
+        if (candidate is not None and not candidate.ok
+                and proven_score>=PROTECTED_STABILITY_SCORE
+                and proven_successes>=PROTECTED_CONTINUOUS_SUCCESSES):
+            forced_rechecks.append(candidate)
     for key,items in good.items():
         ordered=sorted(items,key=lambda x:(ranking(x,items),x.quality,-x.latency),reverse=True)
         published=previous.get(key)
@@ -501,15 +513,21 @@ def main():
             chosen=ordered[:2]
         continuous_candidates.extend(chosen)
     due=[]
+    forced_urls={x.entry.url for x in forced_rechecks}
     for result in continuous_candidates:
         h=history.get(result.entry.url,{})
         last=float(h.get("last_continuous_test_ts",0) or 0)
-        if now_ts-last >= CONTINUOUS_TEST_INTERVAL:
+        forced=result.entry.url in forced_urls
+        if (forced or now_ts-last >= CONTINUOUS_TEST_INTERVAL):
             # O teste prolongado atual é para HLS; fluxos .ts continuam com a validação existente.
             if not re.search(r"\.ts(?:$|[?#])",result.entry.url,re.I):
-                due.append((last,result))
-    due.sort(key=lambda item:(item[0],item[1].entry.order))
-    selected=[item[1] for item in due[:CONTINUOUS_TESTS_PER_RUN]]
+                due.append((0 if forced else 1,last,result))
+    # Revalidações de fontes protegidas têm prioridade sobre o rodízio normal.
+    for result in forced_rechecks:
+        if not any(x.entry.url==result.entry.url for x in continuous_candidates):
+            due.append((0,0,result))
+    due.sort(key=lambda item:(item[0],item[1],item[2].entry.order))
+    selected=[item[2] for item in due[:CONTINUOUS_TESTS_PER_RUN]]
     continuous_summary={"tested":len(selected),"valid":0,"successful":0,"scores":[]}
     if selected:
         print(f"Estabilidade contínua: {len(selected)} fontes nesta execução; janela de {CONTINUOUS_TEST_DURATION}s, até {CONTINUOUS_TEST_WORKERS} simultâneas.",flush=True)
@@ -523,10 +541,17 @@ def main():
                 h["last_continuous_test_ts"]=now_ts
                 h["last_continuous_test"]=now_iso
                 h["continuous_attempts"]=int(h.get("continuous_attempts",0))+1
+                if measurement["successful"]:
+                    h["continuous_successes"]=int(h.get("continuous_successes",0))+1
+                    h["continuous_failures_consecutive"]=0
+                    h["proven_stability_score"]=max(
+                        float(h.get("proven_stability_score",h.get("stability_score",0)) or 0),
+                        float(measurement["score"])
+                    )
+                else:
+                    h["continuous_failures_consecutive"]=int(h.get("continuous_failures_consecutive",0) or 0)+1
                 if measurement["valid"]:
                     h["continuous_tests"]=int(h.get("continuous_tests",0))+1
-                    if measurement["successful"]:
-                        h["continuous_successes"]=int(h.get("continuous_successes",0))+1
                     h["stability_score"]=int(measurement["score"])
                     h["last_stability_score"]=int(measurement["score"])
                     h["last_continuous_segments"]=int(measurement["segments"])
@@ -564,27 +589,27 @@ def main():
         count=int(failures.get(key,0))+1
         published=previous.get(key)
         published_history=history.get(published.url,{}) if published else {}
-        stability=float(published_history.get("stability_score",0) or 0)
+        stability=float(published_history.get("proven_stability_score",published_history.get("stability_score",0)) or 0)
         continuous_successes=int(published_history.get("continuous_successes",0) or 0)
-        # Uma reprovação rápida isolada não deve derrubar uma fonte já comprovada
-        # em testes prolongados. Mantém a publicação por até cinco falhas rápidas
-        # consecutivas, dando tempo para uma nova validação sem apagar o histórico.
-        protected=(
+        continuous_failures=int(published_history.get("continuous_failures_consecutive",0) or 0)
+        proven=(
             published is not None
             and stability>=PROTECTED_STABILITY_SCORE
             and continuous_successes>=PROTECTED_CONTINUOUS_SUCCESSES
-            and count<=PROTECTED_MAX_QUICK_FAILURES
         )
+        # Falhas rápidas não removem fontes com estabilidade já comprovada.
+        # A proteção só termina após três testes contínuos consecutivos sem sucesso.
+        protected=proven and continuous_failures<PROTECTED_MAX_CONTINUOUS_FAILURES
         if protected:
             winners[key]=published; retained+=1
             new_failures[key]=count
             protected_retained.append((key,published.label,stability,continuous_successes,count))
             print(
                 f"Proteção por estabilidade {stability:.0f}/100: mantendo {published.label} "
-                f"({count}/{PROTECTED_MAX_QUICK_FAILURES} falhas rápidas).",
+                f"({count} falhas rápidas; {continuous_failures}/{PROTECTED_MAX_CONTINUOUS_FAILURES} falhas contínuas consecutivas).",
                 flush=True
             )
-        elif published is not None and count<FAILURES_BEFORE_REMOVAL:
+        elif published is not None and count<FAILURES_BEFORE_REMOVAL and not (proven and continuous_failures>=PROTECTED_MAX_CONTINUOUS_FAILURES):
             winners[key]=published; retained+=1
             new_failures[key]=count
             print(f"Falha {count}/{FAILURES_BEFORE_REMOVAL}: mantendo temporariamente {published.label}.",flush=True)
@@ -633,7 +658,7 @@ def main():
     section("Pioraram",worsened,lambda x:f"{x[0]} — score {x[1]:.3f} → {x[2]:.3f}")
     section("Trocaram de fonte",changed,lambda x:f"{x[0]} — fonte anterior: {x[1]} | nova: {x[2]}")
     section("Desapareceram",disappeared,lambda x:f"{x[0]} — {x[1]}")
-    section("Preservados por estabilidade comprovada",protected_retained,lambda x:f"{x[0]} — {x[1]} (estabilidade {x[2]:.0f}/100; {x[3]} testes contínuos bem-sucedidos; {x[4]}/{PROTECTED_MAX_QUICK_FAILURES} falhas rápidas)")
+    section("Preservados por estabilidade comprovada",protected_retained,lambda x:f"{x[0]} — {x[1]} (estabilidade {x[2]:.0f}/100; {x[3]} testes contínuos bem-sucedidos; {x[4]} falhas rápidas)")
     section("Novos canais",appeared,lambda x:f"{x[0]} — {x[1]}")
     Path(a.report).write_text("\n".join(lines)+"\n",encoding="utf-8")
     valid=sum(x.ok for x in results)

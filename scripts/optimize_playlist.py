@@ -43,6 +43,7 @@ class Check:
     fps: float = 0.0
     probe_attempted: bool = False
     probe_ok: bool = False
+    stream_url: str = ""
 
 def quality_of(s):
     dims = re.findall(r"(\d{3,4})\s*[xX]\s*(\d{3,4})", s)
@@ -205,7 +206,7 @@ def check(e,timeout):
         if kind=="media":
             ok,seg_latency,reason=test_media_playlist(rows,response.url,e.headers,deadline,timeout)
             score=variant_score(e.quality,0,latency+seg_latency)
-            return Check(e,ok,score if ok else 0,latency+seg_latency,reason,e.quality)
+            return Check(e,ok,score if ok else 0,latency+seg_latency,reason,e.quality,stream_url=response.url)
         variants=[]
         for i,row in enumerate(rows):
             if row.startswith("#EXT-X-STREAM-INF:"):
@@ -236,7 +237,7 @@ def check(e,timeout):
                 elapsed=int((time.monotonic()-variant_start)*1000)
                 latency+=variant_latency+seg_latency
                 if ok:
-                    measured.append((variant_score(pixels,bandwidth,elapsed),elapsed,reason,pixels))
+                    measured.append((variant_score(pixels,bandwidth,elapsed),elapsed,reason,pixels,vr.url))
                 else:
                     failures.append(reason)
             except requests.RequestException as ex:
@@ -244,8 +245,8 @@ def check(e,timeout):
                 continue
         if measured:
             measured.sort(key=lambda x:(x[0],-x[1]),reverse=True)
-            score,elapsed,reason,pixels=measured[0]
-            return Check(e,True,score,elapsed,"melhor variante entre as testadas; "+reason,pixels)
+            score,elapsed,reason,pixels,stream_url=measured[0]
+            return Check(e,True,score,elapsed,"melhor variante entre as testadas; "+reason,pixels,stream_url=stream_url)
         return Check(e,False,0,latency,"nenhuma variante reproduzível: "+(failures[-1] if failures else "falha"))
     except requests.RequestException as ex:
         return Check(e,False,0,0,type(ex).__name__)
@@ -416,7 +417,7 @@ def main():
             age=now_ts-float(h.get("last_checked_ts",0) or 0)
             cache_ttl=90*60 if int(h.get("successes",0))>=4 and reliability>=0.90 else 0
             if cache_ttl and age>=0 and age<cache_ttl and h.get("last_ok") and int(h.get("last_score",0))>0:
-                cached[e.order]=Check(e,True,int(h["last_score"]),int(h.get("last_latency",0)),"cache de fonte historicamente estável",int(h.get("last_effective_pixels",0)),str(h.get("last_codec", "")),float(h.get("last_fps",0)),False,bool(h.get("last_probe_ok",False)))
+                cached[e.order]=Check(e,True,int(h["last_score"]),int(h.get("last_latency",0)),"cache de fonte historicamente estável",int(h.get("last_effective_pixels",0)),str(h.get("last_codec", "")),float(h.get("last_fps",0)),False,bool(h.get("last_probe_ok",False)),str(h.get("last_selected_media_url",e.url)))
                 continue
         pending.append(e)
 
@@ -439,6 +440,8 @@ def main():
         h["last_latency"]=int(result.latency)
         h["last_score"]=int(result.quality if result.ok else 0)
         h["last_reason"]=result.reason[:180]
+        if result.stream_url:
+            h["last_selected_media_url"]=result.stream_url
         if result.probe_attempted:
             h["last_probe_ok"]=bool(result.probe_ok)
             if result.probe_ok:
@@ -485,9 +488,19 @@ def main():
 
     # Teste prolongado em rodízio: até 2 candidatas por canal, 12 fontes por execução.
     continuous_candidates=[]
-    for items in good.values():
+    for key,items in good.items():
         ordered=sorted(items,key=lambda x:(ranking(x,items),x.quality,-x.latency),reverse=True)
-        continuous_candidates.extend(ordered[:2])
+        published=previous.get(key)
+        published_candidate=next((x for x in items if published and x.entry.url==published.url),None)
+        chosen=[]
+        if published_candidate:
+            chosen.append(published_candidate)
+        challenger=next((x for x in ordered if all(x.entry.url!=y.entry.url for y in chosen)),None)
+        if challenger:
+            chosen.append(challenger)
+        if not chosen:
+            chosen=ordered[:2]
+        continuous_candidates.extend(chosen)
     due=[]
     for result in continuous_candidates:
         h=history.get(result.entry.url,{})
@@ -502,7 +515,7 @@ def main():
     if selected:
         print(f"Estabilidade contínua: {len(selected)} fontes nesta execução; janela de {CONTINUOUS_TEST_DURATION}s, até {CONTINUOUS_TEST_WORKERS} simultâneas.",flush=True)
         def _continuous_one(result):
-            return result, test_continuous(result.entry.url,result.entry.headers,CONTINUOUS_TEST_DURATION,a.timeout)
+            return result, test_continuous(result.stream_url or result.entry.url,result.entry.headers,CONTINUOUS_TEST_DURATION,a.timeout)
         with ThreadPoolExecutor(max_workers=CONTINUOUS_TEST_WORKERS) as pool:
             futures=[pool.submit(_continuous_one,result) for result in selected]
             for future in as_completed(futures):

@@ -124,15 +124,11 @@ def is_hls_playlist(response):
     return None
 
 def variant_score(pixels, bandwidth, latency):
-    # Combined score: resolution, declared bitrate and measured response latency.
-    # Bandwidth is HLS metadata, not a direct measurement of decoded video quality.
-    p=max(0,pixels or 0)
-    b=max(0,bandwidth or 0)
-    resolution_factor=(max(p,640*360)/(1920*1080))**0.30
-    bitrate_factor=(max(b,1_500_000)/5_000_000)**0.10 if b else 1.0
-    # Latência observada pesa mais que resolução/bitrate declarados.
-    latency_factor=(1.0+max(0,latency)/1000.0)**0.65
-    return int(1_000_000*resolution_factor*bitrate_factor/latency_factor)
+    # Prioridade do CarTV: fluidez e capacidade de entrega, não resolução.
+    # Pixels e bitrate anunciados não entram no score: bitrate declarado não
+    # comprova que a conexão sustenta a reprodução sem buffering.
+    latency_factor=(1.0+max(0,latency)/1000.0)**0.80
+    return int(1_000_000/latency_factor)
 
 def test_media_playlist(rows,base_url,headers,deadline,timeout):
     urls=[]
@@ -456,8 +452,8 @@ def main():
     for result in results:
         if result.ok: good.setdefault(result.entry.key,[]).append(result)
 
-    # Score moderado: qualidade 50%, confiabilidade histórica 35%, latência 15%.
-    # A confiabilidade usa suavização para não penalizar excessivamente fontes novas.
+    # Critério principal: estabilidade real; depois confiabilidade e latência.
+    # Resolução tem peso residual e só desempata fontes de comportamento semelhante.
     def ranking(result, candidates):
         h=history.get(result.entry.url,{})
         successes=int(h.get("successes",0)); failed=int(h.get("failures",0))
@@ -468,10 +464,10 @@ def main():
         continuous_tests=int(h.get("continuous_tests",0))
         if continuous_tests>=2 and h.get("stability_score") is not None:
             stability=max(0,min(1,float(h.get("stability_score",0))/100))
-            score=0.35*quality_component+0.25*reliability+0.10*latency_component+0.30*stability
+            score=0.55*stability+0.25*reliability+0.15*latency_component+0.05*quality_component
         else:
-            # Mantém o ranking histórico até haver pelo menos duas amostras sustentadas.
-            score=0.50*quality_component+0.35*reliability+0.15*latency_component
+            # Sem amostras longas, prioriza sucesso/reliabilidade e latência.
+            score=0.55*reliability+0.35*latency_component+0.10*quality_component
         return score
 
     # Reavalia por FFprobe apenas as duas melhores candidatas já aprovadas de cada canal.

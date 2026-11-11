@@ -103,12 +103,26 @@ def test_continuous(url: str, headers: dict[str, str], duration_seconds: int = 1
     last_target = 6.0
     ended = False
     last_error = ""
+    last_progress = started
+    last_sequence = None
+    stalled = False
 
     while time.monotonic() < deadline:
         remaining = deadline - time.monotonic()
         try:
             segments, last_target, ended = _media_playlist(url, headers, min(timeout, remaining))
+            current_sequence = max((item[0] for item in segments), default=None)
             new_segments = [item for item in segments if (item[0], item[1]) not in seen]
+            if new_segments or (current_sequence is not None and current_sequence != last_sequence):
+                last_progress = time.monotonic()
+            if current_sequence is not None:
+                last_sequence = current_sequence
+            stale_limit = max(15.0, 3.0 * last_target)
+            if not ended and time.monotonic() - last_progress > stale_limit:
+                stalled = True
+                failures += 1
+                last_error = "playlist HLS sem avanço de sequência/segmentos"
+                break
             for sequence, segment_url, segment_duration in new_segments:
                 if time.monotonic() >= deadline:
                     break
@@ -166,7 +180,7 @@ def test_continuous(url: str, headers: dict[str, str], duration_seconds: int = 1
         avg_download = max_download = 0.0
         total_bytes = 0
 
-    valid = count >= MIN_SEGMENTS and elapsed_total >= min(30, duration_seconds * 0.5)
+    valid = count >= MIN_SEGMENTS and elapsed_total >= min(30, duration_seconds * 0.5) and not stalled
     successful = valid and failures == 0 and score >= 75
     return {
         "score": score if valid else 0,

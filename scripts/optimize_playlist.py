@@ -541,6 +541,13 @@ def main():
                 h["last_continuous_test_ts"]=now_ts
                 h["last_continuous_test"]=now_iso
                 h["continuous_attempts"]=int(h.get("continuous_attempts",0))+1
+                # Migra a evidência histórica antes de atualizar a nota da última sessão.
+                # Assim, uma primeira revalidação ruim não apaga a estabilidade já provada.
+                if ("proven_stability_score" not in h
+                        and int(h.get("continuous_successes",0) or 0)>=PROTECTED_CONTINUOUS_SUCCESSES):
+                    previous_stability=float(h.get("stability_score",0) or 0)
+                    if previous_stability>=PROTECTED_STABILITY_SCORE:
+                        h["proven_stability_score"]=previous_stability
                 if measurement["successful"]:
                     h["continuous_successes"]=int(h.get("continuous_successes",0))+1
                     h["continuous_failures_consecutive"]=0

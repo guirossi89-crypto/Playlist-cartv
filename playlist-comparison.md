@@ -1,47 +1,41 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-11T04:46:46.156696+00:00
-- Canais publicados: 173
-- Fontes testadas: 906
-- Fontes reaproveitadas do cache: 161
-- Canais mantidos temporariamente: 7
+- Execução: 2026-11-11T05:46:53.583938+00:00
+- Canais publicados: 174
+- Fontes testadas: 1050
+- Fontes reaproveitadas do cache: 17
+- Canais mantidos temporariamente: 4
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
 - Testes contínuos sem falhas e IEC ≥ 75: 9
-- IEC médio das amostras válidas: 83.5/100
+- IEC médio das amostras válidas: 81.8/100
 
 ## Melhoraram (2)
 
-- band — score 0.747 → 0.784
-- hbo2 — score 0.720 → 0.807
+- cinemax — score 0.803 → 0.834
+- hbo pop — score 0.722 → 0.800
 
-## Pioraram (10)
+## Pioraram (7)
 
-- globo rpc curitiba fhd — score 0.879 → 0.849
-- globo rpc curitiba hd — score 0.818 → 0.759
-- pluto tv bang bang — score 0.954 → 0.889
-- pluto tv canal uol — score 0.970 → 0.923
-- pluto tv cine classicos — score 0.968 → 0.937
-- pluto tv cine drama — score 0.971 → 0.933
-- pluto tv cine familia — score 0.966 → 0.920
-- pluto tv cine inspiracao — score 0.977 → 0.898
-- pluto tv cine romance — score 0.975 → 0.933
-- pluto tv cine sucessos — score 0.966 → 0.935
+- pluto tv esportes — score 0.978 → 0.920
+- pluto tv ficcao cientifica — score 0.972 → 0.927
+- pluto tv filmes acao — score 0.970 → 0.892
+- pluto tv filmes aventura — score 0.976 → 0.901
+- pluto tv filmes de luta — score 0.977 → 0.942
+- pluto tv investigacao — score 0.977 → 0.899
+- pluto tv kids — score 0.970 → 0.932
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (2)
 
-- band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
-- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
-- telecine premium — fonte anterior: Telecine Premium [Candidata externa] | nova: Telecine Premium [FHD · 1920x1080]
+- axn — fonte anterior: AXN [FHD · 1920x1080] | nova: AXN [HD · 1280x720]
+- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
 
-## Desapareceram (3)
+## Desapareceram (1)
+
+- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
+
+## Novos canais (2)
 
 - globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD
 - globonews — GloboNews [FHD · 1920x1080]
-- premiere 8 — Premiere 8 [FHD · 1920x1080]
-
-## Novos canais (0)
-
-- Nenhum.
 

@@ -1,41 +1,43 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-11T05:46:53.583938+00:00
-- Canais publicados: 174
-- Fontes testadas: 1050
-- Fontes reaproveitadas do cache: 17
-- Canais mantidos temporariamente: 4
+- Execução: 2026-11-11T06:52:28.497184+00:00
+- Canais publicados: 175
+- Fontes testadas: 906
+- Fontes reaproveitadas do cache: 161
+- Canais mantidos temporariamente: 2
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 9
-- IEC médio das amostras válidas: 81.8/100
+- Testes contínuos sem falhas e IEC ≥ 75: 7
+- IEC médio das amostras válidas: 89.5/100
 
-## Melhoraram (2)
+## Melhoraram (1)
 
-- cinemax — score 0.803 → 0.834
-- hbo pop — score 0.722 → 0.800
+- sbt news — score 0.916 → 0.979
 
-## Pioraram (7)
+## Pioraram (5)
 
-- pluto tv esportes — score 0.978 → 0.920
-- pluto tv ficcao cientifica — score 0.972 → 0.927
-- pluto tv filmes acao — score 0.970 → 0.892
-- pluto tv filmes aventura — score 0.976 → 0.901
-- pluto tv filmes de luta — score 0.977 → 0.942
-- pluto tv investigacao — score 0.977 → 0.899
-- pluto tv kids — score 0.970 → 0.932
+- band — score 0.797 → 0.763
+- globo rpc ponta grossa hd — score 0.783 → 0.710
+- pluto tv natureza — score 0.981 → 0.945
+- pluto tv retro — score 0.979 → 0.947
+- tv cultura — score 0.886 → 0.756
 
-## Trocaram de fonte (2)
+## Trocaram de fonte (5)
 
-- axn — fonte anterior: AXN [FHD · 1920x1080] | nova: AXN [HD · 1280x720]
-- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
+- axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [FHD · 1920x1080]
+- band — fonte anterior: Band [HD · 1280x720] | nova: Band [HD · 1280x720]
+- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
+- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura [SD · 960x540]
 
-## Desapareceram (1)
+## Desapareceram (2)
+
+- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
+- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
+
+## Novos canais (3)
 
 - globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
-
-## Novos canais (2)
-
-- globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD
-- globonews — GloboNews [FHD · 1920x1080]
+- premiere 8 — Premiere 8 [FHD · 1920x1080]
+- premiere clubes — Premiere Clubes [FHD · 1920x1080]
 

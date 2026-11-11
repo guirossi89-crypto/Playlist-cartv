@@ -15,6 +15,9 @@ WORKERS = 16
 SOURCE_BUDGET = 12
 SEGMENTS_TO_TEST = 3
 FAILURES_BEFORE_REMOVAL = 2
+PROTECTED_STABILITY_SCORE = 90
+PROTECTED_CONTINUOUS_SUCCESSES = 2
+PROTECTED_MAX_QUICK_FAILURES = 5
 CONTINUOUS_TEST_DURATION = 120
 CONTINUOUS_TEST_INTERVAL = 3 * 60 * 60
 CONTINUOUS_TESTS_PER_RUN = 12
@@ -558,14 +561,37 @@ def main():
         print("Nenhum canal foi validado nesta execução; saída e histórico preservados por segurança.",file=sys.stderr,flush=True)
         return 3
 
+    protected_retained=[]
     for key in {e.key for e in entries}:
         if key in winners:
             continue
         count=int(failures.get(key,0))+1
-        if key in previous and count<FAILURES_BEFORE_REMOVAL:
-            winners[key]=previous[key]; retained+=1
+        published=previous.get(key)
+        published_history=history.get(published.url,{}) if published else {}
+        stability=float(published_history.get("stability_score",0) or 0)
+        continuous_successes=int(published_history.get("continuous_successes",0) or 0)
+        # Uma reprovação rápida isolada não deve derrubar uma fonte já comprovada
+        # em testes prolongados. Mantém a publicação por até cinco falhas rápidas
+        # consecutivas, dando tempo para uma nova validação sem apagar o histórico.
+        protected=(
+            published is not None
+            and stability>=PROTECTED_STABILITY_SCORE
+            and continuous_successes>=PROTECTED_CONTINUOUS_SUCCESSES
+            and count<=PROTECTED_MAX_QUICK_FAILURES
+        )
+        if protected:
+            winners[key]=published; retained+=1
             new_failures[key]=count
-            print(f"Falha {count}/{FAILURES_BEFORE_REMOVAL}: mantendo temporariamente {previous[key].label}.",flush=True)
+            protected_retained.append((key,published.label,stability,continuous_successes,count))
+            print(
+                f"Proteção por estabilidade {stability:.0f}/100: mantendo {published.label} "
+                f"({count}/{PROTECTED_MAX_QUICK_FAILURES} falhas rápidas).",
+                flush=True
+            )
+        elif published is not None and count<FAILURES_BEFORE_REMOVAL:
+            winners[key]=published; retained+=1
+            new_failures[key]=count
+            print(f"Falha {count}/{FAILURES_BEFORE_REMOVAL}: mantendo temporariamente {published.label}.",flush=True)
         elif count<FAILURES_BEFORE_REMOVAL:
             new_failures[key]=count
 

@@ -1,51 +1,48 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-12T12:20:23.025262+00:00
-- Canais publicados: 179
-- Fontes testadas: 1057
-- Fontes reaproveitadas do cache: 10
-- Canais mantidos temporariamente: 5
-- Canais preservados por estabilidade comprovada: 2
+- Execução: 2026-11-12T13:42:37.504427+00:00
+- Canais publicados: 177
+- Fontes testadas: 909
+- Fontes reaproveitadas do cache: 158
+- Canais mantidos temporariamente: 7
+- Canais preservados por estabilidade comprovada: 4
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 5
-- Testes contínuos sem falhas e IEC ≥ 75: 5
-- IEC médio das amostras válidas: 89.6/100
+- Testes contínuos válidos: 6
+- Testes contínuos sem falhas e IEC ≥ 75: 3
+- IEC médio das amostras válidas: 74.8/100
 
-## Melhoraram (4)
+## Melhoraram (7)
 
-- cinemax — score 0.704 → 0.830
-- cnn brasil — score 0.923 → 0.959
-- globo rpc curitiba hd — score 0.542 → 0.592
-- globo rpc ponta grossa hd — score 0.520 → 0.583
+- discovery channel — score 0.581 → 0.829
+- espn 2 — score 0.576 → 0.779
+- globo rpc curitiba hd — score 0.592 → 0.624
+- globo rpc guarapuava hd — score 0.582 → 0.615
+- hbo pop — score 0.638 → 0.685
+- hbo2 — score 0.654 → 0.692
+- studio universal latin america brazil — score 0.782 → 0.904
 
-## Pioraram (6)
-
-- globo rpc curitiba fhd — score 0.625 → 0.594
-- hbo pop — score 0.688 → 0.638
-- hbo2 — score 0.689 → 0.654
-- retro cartoon — score 0.870 → 0.828
-- retrô cartoon — score 0.862 → 0.819
-- tv cultura — score 0.893 → 0.860
-
-## Trocaram de fonte (6)
-
-- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
-- cnn brasil — fonte anterior: CNN Brasil [HD · 1280x720] | nova: CNN Brasil [Fonte 7]
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
-- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
-- tv cultura — fonte anterior: TV Cultura [SD · 960x540] | nova: TV Cultura [FHD · 1920x1080]
-
-## Desapareceram (0)
+## Pioraram (0)
 
 - Nenhum.
 
-## Preservados por estabilidade comprovada (2)
+## Trocaram de fonte (2)
 
-- jetsons tv — Jetsons TV [SD · 640x480] (estabilidade 99/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- studio universal latin america brazil — Studio Universal Latin America Brazil (720p) (estabilidade 97/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- discovery theater — fonte anterior: Discovery Theater [FHD · 1920x1080] | nova: Discovery Theater [HD · 1280x720]
+- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
 
-## Novos canais (1)
+## Desapareceram (2)
 
-- globo rpc londrina hd — GLOBO RPC LONDRINA HD
+- canal off — Canal OFF [FHD · 1920x1080]
+- discovery science — Discovery Science [HD · 1280x720]
+
+## Preservados por estabilidade comprovada (4)
+
+- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked] (estabilidade 98/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked] (estabilidade 96/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- top tv — Top TV [FHD · 1920x1080] (estabilidade 99/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- woohoo — Woohoo [HD · 1280x720] (estabilidade 99/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
+
+## Novos canais (0)
+
+- Nenhum.
 

@@ -1,50 +1,51 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-12T22:34:31.536042+00:00
-- Canais publicados: 160
-- Fontes testadas: 938
-- Fontes reaproveitadas do cache: 139
-- Canais mantidos temporariamente: 5
-- Canais preservados por estabilidade comprovada: 2
+- Execução: 2026-11-12T23:30:13.955126+00:00
+- Canais publicados: 162
+- Fontes testadas: 1069
+- Fontes reaproveitadas do cache: 8
+- Canais mantidos temporariamente: 7
+- Canais preservados por estabilidade comprovada: 4
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 11
-- Testes contínuos sem falhas e IEC ≥ 75: 10
-- IEC médio das amostras válidas: 89.7/100
+- Testes contínuos válidos: 12
+- Testes contínuos sem falhas e IEC ≥ 75: 11
+- IEC médio das amostras válidas: 89.6/100
 
-## Melhoraram (4)
+## Melhoraram (9)
 
-- globo rpc ponta grossa hd — score 0.527 → 0.584
-- mytime movie network (brazil) — score 0.883 → 0.927
-- telecine fun — score 0.672 → 0.879
-- telecine premium — score 0.654 → 0.892
+- globo rpc curitiba hd — score 0.583 → 0.632
+- globo rpc ponta grossa hd — score 0.584 → 0.638
+- pluto tv animais — score 0.850 → 0.909
+- pluto tv bang bang — score 0.858 → 0.916
+- pluto tv canal uol — score 0.812 → 0.933
+- pluto tv cine classicos — score 0.782 → 0.878
+- pluto tv cine comedia romantica — score 0.829 → 0.877
+- pluto tv cine crime — score 0.847 → 0.896
+- pluto tv cine drama — score 0.867 → 0.897
 
-## Pioraram (4)
+## Pioraram (1)
 
-- a&e latin america brazil — score 0.868 → 0.833
-- globo bahia — score 0.904 → 0.872
-- kuriakos kids — score 0.892 → 0.784
-- nickelodeon classico — score 0.875 → 0.776
+- globo rpc londrina hd — score 0.622 → 0.577
 
 ## Trocaram de fonte (3)
 
-- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- telecine fun — fonte anterior: Telecine Fun [FHD · 1920x1080] | nova: Telecine Fun [Candidata externa]
-- telecine premium — fonte anterior: Telecine Premium [FHD · 1920x1080] | nova: Telecine Premium [Candidata externa]
+- cnn brasil — fonte anterior: CNN Brasil [Fonte 7] | nova: CNN Brasil [HD · 1280x720]
+- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
+- record news — fonte anterior: Record News [Fonte 23] | nova: Record News [HD · 1280x720]
 
-## Desapareceram (3)
+## Desapareceram (0)
+
+- Nenhum.
+
+## Preservados por estabilidade comprovada (4)
+
+- nbx tv kids — NBX TV Kids [FHD · 1920x1080] (estabilidade 94/100; 5 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- retro music — Retro Music [HD · 1280x720] (estabilidade 98/100; 5 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- top tv — Top TV [FHD · 1920x1080] (estabilidade 100/100; 7 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- tv evangelizar — TV Evangelizar [HD · 1280x720] (estabilidade 100/100; 5 testes contínuos bem-sucedidos; 2 falhas rápidas)
+
+## Novos canais (2)
 
 - globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
-- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
 - gnt — GNT [FHD · 1920x1080]
-
-## Preservados por estabilidade comprovada (2)
-
-- playtv — PlayTV [FHD · 1920x1080] (estabilidade 99/100; 6 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- tv evangelizar — TV Evangelizar [HD · 1280x720] (estabilidade 100/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
-
-## Novos canais (3)
-
-- cinemax — Cinemax [FHD · 1920x1080]
-- espn 5 — ESPN 5 [HD · 1280x720]
-- globo rpc londrina hd — GLOBO RPC LONDRINA HD
 

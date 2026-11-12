@@ -1,51 +1,41 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-12T10:27:53.405552+00:00
-- Canais publicados: 177
-- Fontes testadas: 1057
-- Fontes reaproveitadas do cache: 10
-- Canais mantidos temporariamente: 6
-- Canais preservados por estabilidade comprovada: 2
+- Execução: 2026-11-12T11:25:35.026216+00:00
+- Canais publicados: 178
+- Fontes testadas: 903
+- Fontes reaproveitadas do cache: 164
+- Canais mantidos temporariamente: 2
+- Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 8
-- Testes contínuos sem falhas e IEC ≥ 75: 7
-- IEC médio das amostras válidas: 92.2/100
+- Testes contínuos válidos: 6
+- Testes contínuos sem falhas e IEC ≥ 75: 5
+- IEC médio das amostras válidas: 87.3/100
 
 ## Melhoraram (3)
 
-- hbo xtreme — score 0.599 → 0.629
-- pluto tv cine comedia romantica — score 0.818 → 0.849
-- tv cultura — score 0.855 → 0.893
+- cinemax — score 0.665 → 0.704
+- hbo2 — score 0.580 → 0.689
+- sbt news — score 0.857 → 0.890
 
-## Pioraram (5)
+## Pioraram (1)
 
-- cinemax — score 0.705 → 0.665
-- globo rpc curitiba hd — score 0.627 → 0.582
-- globo rpc ponta grossa hd — score 0.634 → 0.526
-- hbo2 — score 0.690 → 0.580
-- mtv drag — score 0.934 → 0.901
+- globo rpc curitiba hd — score 0.582 → 0.542
 
-## Trocaram de fonte (6)
+## Trocaram de fonte (3)
 
-- cinemax — fonte anterior: Cinemax [FHD · 1920x1080] | nova: Cinemax [HD · 1280x720]
-- cnn brasil — fonte anterior: CNN Brasil [Fonte 7] | nova: CNN Brasil [HD · 1280x720]
-- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- hbo2 — fonte anterior: HBO2 [FHD · 1920x1080] | nova: HBO2 [HD · 1280x720]
-- record news — fonte anterior: Record News [Fonte 23] | nova: Record News [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
+- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
+- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
+- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
 
-## Desapareceram (1)
+## Desapareceram (0)
 
-- globo rpc londrina hd — GLOBO RPC LONDRINA HD
+- Nenhum.
 
-## Preservados por estabilidade comprovada (2)
+## Preservados por estabilidade comprovada (0)
 
-- playtv — PlayTV [FHD · 1920x1080] (estabilidade 99/100; 5 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- redetv! parana — RedeTV! Parana (estabilidade 98/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- Nenhum.
 
-## Novos canais (3)
+## Novos canais (1)
 
-- amc — AMC [FHD · 1920x1080]
-- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
-- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
+- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
 

@@ -22,6 +22,12 @@ CONTINUOUS_TEST_DURATION = 120
 CONTINUOUS_TEST_INTERVAL = 3 * 60 * 60
 CONTINUOUS_TESTS_PER_RUN = 12
 CONTINUOUS_TEST_WORKERS = 4
+
+# Preferências explícitas do usuário: prevalecem sobre o ranking automático.
+# A fonte continua sendo testada, mas falhas do ambiente de CI não a substituem.
+PREFERRED_SOURCES = {
+    "globo rpc curitiba": "http://dns.explouddev.com/live/992005733/61992005733/2292.m3u8",
+}
 UA = "Mozilla/5.0 (compatible; PlaylistHealthCheck/1.0)"
 
 @dataclass
@@ -512,6 +518,14 @@ def main():
         if not chosen:
             chosen=ordered[:2]
         continuous_candidates.extend(chosen)
+
+    # Fontes preferenciais também entram nos testes contínuos, mesmo se o teste
+    # rápido do runner falhar (por exemplo, restrição de acesso do ambiente CI).
+    for preferred_url in PREFERRED_SOURCES.values():
+        preferred_result=next((x for x in results if x.entry.url==preferred_url),None)
+        if preferred_result is not None and all(x.entry.url!=preferred_url for x in continuous_candidates):
+            continuous_candidates.append(preferred_result)
+
     due=[]
     forced_urls={x.entry.url for x in forced_rechecks}
     for result in continuous_candidates:
@@ -582,6 +596,24 @@ def main():
         winners[key]=selected.entry
         winner_scores[key]=ranking(selected,items)
         history.setdefault(selected.entry.url,{})["last_rank_score"]=winner_scores[key]
+
+    # Preferência manual persistente: não é um bônus de pontuação.
+    # A URL indicada é publicada enquanto continuar cadastrada na lista raiz,
+    # mesmo quando o runner não consegue validá-la. Isso evita que uma
+    # restrição específica do GitHub Actions sobrescreva um teste positivo no CarTV.
+    for key,preferred_url in PREFERRED_SOURCES.items():
+        preferred_entry=next((e for e in entries if e.key==key and e.url==preferred_url),None)
+        if preferred_entry is None:
+            continue
+        preferred_result=next((x for x in results if x.entry.url==preferred_url),None)
+        winners[key]=preferred_entry
+        winner_scores[key]=(ranking(preferred_result,good.get(key,[]))
+                            if preferred_result is not None and preferred_result.ok else 0)
+        preferred_history=history.setdefault(preferred_url,{"successes":0,"failures":0})
+        preferred_history["preferred_by_user"]=True
+        status=("validada" if preferred_result is not None and preferred_result.ok
+                else "mantida apesar de falha/inacessibilidade no teste automático")
+        print(f"Fonte preferencial definida pelo usuário: {preferred_entry.label} — {status}.",flush=True)
 
     new_failures={}
     retained=0

@@ -1,37 +1,40 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-12T17:20:00.959796+00:00
-- Canais publicados: 179
-- Fontes testadas: 1076
-- Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 14
-- Canais preservados por estabilidade comprovada: 3
+- Execução: 2026-11-12T17:43:32.400321+00:00
+- Canais publicados: 177
+- Fontes testadas: 908
+- Fontes reaproveitadas do cache: 168
+- Canais mantidos temporariamente: 4
+- Canais preservados por estabilidade comprovada: 1
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 8
-- Testes contínuos sem falhas e IEC ≥ 75: 4
-- IEC médio das amostras válidas: 60.1/100
+- Testes contínuos válidos: 12
+- Testes contínuos sem falhas e IEC ≥ 75: 9
+- IEC médio das amostras válidas: 82.6/100
 
-## Melhoraram (1)
+## Melhoraram (2)
 
-- pluto tv bang bang — score 0.851 → 0.883
+- discovery id — score 0.507 → 0.678
+- mtv rocks — score 0.874 → 0.913
 
-## Pioraram (1)
+## Pioraram (3)
 
-- globo rpc curitiba hd — score 0.607 → 0.568
+- globo rpc londrina hd — score 0.628 → 0.597
+- history — score 0.872 → 0.802
+- sbt nova mutum — score 0.820 → 0.757
 
-## Trocaram de fonte (1)
+## Trocaram de fonte (2)
 
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
+- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
+- history — fonte anterior: History [HD · 1280x720] | nova: History [HD · 1280x720]
 
-## Desapareceram (0)
+## Desapareceram (2)
 
-- Nenhum.
+- gnt — GNT [FHD · 1920x1080]
+- megapix — Megapix [FHD · 1920x1080]
 
-## Preservados por estabilidade comprovada (3)
+## Preservados por estabilidade comprovada (1)
 
-- bet pluto tv br — BET Pluto TV BR (estabilidade 90/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- sbt nova mutum — SBT Nova Mutum (estabilidade 96/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- tv evangelizar — TV Evangelizar [HD · 1280x720] (estabilidade 100/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- sony channel — Sony Channel [HD · 1280x720] (estabilidade 100/100; 7 testes contínuos bem-sucedidos; 1 falhas rápidas)
 
 ## Novos canais (0)
 

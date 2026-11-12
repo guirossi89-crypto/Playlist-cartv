@@ -2629,6 +2629,8 @@ http://45.185.11.126:8000/play/a08f/index.m3u8
 #EXTINF:-1 tvg-id="tv.globo.rpc.cascavel.br" tvg-name="GLOBO RPC CASCAVEL HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CASCAVEL HD
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169007.ts
 #EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA FHD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CURITIBA FHD
+http://dns.explouddev.com/live/992005733/61992005733/2292.m3u8
+#EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA FHD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CURITIBA FHD
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169008.ts
 #EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CURITIBA HD
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169009.ts

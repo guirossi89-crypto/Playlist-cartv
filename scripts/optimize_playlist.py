@@ -26,7 +26,7 @@ CONTINUOUS_TEST_WORKERS = 4
 # Preferências explícitas do usuário: prevalecem sobre o ranking automático.
 # A fonte continua sendo testada, mas falhas do ambiente de CI não a substituem.
 PREFERRED_SOURCES = {
-    "globo rpc curitiba": "http://dns.explouddev.com/live/992005733/61992005733/2292.m3u8",
+    "globo rpc curitiba fhd": "http://dns.explouddev.com/live/992005733/61992005733/2292.m3u8",
 }
 UA = "Mozilla/5.0 (compatible; PlaylistHealthCheck/1.0)"
 

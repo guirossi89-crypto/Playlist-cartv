@@ -2697,3 +2697,5 @@ http://64.31.23.207:80/5299129.ts
 http://64.31.23.207:80/5299130.ts
 #EXTINF:-1 tvg-id="" tvg-name="RPC Ponta Grossa SD" tvg-logo="" group-title="RPC",RPC Ponta Grossa SD [Fonte alternativa]
 http://64.31.23.207:80/5299131.ts
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://img.faz-o-eli.online/cartoonnetwork.png" group-title="Infantil",Cartoon Network [Teste CDN]
+https://playout.cdn.cartoonnetwork.com.br/playout_02/playlist.m3u8

@@ -1,51 +1,55 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-12T19:42:53.596035+00:00
-- Canais publicados: 178
-- Fontes testadas: 1077
-- Fontes reaproveitadas do cache: 0
-- Canais mantidos temporariamente: 20
-- Canais preservados por estabilidade comprovada: 1
+- Execução: 2026-11-12T20:38:29.069811+00:00
+- Canais publicados: 163
+- Fontes testadas: 931
+- Fontes reaproveitadas do cache: 146
+- Canais mantidos temporariamente: 6
+- Canais preservados por estabilidade comprovada: 2
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 11
-- Testes contínuos sem falhas e IEC ≥ 75: 9
-- IEC médio das amostras válidas: 85.6/100
+- Testes contínuos válidos: 12
+- Testes contínuos sem falhas e IEC ≥ 75: 12
+- IEC médio das amostras válidas: 94.2/100
 
-## Melhoraram (7)
+## Melhoraram (4)
 
-- amc latin america brazil — score 0.609 → 0.649
-- cine terror br — score 0.893 → 0.935
-- cnn brasil — score 0.907 → 0.949
-- globo rpc foz do iguaçu fhd — score 0.527 → 0.595
-- globo rpc maringá hd — score 0.868 → 0.914
-- globo rpc ponta grossa hd — score 0.509 → 0.605
-- hbo2 — score 0.652 → 0.688
+- band — score 0.664 → 0.741
+- comedy central pluto tv br — score 0.880 → 0.930
+- failarmy brazil — score 0.855 → 0.927
+- globo rpc ponta grossa hd — score 0.605 → 0.640
 
-## Pioraram (3)
+## Pioraram (2)
 
-- band — score 0.901 → 0.664
-- cinemax — score 0.821 → 0.705
-- telecine touch — score 0.743 → 0.672
+- axn — score 0.874 → 0.559
+- globo rpc foz do iguaçu fhd — score 0.595 → 0.544
 
-## Trocaram de fonte (9)
+## Trocaram de fonte (2)
 
-- band — fonte anterior: Band [HD · 1280x720] | nova: Band [Fonte 8]
-- cinemax — fonte anterior: Cinemax [HD · 1280x720] | nova: Cinemax [FHD · 1920x1080]
-- cnn brasil — fonte anterior: CNN Brasil [HD · 1280x720] | nova: CNN Brasil [Fonte 7]
-- discovery theater — fonte anterior: Discovery Theater [HD · 1280x720] | nova: Discovery Theater [FHD · 1920x1080]
-- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
-- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
-- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
-- telecine touch — fonte anterior: Telecine Touch [Candidata externa] | nova: Telecine Touch [FHD · 1920x1080]
+- axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [FHD · 1920x1080]
+- band — fonte anterior: Band [Fonte 8] | nova: Band [HD · 1280x720]
 
-## Desapareceram (1)
+## Desapareceram (15)
 
-- cartoon network — Cartoon Network [Teste CDN]
+- cazetv — CazeTV
+- discovery channel — Discovery Channel [HD · 1280x720]
+- discovery id — Discovery ID [HD · 1280x720]
+- discovery science — Discovery Science [HD · 1280x720]
+- discovery world — Discovery World [HD · 1280x720]
+- espn 2 — ESPN 2 [HD · 1280x720]
+- globo — Globo [FHD · 1920x1080]
+- hbo — HBO [HD · 1280x720]
+- hbo family — HBO Family [HD · 1280x720]
+- hbo mundi — HBO Mundi [HD · 1280x720]
+- hbo plus — HBO Plus [HD · 1280x720]
+- hbo signature — HBO Signature [HD · 1280x720]
+- record — Record [FHD · 1920x1080]
+- space — Space [HD · 1280x720]
+- tnt — TNT [HD · 1280x720]
 
-## Preservados por estabilidade comprovada (1)
+## Preservados por estabilidade comprovada (2)
 
-- sbc kids — SBC Kids [FHD · 1920x1080] (estabilidade 98/100; 5 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- globo bahia — Globo Bahia [FHD · 1920x1080] (estabilidade 98/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- top tv — Top TV [FHD · 1920x1080] (estabilidade 99/100; 6 testes contínuos bem-sucedidos; 1 falhas rápidas)
 
 ## Novos canais (0)
 

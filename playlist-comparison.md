@@ -1,51 +1,46 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-11T23:16:11.715281+00:00
-- Canais publicados: 180
-- Fontes testadas: 1045
-- Fontes reaproveitadas do cache: 22
-- Canais mantidos temporariamente: 7
-- Canais preservados por estabilidade comprovada: 2
+- Execução: 2026-11-12T00:10:19.182489+00:00
+- Canais publicados: 177
+- Fontes testadas: 918
+- Fontes reaproveitadas do cache: 149
+- Canais mantidos temporariamente: 4
+- Canais preservados por estabilidade comprovada: 3
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 10
-- Testes contínuos sem falhas e IEC ≥ 75: 9
-- IEC médio das amostras válidas: 91.6/100
+- Testes contínuos sem falhas e IEC ≥ 75: 7
+- IEC médio das amostras válidas: 84.9/100
 
 ## Melhoraram (5)
 
-- a&e latin america brazil — score 0.820 → 0.862
-- adrenalina pura tv brazil — score 0.890 → 0.925
-- globo rpc curitiba hd — score 0.631 → 0.662
-- hbo2 — score 0.576 → 0.682
-- now rock — score 0.842 → 0.886
+- bob esponja calca quadrada — score 0.834 → 0.928
+- cine terror br — score 0.862 → 0.895
+- failarmy brazil — score 0.815 → 0.859
+- globo rpc ponta grossa hd — score 0.583 → 0.635
+- telecine touch — score 0.673 → 0.740
 
-## Pioraram (5)
+## Pioraram (1)
 
-- cinemax — score 0.710 → 0.675
-- fifa+ português — score 0.945 → 0.900
-- globo rpc foz do iguaçu fhd — score 0.640 → 0.569
-- mtv drag — score 0.856 → 0.820
-- telecine touch — score 0.910 → 0.673
+- premiere 7 — score 0.651 → 0.618
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (2)
 
-- cnn brasil — fonte anterior: CNN Brasil [HD · 1280x720] | nova: CNN Brasil [Fonte 7]
-- hbo2 — fonte anterior: HBO2 [HD · 1280x720] | nova: HBO2 [FHD · 1920x1080]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
-- telecine touch — fonte anterior: Telecine Touch [Candidata externa] | nova: Telecine Touch [FHD · 1920x1080]
+- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
+- telecine touch — fonte anterior: Telecine Touch [FHD · 1920x1080] | nova: Telecine Touch [Candidata externa]
 
-## Desapareceram (0)
+## Desapareceram (3)
+
+- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
+- globo rpc londrina hd — GLOBO RPC LONDRINA HD
+- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
+
+## Preservados por estabilidade comprovada (3)
+
+- a&e latin america brazil — A&E Latin America Brazil (720p) (estabilidade 99/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked] (estabilidade 98/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- tiktok radio brasil — TikTok Radio Brasil (1080p) (estabilidade 94/100; 2 testes contínuos bem-sucedidos; 2 falhas rápidas)
+
+## Novos canais (0)
 
 - Nenhum.
-
-## Preservados por estabilidade comprovada (2)
-
-- globo bahia — Globo Bahia [FHD · 1920x1080] (estabilidade 98/100; 2 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- tiktok radio brasil — TikTok Radio Brasil (1080p) (estabilidade 94/100; 2 testes contínuos bem-sucedidos; 1 falhas rápidas)
-
-## Novos canais (3)
-
-- hbo xtreme — HBO Xtreme [FHD · 1920x1080]
-- premiere clubes — Premiere Clubes [FHD · 1920x1080]
-- universal premiere — Universal Premiere [FHD · 1920x1080]
 

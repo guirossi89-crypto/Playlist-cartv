@@ -41,15 +41,49 @@ jobs:
       - name: Publicar alterações
         if: github.event_name != 'pull_request'
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add playlist-otimizada.m3u playlist-health-state.json playlist-comparison.md
           if git diff --cached --quiet; then
             echo "Sem mudanças na playlist nem no histórico de saúde."
-          else
-            git commit -m "Atualiza playlist e saúde das fontes"
-            git push
+            exit 0
           fi
+          git commit -m "Atualiza playlist e saúde das fontes"
+
+          # Reconciliar com a main mais recente antes de publicar. Se a
+          # playlist ou o estado tiverem mudado em paralelo, regenerar a
+          # saída a partir da versão mais recente da lista raiz.
+          for attempt in 1 2 3 4 5; do
+            echo "Publicação: tentativa $attempt de 5"
+            git fetch origin main
+
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "Publicação concluída."
+                exit 0
+              fi
+              echo "A main avançou durante o push; buscando novamente."
+            else
+              echo "Conflito durante o rebase; regenerando sobre a main atual."
+              git rebase --abort || true
+              git reset --hard origin/main
+              python -m py_compile scripts/optimize_playlist.py scripts/continuous_stability.py
+              python -u scripts/optimize_playlist.py --input "playlist-edited (1).m3u" --output "playlist-otimizada.m3u" --state "playlist-health-state.json" --report "playlist-comparison.md" --timeout 12
+              git add playlist-otimizada.m3u playlist-health-state.json playlist-comparison.md
+              if git diff --cached --quiet; then
+                echo "A main já contém o resultado atualizado; nada a publicar."
+                exit 0
+              fi
+              git commit -m "Atualiza playlist e saúde das fontes"
+            fi
+
+            sleep $((attempt * 3))
+          done
+
+          echo "Não foi possível publicar após 5 tentativas."
+          exit 1
 
       - name: Disponibilizar relatório da execução
         if: always() && github.event_name != 'pull_request' && hashFiles('playlist-comparison.md') != ''

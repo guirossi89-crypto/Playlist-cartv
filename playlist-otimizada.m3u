@@ -365,3 +365,5 @@ http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169018.ts
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169013.ts
 #EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://img.faz-o-eli.online/cartoonnetwork.png" group-title="Infantil",Cartoon Network [HD · 1280x720]
 http://45.162.64.114/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://img.faz-o-eli.online/cartoonnetwork.png" group-title="Infantil",Cartoon Network [Teste CDN]
+https://playout.cdn.cartoonnetwork.com.br/playout_02/playlist.m3u8

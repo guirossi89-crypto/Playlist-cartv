@@ -1,53 +1,42 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-12T03:41:26.668094+00:00
+- Execução: 2026-11-12T04:46:54.923599+00:00
 - Canais publicados: 178
-- Fontes testadas: 1065
-- Fontes reaproveitadas do cache: 2
-- Canais mantidos temporariamente: 4
-- Canais preservados por estabilidade comprovada: 1
+- Fontes testadas: 894
+- Fontes reaproveitadas do cache: 173
+- Canais mantidos temporariamente: 6
+- Canais preservados por estabilidade comprovada: 3
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 12
-- Testes contínuos sem falhas e IEC ≥ 75: 7
-- IEC médio das amostras válidas: 78.7/100
+- Testes contínuos válidos: 9
+- Testes contínuos sem falhas e IEC ≥ 75: 8
+- IEC médio das amostras válidas: 90.4/100
 
-## Melhoraram (4)
+## Melhoraram (3)
 
-- band sports hd — score 0.584 → 0.869
-- globo rpc ponta grossa hd — score 0.584 → 0.638
-- pluto tv bang bang — score 0.793 → 0.856
-- pluto tv cine inspiracao — score 0.801 → 0.863
+- cinemax — score 0.675 → 0.705
+- pluto tv esportes — score 0.839 → 0.905
+- pluto tv filmes acao — score 0.780 → 0.873
 
-## Pioraram (12)
+## Pioraram (2)
 
-- adrenalina pura tv brazil — score 0.918 → 0.888
-- classique faroeste — score 0.972 → 0.941
-- globo rpc maringá hd — score 0.903 → 0.860
-- nickelodeon teen — score 0.890 → 0.857
-- pluto tv animais — score 0.916 → 0.843
-- pluto tv canal uol — score 0.863 → 0.802
-- pluto tv cine classicos — score 0.878 → 0.789
-- pluto tv cine comedia (united states) br — score 0.905 → 0.789
-- pluto tv cine comedia romantica — score 0.910 → 0.819
-- pluto tv cine crime — score 0.901 → 0.854
-- pluto tv cine familia — score 0.865 → 0.789
-- pluto tv cine romance — score 0.871 → 0.809
+- axn — score 0.858 → 0.561
+- globo rpc londrina hd — score 0.675 → 0.622
 
-## Trocaram de fonte (3)
+## Trocaram de fonte (1)
 
-- band sports hd — fonte anterior: BAND SPORTS HD [FHD · 1920x1080] | nova: BAND SPORTS HD [HD · 1280x720]
-- cnn brasil — fonte anterior: CNN Brasil [Fonte 7] | nova: CNN Brasil [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
+- axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [FHD · 1920x1080]
 
 ## Desapareceram (1)
 
-- globo rpc curitiba hd — GLOBO RPC CURITIBA HD
+- megapix — Megapix [FHD · 1920x1080]
 
-## Preservados por estabilidade comprovada (1)
+## Preservados por estabilidade comprovada (3)
 
-- kuriakos kids — Kuriakos Kids [FHD · 1920x1080] (estabilidade 98/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked] (estabilidade 98/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked] (estabilidade 96/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- playtv — PlayTV [FHD · 1920x1080] (estabilidade 99/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
 
 ## Novos canais (1)
 
-- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
+- globo rpc curitiba hd — GLOBO RPC CURITIBA HD
 

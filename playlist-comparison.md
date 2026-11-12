@@ -1,48 +1,59 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-12T13:42:37.504427+00:00
-- Canais publicados: 177
-- Fontes testadas: 909
-- Fontes reaproveitadas do cache: 158
-- Canais mantidos temporariamente: 7
-- Canais preservados por estabilidade comprovada: 4
+- Execução: 2026-11-12T14:44:39.744096+00:00
+- Canais publicados: 178
+- Fontes testadas: 1053
+- Fontes reaproveitadas do cache: 15
+- Canais mantidos temporariamente: 5
+- Canais preservados por estabilidade comprovada: 2
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 6
-- Testes contínuos sem falhas e IEC ≥ 75: 3
-- IEC médio das amostras válidas: 74.8/100
+- Testes contínuos válidos: 8
+- Testes contínuos sem falhas e IEC ≥ 75: 2
+- IEC médio das amostras válidas: 53.2/100
 
-## Melhoraram (7)
+## Melhoraram (2)
 
-- discovery channel — score 0.581 → 0.829
-- espn 2 — score 0.576 → 0.779
-- globo rpc curitiba hd — score 0.592 → 0.624
-- globo rpc guarapuava hd — score 0.582 → 0.615
-- hbo pop — score 0.638 → 0.685
-- hbo2 — score 0.654 → 0.692
-- studio universal latin america brazil — score 0.782 → 0.904
+- hbo family — score 0.580 → 0.613
+- hbo mundi — score 0.537 → 0.638
 
-## Pioraram (0)
+## Pioraram (15)
 
-- Nenhum.
+- bet pluto tv br — score 0.913 → 0.880
+- failarmy brazil — score 0.859 → 0.824
+- globo rpc maringá fhd — score 0.613 → 0.572
+- hbo plus — score 0.674 → 0.556
+- hbo pop — score 0.685 → 0.625
+- mtv catfish (united states) br — score 0.925 → 0.895
+- mtv classic br — score 0.936 → 0.898
+- mtv jovens e maes — score 0.914 → 0.881
+- pluto tv animais — score 0.879 → 0.846
+- pluto tv cine classicos — score 0.812 → 0.775
+- pluto tv cine inspiracao — score 0.886 → 0.844
+- pluto tv historia (united states) — score 0.907 → 0.864
+- pluto tv investigacao — score 0.891 → 0.861
+- pluto tv netmovies — score 0.932 → 0.901
+- pluto tv viagens — score 0.898 → 0.868
 
-## Trocaram de fonte (2)
+## Trocaram de fonte (6)
 
-- discovery theater — fonte anterior: Discovery Theater [FHD · 1920x1080] | nova: Discovery Theater [HD · 1280x720]
-- hbo pop — fonte anterior: HBO Pop [FHD · 1920x1080] | nova: HBO Pop [HD · 1280x720]
+- cnn brasil — fonte anterior: CNN Brasil [Fonte 7] | nova: CNN Brasil [HD · 1280x720]
+- ge tv — fonte anterior: GE TV [FHD · 1920x1080] | nova: GE TV [FHD · 1920x1080]
+- globo rpc curitiba fhd — fonte anterior: GLOBO RPC CURITIBA FHD | nova: GLOBO RPC CURITIBA FHD
+- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
+- hbo pop — fonte anterior: HBO Pop [HD · 1280x720] | nova: HBO Pop [FHD · 1920x1080]
+- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura [SD · 960x540]
 
-## Desapareceram (2)
+## Desapareceram (1)
+
+- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
+
+## Preservados por estabilidade comprovada (2)
+
+- gospel cartoon — Gospel Cartoon [SD · 640x360] (estabilidade 99/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- top tv — Top TV [FHD · 1920x1080] (estabilidade 99/100; 5 testes contínuos bem-sucedidos; 2 falhas rápidas)
+
+## Novos canais (2)
 
 - canal off — Canal OFF [FHD · 1920x1080]
 - discovery science — Discovery Science [HD · 1280x720]
-
-## Preservados por estabilidade comprovada (4)
-
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked] (estabilidade 98/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked] (estabilidade 96/100; 3 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- top tv — Top TV [FHD · 1920x1080] (estabilidade 99/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- woohoo — Woohoo [HD · 1280x720] (estabilidade 99/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
-
-## Novos canais (0)
-
-- Nenhum.
 

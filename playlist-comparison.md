@@ -1,44 +1,40 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-13T05:48:56.505341+00:00
-- Canais publicados: 162
-- Fontes testadas: 1065
-- Fontes reaproveitadas do cache: 12
-- Canais mantidos temporariamente: 6
-- Canais preservados por estabilidade comprovada: 3
+- Execução: 2026-11-13T06:53:18.987203+00:00
+- Canais publicados: 163
+- Fontes testadas: 946
+- Fontes reaproveitadas do cache: 131
+- Canais mantidos temporariamente: 4
+- Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 9
-- Testes contínuos sem falhas e IEC ≥ 75: 8
-- IEC médio das amostras válidas: 93.1/100
+- Testes contínuos válidos: 4
+- Testes contínuos sem falhas e IEC ≥ 75: 3
+- IEC médio das amostras válidas: 87.2/100
 
-## Melhoraram (1)
+## Melhoraram (2)
 
-- globo rpc curitiba hd — score 0.610 → 0.641
+- red bull tv br — score 0.784 → 0.911
+- sbt news — score 0.864 → 0.902
 
 ## Pioraram (1)
 
-- band — score 0.742 → 0.674
+- globo rpc curitiba hd — score 0.641 → 0.597
 
-## Trocaram de fonte (5)
+## Trocaram de fonte (2)
 
-- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [HD · 1280x720]
-- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
-- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
-- tv cultura — fonte anterior: TV Cultura [SD · 960x540] | nova: TV Cultura [FHD · 1920x1080]
+- band — fonte anterior: Band [HD · 1280x720] | nova: Band [Fonte 8]
+- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
 
-## Desapareceram (2)
+## Desapareceram (1)
+
+- globonews — GloboNews [FHD · 1920x1080]
+
+## Preservados por estabilidade comprovada (0)
+
+- Nenhum.
+
+## Novos canais (2)
 
 - globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
 - globo rpc londrina hd — GLOBO RPC LONDRINA HD
-
-## Preservados por estabilidade comprovada (3)
-
-- playtv — PlayTV [FHD · 1920x1080] (estabilidade 100/100; 8 testes contínuos bem-sucedidos; 2 falhas rápidas)
-- red bull tv br — Red Bull TV BR (1080p) (estabilidade 95/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- veja+ tv — VEJA+ TV (1080p) (estabilidade 97/100; 4 testes contínuos bem-sucedidos; 1 falhas rápidas)
-
-## Novos canais (1)
-
-- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
 

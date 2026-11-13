@@ -445,6 +445,8 @@ def main():
         h["last_latency"]=int(result.latency)
         h["last_score"]=int(result.quality if result.ok else 0)
         h["last_reason"]=result.reason[:180]
+        if result.ok:
+            h.pop("retained_without_current_validation",None)
         if result.stream_url:
             h["last_selected_media_url"]=result.stream_url
         if result.probe_attempted:

@@ -1,28 +1,35 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-13T13:39:34.134982+00:00
-- Canais publicados: 172 (161 da execução automática + 11 restaurados manualmente)
-- Fontes testadas: 949
-- Fontes reaproveitadas do cache: 128
-- Canais mantidos temporariamente: 3
+- Execução: 2026-11-13T14:42:31.917628+00:00
+- Canais publicados: 193
+- Fontes testadas: 1058
+- Fontes reaproveitadas do cache: 19
+- Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 10
-- Testes contínuos sem falhas e IEC ≥ 75: 9
-- IEC médio das amostras válidas: 89.1/100
+- Testes contínuos válidos: 11
+- Testes contínuos sem falhas e IEC ≥ 75: 10
+- IEC médio das amostras válidas: 90.3/100
 
-## Melhoraram (1)
+## Melhoraram (3)
 
-- telecine touch — score 0.679 → 0.899
+- globo rpc ponta grossa hd — score 0.577 → 0.631
+- kuriakos kids — score 0.784 → 0.894
+- premiere clubes — score 0.614 → 0.646
 
-## Pioraram (1)
+## Pioraram (6)
 
-- premiere clubes — score 0.646 → 0.614
+- failarmy brazil — score 0.921 → 0.869
+- filmes suspense — score 0.904 → 0.819
+- globo bahia — score 0.874 → 0.823
+- globo rpc guarapuava hd — score 0.571 → 0.528
+- lamore rock show webtv — score 0.898 → 0.843
+- mtv catfish (united states) br — score 0.939 → 0.887
 
 ## Trocaram de fonte (2)
 
 - globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- telecine touch — fonte anterior: Telecine Touch [FHD · 1920x1080] | nova: Telecine Touch [Candidata externa]
+- rede gospel — fonte anterior: Rede Gospel (1080p) | nova: Rede Gospel [FHD · 1920x1080]
 
 ## Desapareceram (0)
 
@@ -32,23 +39,64 @@
 
 - Nenhum.
 
-## Novos canais (1)
+## Preservados/restaurados por proteção de identidade (34)
 
-- globo rpc curitiba hd — GLOBO RPC CURITIBA HD
+- a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- animal planet — Animal Planet [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- band news — Band News [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- blitstv — Blitstv (restaurado pela melhor evidência histórica; requer revalidação)
+- cartoon network — Cartoon Network [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- cazetv — CazeTV (restaurado pela melhor evidência histórica; requer revalidação)
+- curta — Curta [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- discovery channel — Discovery Channel [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- discovery channel latin america brazil — Discovery Channel Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
+- discovery home & health — Discovery Home & Health [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- discovery id — Discovery ID [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- discovery science — Discovery Science [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- discovery world — Discovery World [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- espn 2 — ESPN 2 [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- globo — Globo [FHD · 1920x1080] (restaurado pela melhor evidência histórica; requer revalidação)
+- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (restaurado pela melhor evidência histórica; requer revalidação)
+- globo rpc londrina hd — GLOBO RPC LONDRINA HD (restaurado pela melhor evidência histórica; requer revalidação)
+- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD (restaurado pela melhor evidência histórica; requer revalidação)
+- hbo — HBO [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- hbo family — HBO Family [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- hbo mundi — HBO Mundi [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- hbo plus — HBO Plus [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- hbo signature — HBO Signature [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- history 2 — History 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- history 2 latin america brazil — History 2 Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
+- kpoptv play — KpopTV Play (576p) (restaurado pela melhor evidência histórica; requer revalidação)
+- nicktoons brasil — NickToons Brasil [SD · 854x480] (fonte publicada preservada; falha automática não remove identidade)
+- record — Record [FHD · 1920x1080] (restaurado pela melhor evidência histórica; requer revalidação)
+- sbt rondonopolis — SBT Rondonopolis (restaurado pela melhor evidência histórica; requer revalidação)
+- sony movies — SONY Movies [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- space — Space [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- tiktok radio brasil — TikTok Radio Brasil (1080p) (restaurado pela melhor evidência histórica; requer revalidação)
+- tnt — TNT [HD · 1280x720] (restaurado pela melhor evidência histórica; requer revalidação)
+- woohoo — Woohoo [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 
+## Novos canais (21)
 
-## Restauração manual de canais documentários (11)
+- band news — Band News [HD · 1280x720]
+- blitstv — Blitstv
+- cartoon network — Cartoon Network [HD · 1280x720]
+- cazetv — CazeTV
+- espn 2 — ESPN 2 [HD · 1280x720]
+- globo — Globo [FHD · 1920x1080]
+- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
+- globo rpc londrina hd — GLOBO RPC LONDRINA HD
+- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
+- hbo — HBO [HD · 1280x720]
+- hbo family — HBO Family [HD · 1280x720]
+- hbo mundi — HBO Mundi [HD · 1280x720]
+- hbo plus — HBO Plus [HD · 1280x720]
+- hbo signature — HBO Signature [HD · 1280x720]
+- kpoptv play — KpopTV Play (576p)
+- record — Record [FHD · 1920x1080]
+- sbt rondonopolis — SBT Rondonopolis
+- sony movies — SONY Movies [HD · 1280x720]
+- space — Space [HD · 1280x720]
+- tiktok radio brasil — TikTok Radio Brasil (1080p)
+- tnt — TNT [HD · 1280x720]
 
-- A&E — fonte proxy EmbedTV; sem aprovações históricas registradas.
-- Animal Planet — fonte proxy EmbedTV; sem aprovações históricas registradas.
-- History 2 — fonte proxy EmbedTV; sem aprovações históricas registradas.
-- Discovery Channel — http://138.204.86.4:8080/DISCOVERY_HD/index.m3u8; histórico de 106 sucessos e 22 falhas, 2 testes contínuos bem-sucedidos e estabilidade 80/100.
-- Discovery Science — http://138.204.86.4:8080/DISCOVERY_SCIENCE_HD/index.m3u8; histórico de 104 sucessos e 24 falhas.
-- Discovery ID — http://138.204.86.4:8080/ID_HD/index.m3u8; histórico de 104 sucessos e 26 falhas.
-- Discovery Home & Health — http://45.162.64.114/DISCOVERY_H_H/index.m3u8; histórico de 75 sucessos e 88 falhas.
-- Discovery World — http://138.204.86.4:8080/DISCOVERY_WORLD_HD/index.m3u8; histórico de 107 sucessos e 22 falhas.
-- Curta! — fonte CorruptX; sem aprovações históricas registradas.
-- Discovery Channel Latin America Brazil — http://45.162.64.114/DISCOVERY_CHANNEL/index.m3u8; histórico de 72 sucessos e 93 falhas.
-- History 2 Latin America Brazil — http://45.177.114.114/HISTORY_2/index.m3u8; sem aprovações históricas registradas.
-
-**Importante:** a restauração recolocou as identidades na playlist, mas não significa que as 11 transmissões estejam funcionando agora. Na última execução automática consultada, as fontes selecionadas estavam reprovadas/inacessíveis; os históricos acima são evidências anteriores, não validação atual. As fontes sem aprovações foram recolocadas apenas para não ocultar os canais e permitir nova revalidação.

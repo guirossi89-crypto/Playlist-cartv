@@ -1,42 +1,41 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-13T10:25:02.134565+00:00
+- Execução: 2026-11-13T11:21:18.936036+00:00
 - Canais publicados: 161
-- Fontes testadas: 1059
-- Fontes reaproveitadas do cache: 18
-- Canais mantidos temporariamente: 2
-- Canais preservados por estabilidade comprovada: 1
+- Fontes testadas: 949
+- Fontes reaproveitadas do cache: 128
+- Canais mantidos temporariamente: 4
+- Canais preservados por estabilidade comprovada: 2
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 6
-- Testes contínuos sem falhas e IEC ≥ 75: 4
-- IEC médio das amostras válidas: 82.5/100
+- Testes contínuos válidos: 11
+- Testes contínuos sem falhas e IEC ≥ 75: 9
+- IEC médio das amostras válidas: 84.3/100
 
-## Melhoraram (1)
+## Melhoraram (2)
 
-- globo rpc curitiba hd — score 0.573 → 0.616
+- sbt nova mutum — score 0.761 → 0.830
+- telecine cult — score 0.670 → 0.909
 
-## Pioraram (2)
+## Pioraram (1)
 
-- bet pluto tv br — score 0.898 → 0.807
-- telecine cult — score 0.902 → 0.670
+- globo rpc ponta grossa hd — score 0.609 → 0.564
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (3)
 
-- cnn brasil — fonte anterior: CNN Brasil [HD · 1280x720] | nova: CNN Brasil (1080p)
 - globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- rede gospel — fonte anterior: Rede Gospel [FHD · 1920x1080] | nova: Rede Gospel (1080p)
-- telecine cult — fonte anterior: Telecine Cult [Candidata externa] | nova: Telecine Cult [FHD · 1920x1080]
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- telecine cult — fonte anterior: Telecine Cult [FHD · 1920x1080] | nova: Telecine Cult [Candidata externa]
 
 ## Desapareceram (0)
 
 - Nenhum.
 
-## Preservados por estabilidade comprovada (1)
+## Preservados por estabilidade comprovada (2)
 
-- jetsons tv — Jetsons TV [SD · 640x480] (estabilidade 99/100; 6 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- tv evangelizar — TV Evangelizar [HD · 1280x720] (estabilidade 100/100; 6 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- woohoo — Woohoo [HD · 1280x720] (estabilidade 100/100; 6 testes contínuos bem-sucedidos; 1 falhas rápidas)
 
-## Novos canais (2)
+## Novos canais (0)
 
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
-- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked]
+- Nenhum.
 

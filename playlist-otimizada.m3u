@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="AMC" tvg-logo="https://img.faz-o-eli.online/amc.png" group-title="Filmes e Séries",AMC [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a06s/index.m3u8
-#EXTINF:-1 tvg-name="Band" tvg-logo="https://mondrian.claro.com.br/channels/inverse/band.png" group-title="TV Aberta",Band [Fonte 8]
-https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/720p/index.m3u8
+#EXTINF:-1 tvg-name="Band" tvg-logo="https://mondrian.claro.com.br/channels/inverse/band.png" group-title="TV Aberta",Band [HD · 1280x720]
+https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/index.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://img.faz-o-eli.online/cartoonnetwork.png" group-title="Infantil",Cartoon Network [HD · 1280x720]
 http://45.162.64.114/CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-name="CNN Brasil Money" tvg-logo="https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png" group-title="Notícias",CNN Brasil Money [Fonte 2]
@@ -111,10 +111,8 @@ http://170.83.16.50/BAND_SPORTS/index.m3u8
 http://170.83.16.50/WOOHOO/index.m3u8
 #EXTINF:-1 tvg-name="ESPN 3" tvg-logo="https://img.faz-o-eli.online/espn3.png" group-title="Esportes",ESPN 3 [FHD · 1920x1080]
 http://181.78.197.59:8000/play/a081/index.m3u8
-#EXTINF:-1 tvg-name="Record News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/recordnews.png" group-title="Notícias",Record News [HD · 1280x720]
-#EXTVLCOPT:http-referrer=https://meufut.top/record-news
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431
+#EXTINF:-1 tvg-name="Record News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/recordnews.png" group-title="Notícias",Record News [Fonte 23]
+https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
 #EXTINF:-1 tvg-name="Discovery ID" tvg-logo="https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png" group-title="Documentários",Discovery ID [HD · 1280x720]
 http://138.204.86.4:8080/ID_HD/index.m3u8
 #EXTINF:-1 tvg-name="Fish TV" tvg-logo="https://mondrian.claro.com.br/channels/inverse/fish-tv.png" group-title="Outdoor",Fish TV [HD · 1280x720]
@@ -388,7 +386,7 @@ http://170.83.49.66:8083/MUSICBOXBRASILHD/index.m3u8
 #EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA FHD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="TV Aberta",GLOBO RPC CURITIBA FHD
 http://dns.explouddev.com/live/992005733/61992005733/2292.m3u8
 #EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CURITIBA HD
-http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169010.ts
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169009.ts
 #EXTINF:-1 tvg-id="rpc.foz.do.iguacu.hd.tv.globo.br" tvg-name="GLOBO RPC FOZ DO IGUAÇU FHD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC FOZ DO IGUAÇU FHD
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169011.ts
 #EXTINF:-1 tvg-id="rpc.guarapuava.hd.tv.globo.br" tvg-name="GLOBO RPC GUARAPUAVA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC GUARAPUAVA HD

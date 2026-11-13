@@ -1,43 +1,42 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-13T09:24:21.766085+00:00
-- Canais publicados: 159
-- Fontes testadas: 947
-- Fontes reaproveitadas do cache: 130
-- Canais mantidos temporariamente: 1
-- Canais preservados por estabilidade comprovada: 0
+- Execução: 2026-11-13T10:25:02.134565+00:00
+- Canais publicados: 161
+- Fontes testadas: 1059
+- Fontes reaproveitadas do cache: 18
+- Canais mantidos temporariamente: 2
+- Canais preservados por estabilidade comprovada: 1
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 1
-- Testes contínuos sem falhas e IEC ≥ 75: 1
-- IEC médio das amostras válidas: 99.0/100
+- Testes contínuos válidos: 6
+- Testes contínuos sem falhas e IEC ≥ 75: 4
+- IEC médio das amostras válidas: 82.5/100
 
 ## Melhoraram (1)
 
-- hbo2 — score 0.665 → 0.696
+- globo rpc curitiba hd — score 0.573 → 0.616
 
-## Pioraram (1)
+## Pioraram (2)
 
-- trace brazuca hd — score 0.901 → 0.824
+- bet pluto tv br — score 0.898 → 0.807
+- telecine cult — score 0.902 → 0.670
 
-## Trocaram de fonte (3)
+## Trocaram de fonte (4)
 
-- band — fonte anterior: Band [Fonte 8] | nova: Band [HD · 1280x720]
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
+- cnn brasil — fonte anterior: CNN Brasil [HD · 1280x720] | nova: CNN Brasil (1080p)
 - globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
+- rede gospel — fonte anterior: Rede Gospel [FHD · 1920x1080] | nova: Rede Gospel (1080p)
+- telecine cult — fonte anterior: Telecine Cult [Candidata externa] | nova: Telecine Cult [FHD · 1920x1080]
 
-## Desapareceram (5)
-
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
-- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked]
-- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
-- globo rpc londrina hd — GLOBO RPC LONDRINA HD
-- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
-
-## Preservados por estabilidade comprovada (0)
+## Desapareceram (0)
 
 - Nenhum.
 
-## Novos canais (1)
+## Preservados por estabilidade comprovada (1)
 
-- gnt — GNT [FHD · 1920x1080]
+- jetsons tv — Jetsons TV [SD · 640x480] (estabilidade 99/100; 6 testes contínuos bem-sucedidos; 1 falhas rápidas)
+
+## Novos canais (2)
+
+- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
+- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked]
 

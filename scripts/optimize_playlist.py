@@ -15,7 +15,7 @@ WORKERS = 16
 SOURCE_BUDGET = 12
 SEGMENTS_TO_TEST = 3
 FAILURES_BEFORE_REMOVAL = 2
-PROTECTED_STABILITY_SCORE = 90
+PROTECTED_STABILITY_SCORE = 75
 PROTECTED_CONTINUOUS_SUCCESSES = 2
 PROTECTED_MAX_CONTINUOUS_FAILURES = 3
 CONTINUOUS_TEST_DURATION = 120
@@ -615,6 +615,64 @@ def main():
                 else "mantida apesar de falha/inacessibilidade no teste automático")
         print(f"Fonte preferencial definida pelo usuário: {preferred_entry.label} — {status}.",flush=True)
 
+    # Proteção por identidade: uma reprovação automática não apaga um canal da lista
+    # otimizada enquanto sua fonte ainda existir na lista mestra. Se a fonte publicada
+    # foi removida da mestra, tenta-se outra fonte com histórico; canais documentários
+    # ausentes são restaurados com a melhor evidência histórica (ou primeira candidata).
+    protected_identity_retained=[]
+    documentary_keys={
+        e.key for e in entries
+        if re.search(r'group-title="Documentários"', e.block[0], re.I)
+    }
+    entries_by_key={}
+    for e in entries:
+        entries_by_key.setdefault(e.key,[]).append(e)
+
+    def historical_fallback_rank(entry):
+        h=history.get(entry.url,{})
+        successes=int(h.get("successes",0) or 0)
+        failed=int(h.get("failures",0) or 0)
+        reliability=(successes+2)/(successes+failed+2)
+        return (
+            1 if h.get("last_ok") else 0,
+            int(h.get("continuous_successes",0) or 0),
+            float(h.get("proven_stability_score",h.get("stability_score",0)) or 0),
+            successes,
+            reliability,
+            -failed,
+            -entry.order,
+        )
+
+    for key,candidates in entries_by_key.items():
+        if key in winners:
+            continue
+        published=previous.get(key)
+        fallback=next((e for e in candidates if published and e.url==published.url),None)
+        reason="fonte publicada preservada; falha automática não remove identidade"
+        if fallback is None:
+            # Canais anteriormente publicados ou com histórico de sucesso são
+            # recuperados pela fonte mais bem documentada, mesmo após falha recente.
+            historical=[e for e in candidates
+                        if int(history.get(e.url,{}).get("successes",0) or 0)>0]
+            if historical:
+                fallback=max(historical,key=historical_fallback_rank)
+                reason="restaurado pela melhor evidência histórica; requer revalidação"
+            elif key in documentary_keys:
+                # Mantém a identidade documental visível para recuperação manual.
+                # A fonte fica explicitamente marcada como não validada.
+                fallback=max(candidates,key=historical_fallback_rank)
+                reason="restaurado sem fonte atualmente validada; requer teste"
+            else:
+                continue
+        winners[key]=fallback
+        winner_scores[key]=0
+        h=history.setdefault(fallback.url,{"successes":0,"failures":0})
+        h["retained_without_current_validation"]=not bool(
+            next((r.ok for r in results if r.entry.url==fallback.url),False)
+        )
+        protected_identity_retained.append((key,fallback.label,reason))
+        print(f"Proteção de canal: {fallback.label} — {reason}.",flush=True)
+
     new_failures={}
     retained=0
     if not winners:
@@ -698,6 +756,7 @@ def main():
     section("Trocaram de fonte",changed,lambda x:f"{x[0]} — fonte anterior: {x[1]} | nova: {x[2]}")
     section("Desapareceram",disappeared,lambda x:f"{x[0]} — {x[1]}")
     section("Preservados por estabilidade comprovada",protected_retained,lambda x:f"{x[0]} — {x[1]} (estabilidade {x[2]:.0f}/100; {x[3]} testes contínuos bem-sucedidos; {x[4]} falhas rápidas)")
+    section("Preservados/restaurados por proteção de identidade",protected_identity_retained,lambda x:f"{x[0]} — {x[1]} ({x[2]})")
     section("Novos canais",appeared,lambda x:f"{x[0]} — {x[1]}")
     Path(a.report).write_text("\n".join(lines)+"\n",encoding="utf-8")
     valid=sum(x.ok for x in results)

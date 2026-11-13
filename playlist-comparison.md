@@ -1,46 +1,50 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-13T02:38:02.033963+00:00
-- Canais publicados: 160
-- Fontes testadas: 942
-- Fontes reaproveitadas do cache: 135
-- Canais mantidos temporariamente: 2
-- Canais preservados por estabilidade comprovada: 0
+- Execução: 2026-11-13T03:41:12.274744+00:00
+- Canais publicados: 162
+- Fontes testadas: 1064
+- Fontes reaproveitadas do cache: 13
+- Canais mantidos temporariamente: 3
+- Canais preservados por estabilidade comprovada: 1
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 10
+- Testes contínuos válidos: 12
 - Testes contínuos sem falhas e IEC ≥ 75: 10
-- IEC médio das amostras válidas: 89.2/100
+- IEC médio das amostras válidas: 85.2/100
 
-## Melhoraram (5)
+## Melhoraram (4)
 
-- globo rpc londrina hd — score 0.573 → 0.649
-- pluto tv kids club — score 0.793 → 0.892
-- pluto tv policial — score 0.799 → 0.931
-- pluto tv retro — score 0.874 → 0.913
-- pluto tv shows por stingray — score 0.861 → 0.933
+- discovery turbo — score 0.640 → 0.675
+- globo rpc ponta grossa hd — score 0.608 → 0.645
+- smithsonian channel pluto tv — score 0.810 → 0.899
+- tv parana turismo (720p) [not 24/7] — score 0.790 → 0.828
 
-## Pioraram (2)
+## Pioraram (6)
 
-- globo rpc ponta grossa hd — score 0.647 → 0.608
-- pluto tv negocio fechado — score 0.944 → 0.894
+- cnn brasil — score 0.947 → 0.905
+- globo rpc curitiba hd — score 0.579 → 0.548
+- pluto tv viagens — score 0.884 → 0.830
+- red bull tv br — score 0.928 → 0.784
+- sbt news — score 0.890 → 0.858
+- trace brazuca hd — score 0.932 → 0.896
 
-## Trocaram de fonte (1)
+## Trocaram de fonte (4)
 
+- fifa+ português — fonte anterior: FIFA+ Português [SD] | nova: FIFA+ Português [SD · 384x216]
 - globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
+- rede gospel — fonte anterior: Rede Gospel [FHD · 1920x1080] | nova: Rede Gospel (1080p)
+- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura [SD · 960x540]
 
-## Desapareceram (3)
+## Desapareceram (1)
+
+- globonews — GloboNews [FHD · 1920x1080]
+
+## Preservados por estabilidade comprovada (1)
+
+- sony channel — Sony Channel [HD · 1280x720] (estabilidade 100/100; 8 testes contínuos bem-sucedidos; 1 falhas rápidas)
+
+## Novos canais (3)
 
 - discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
 - discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked]
 - globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
-
-## Preservados por estabilidade comprovada (0)
-
-- Nenhum.
-
-## Novos canais (3)
-
-- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD
-- premiere 7 — Premiere 7 [FHD · 1920x1080]
-- premiere clubes — Premiere Clubes [FHD · 1920x1080]
 

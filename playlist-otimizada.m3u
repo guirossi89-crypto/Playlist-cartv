@@ -111,8 +111,8 @@ http://170.83.16.50/BAND_SPORTS/index.m3u8
 http://170.83.16.50/WOOHOO/index.m3u8
 #EXTINF:-1 tvg-name="ESPN 3" tvg-logo="https://img.faz-o-eli.online/espn3.png" group-title="Esportes",ESPN 3 [FHD · 1920x1080]
 http://181.78.197.59:8000/play/a081/index.m3u8
-#EXTINF:-1 tvg-name="Record News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/recordnews.png" group-title="Notícias",Record News [Fonte 23]
-https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
+#EXTINF:-1 tvg-name="Record News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/recordnews.png" group-title="Notícias",Record News [HD · 1280x720]
+https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 #EXTINF:-1 tvg-name="Discovery ID" tvg-logo="https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png" group-title="Documentários",Discovery ID [HD · 1280x720]
 http://138.204.86.4:8080/ID_HD/index.m3u8
 #EXTINF:-1 tvg-name="Fish TV" tvg-logo="https://mondrian.claro.com.br/channels/inverse/fish-tv.png" group-title="Outdoor",Fish TV [HD · 1280x720]
@@ -398,4 +398,4 @@ http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169014.ts
 #EXTINF:-1 tvg-id="rpc.maringa.br" tvg-name="GLOBO RPC MARINGÁ HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC MARINGÁ HD
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169015.ts
 #EXTINF:-1 tvg-id="rpc.ponta.grossa.br" tvg-name="GLOBO RPC PONTA GROSSA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC PONTA GROSSA HD
-http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169019.ts
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169018.ts

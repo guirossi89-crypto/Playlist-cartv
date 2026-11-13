@@ -1,39 +1,43 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-13T08:10:11.700790+00:00
-- Canais publicados: 163
-- Fontes testadas: 1061
-- Fontes reaproveitadas do cache: 16
-- Canais mantidos temporariamente: 6
-- Canais preservados por estabilidade comprovada: 2
+- Execução: 2026-11-13T09:24:21.766085+00:00
+- Canais publicados: 159
+- Fontes testadas: 947
+- Fontes reaproveitadas do cache: 130
+- Canais mantidos temporariamente: 1
+- Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 7
-- Testes contínuos sem falhas e IEC ≥ 75: 7
-- IEC médio das amostras válidas: 92.7/100
+- Testes contínuos válidos: 1
+- Testes contínuos sem falhas e IEC ≥ 75: 1
+- IEC médio das amostras válidas: 99.0/100
 
-## Melhoraram (2)
+## Melhoraram (1)
 
-- retro cartoon — score 0.820 → 0.882
-- retrô cartoon — score 0.822 → 0.880
+- hbo2 — score 0.665 → 0.696
 
 ## Pioraram (1)
 
-- hbo2 — score 0.699 → 0.665
+- trace brazuca hd — score 0.901 → 0.824
 
-## Trocaram de fonte (1)
+## Trocaram de fonte (3)
 
-- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
+- band — fonte anterior: Band [Fonte 8] | nova: Band [HD · 1280x720]
+- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
+- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
 
-## Desapareceram (1)
+## Desapareceram (5)
 
-- gnt — GNT [FHD · 1920x1080]
+- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked]
+- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked]
+- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD
+- globo rpc londrina hd — GLOBO RPC LONDRINA HD
+- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD
 
-## Preservados por estabilidade comprovada (2)
+## Preservados por estabilidade comprovada (0)
 
-- tooncast — Tooncast [HD · 1280x720] (estabilidade 100/100; 5 testes contínuos bem-sucedidos; 1 falhas rápidas)
-- trace brazuca hd — Trace Brazuca HD (1080p) (estabilidade 97/100; 5 testes contínuos bem-sucedidos; 1 falhas rápidas)
+- Nenhum.
 
 ## Novos canais (1)
 
-- globonews — GloboNews [FHD · 1920x1080]
+- gnt — GNT [FHD · 1920x1080]
 

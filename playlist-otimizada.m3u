@@ -112,7 +112,9 @@ http://170.83.16.50/WOOHOO/index.m3u8
 #EXTINF:-1 tvg-name="ESPN 3" tvg-logo="https://img.faz-o-eli.online/espn3.png" group-title="Esportes",ESPN 3 [FHD · 1920x1080]
 http://181.78.197.59:8000/play/a081/index.m3u8
 #EXTINF:-1 tvg-name="Record News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/recordnews.png" group-title="Notícias",Record News [HD · 1280x720]
-https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+#EXTVLCOPT:http-referrer=https://meufut.top/record-news
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431
 #EXTINF:-1 tvg-name="Discovery ID" tvg-logo="https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png" group-title="Documentários",Discovery ID [HD · 1280x720]
 http://138.204.86.4:8080/ID_HD/index.m3u8
 #EXTINF:-1 tvg-name="Fish TV" tvg-logo="https://mondrian.claro.com.br/channels/inverse/fish-tv.png" group-title="Outdoor",Fish TV [HD · 1280x720]
@@ -323,6 +325,8 @@ https://jmp2.uk/plu-6014761dfb91870008ea6463.m3u8
 https://jmp2.uk/plu-5f32d432d612e50007e56133.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@BR" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="Esportes",Red Bull TV BR (1080p)
 https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeGospel.br@SD" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religious",Rede Gospel (1080p)
+https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeTVParana.br@SD" tvg-logo="https://i.imgur.com/D8R0Af4.png" group-title="TV Aberta",RedeTV! Parana
 https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
 #EXTINF:-1 tvg-id="RetroCartoon.br@SD" tvg-logo="https://i.imgur.com/hIlEfhl.png" group-title="Infantil",Retro Cartoon (720p)
@@ -361,10 +365,8 @@ https://proxy-embedtv.proxyembedtv2.workers.dev/?id=animalplanet&ext=.m3u8
 #EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
 https://proxy-embedtv.proxyembedtv2.workers.dev/?id=history2&ext=.m3u8
-#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [SD · 960x540]
-https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 tvg-id="RedeGospel.br@SD" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religious",Rede Gospel [FHD · 1920x1080]
-https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [FHD · 1920x1080]
+https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEvangelizar.br@SD" tvg-logo="https://i.imgur.com/IrYR7Kp.png" group-title="Religious",TV Evangelizar [HD · 1280x720]
 http://170.83.16.50/TV_EVANGELIZAR/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Cult" tvg-logo="https://i.imgur.com/6GuHXnr.png" group-title="Filmes e Séries",Telecine Cult [Candidata externa]
@@ -373,9 +375,6 @@ http://45.185.15.154:9080/stream/64/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Fun" tvg-logo="https://i.imgur.com/MO2Ynki.png" group-title="Filmes e Séries",Telecine Fun [Candidata externa]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://45.185.15.154:9080/stream/63/index.m3u8
-#EXTINF:-1 tvg-name="Telecine Premium" tvg-logo="https://i.imgur.com/uVFgIr8.png" group-title="Filmes e Séries",Telecine Premium [Candidata externa]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://45.185.15.154:9080/stream/28/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Touch" tvg-logo="https://i.imgur.com/Nky0hRo.png" group-title="Filmes e Séries",Telecine Touch [Candidata externa]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://45.185.15.154:9080/stream/29/index.m3u8
@@ -383,6 +382,8 @@ http://45.185.15.154:9080/stream/29/index.m3u8
 http://170.83.49.66:8083/TVRATIMBUMHD/index.m3u8
 #EXTINF:-1 tvg-name="Music Box Brazil" tvg-logo="https://i.imgur.com/CDPCF2X.png" group-title="Músicas",Music Box Brazil [Candidata externa]
 http://170.83.49.66:8083/MUSICBOXBRASILHD/index.m3u8
+#EXTINF:-1 tvg-name="Telecine Premium" tvg-logo="https://img.faz-o-eli.online/telecinepremium.png" group-title="Filmes e Séries",Telecine Premium [FHD · 1920x1080]
+http://45.185.11.126:8000/play/a08e/index.m3u8
 #EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA FHD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="TV Aberta",GLOBO RPC CURITIBA FHD
 http://dns.explouddev.com/live/992005733/61992005733/2292.m3u8
 #EXTINF:-1 tvg-id="globo.rpc.br" tvg-name="GLOBO RPC CURITIBA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC CURITIBA HD
@@ -398,4 +399,4 @@ http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169014.ts
 #EXTINF:-1 tvg-id="rpc.maringa.br" tvg-name="GLOBO RPC MARINGÁ HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC MARINGÁ HD
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169015.ts
 #EXTINF:-1 tvg-id="rpc.ponta.grossa.br" tvg-name="GLOBO RPC PONTA GROSSA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC PONTA GROSSA HD
-http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169018.ts
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169019.ts

@@ -7,7 +7,7 @@ on:
       - "scripts/**"
       - ".github/workflows/playlist-check.yml"
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:

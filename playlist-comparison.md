@@ -1,31 +1,31 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-16T11:42:23.031588+00:00
+- Execução: 2026-11-16T22:18:00.709458+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 9
-- Testes contínuos sem falhas e IEC ≥ 75: 9
-- IEC médio das amostras válidas: 93.1/100
+- Testes contínuos válidos: 8
+- Testes contínuos sem falhas e IEC ≥ 75: 7
+- IEC médio das amostras válidas: 88.2/100
 
-## Melhoraram (2)
+## Melhoraram (3)
 
-- globo rpc guarapuava hd — score 0.523 → 0.583
-- trace brazuca hd — score 0.810 → 0.907
+- bet pluto tv br — score 0.782 → 0.857
+- espn 3 — score 0.910 → 0.941
+- globo bahia — score 0.812 → 0.892
 
-## Pioraram (1)
+## Pioraram (2)
 
-- band sports hd — score 0.864 → 0.567
+- globo rpc ponta grossa hd — score 0.614 → 0.580
+- sbt news — score 0.878 → 0.846
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (2)
 
-- band sports hd — fonte anterior: BAND SPORTS HD [HD · 1280x720] | nova: BAND SPORTS HD [FHD · 1920x1080]
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
 - globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- sbt — fonte anterior: SBT [HD · 1280x720] | nova: SBT [FHD · 1920x1080]
+- sbt — fonte anterior: SBT [FHD · 1920x1080] | nova: SBT [HD · 1280x720]
 
 ## Desapareceram (0)
 
@@ -43,6 +43,7 @@
 - band news — Band News [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - bis — BIS [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - blitstv — Blitstv (fonte publicada preservada; falha automática não remove identidade)
+- box kids tv — Box Kids TV [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - canal off — Canal OFF [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - cartoon network — Cartoon Network [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - cartoonito — Cartoonito [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -58,13 +59,11 @@
 - discovery theater — Discovery Theater [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - discovery turbo — Discovery Turbo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - discovery world — Discovery World [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked] (fonte publicada preservada; falha automática não remove identidade)
 - espn 2 — ESPN 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- espn 4 — ESPN 4 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- globo bahia — Globo Bahia [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc londrina hd — GLOBO RPC LONDRINA HD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -77,6 +76,7 @@
 - hbo signature — HBO Signature [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo xtreme — HBO Xtreme [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - hbo2 — HBO2 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- history — History [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - history 2 — History 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - history 2 latin america brazil — History 2 Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - kpoptv play — KpopTV Play (576p) (fonte publicada preservada; falha automática não remove identidade)
@@ -95,10 +95,10 @@
 - telecine pipoca — Telecine Pipoca [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - tiktok radio brasil — TikTok Radio Brasil (1080p) (fonte publicada preservada; falha automática não remove identidade)
 - tnt — TNT [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- top tv — Top TV [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - universal premiere — Universal Premiere [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - universal reality — Universal Reality [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - universal tv — Universal TV [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- woohoo — Woohoo [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 
 ## Novos canais (0)
 

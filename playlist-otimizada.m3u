@@ -27,10 +27,8 @@ http://45.185.11.126:8000/play/a05k/index.m3u8
 http://45.185.11.126:8000/play/a05l/index.m3u8
 #EXTINF:-1 tvg-name="Premiere Clubes" tvg-logo="https://img.faz-o-eli.online/premiere.png" group-title="Esportes",Premiere Clubes [FHD · 1920x1080]
 http://45.185.11.126:8000/play/a06g/index.m3u8
-#EXTINF:-1 tvg-name="SBT" tvg-logo="https://mondrian.claro.com.br/channels/inverse/sbt.png" group-title="TV Aberta",SBT [FHD · 1920x1080]
-https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
-#EXTINF:-1 tvg-name="SBT News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/sbt-news.png" group-title="Notícias",SBT News [HD · 1280x720]
-https://sbtnews.maissbt.com/index.m3u8
+#EXTINF:-1 tvg-name="SBT News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/sbt-news.png" group-title="Notícias",SBT News [Fonte 7]
+https://sbtnews.maissbt.com/3.m3u8
 #EXTINF:-1 tvg-name="Sony Channel" tvg-logo="https://img.faz-o-eli.online/sonychannel.png" group-title="Filmes e Séries",Sony Channel [HD · 1280x720]
 http://170.83.16.50/SONY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-name="SporTV 2" tvg-logo="https://img.faz-o-eli.online/sportv2.png" group-title="Esportes",SporTV 2 [FHD · 1920x1080]
@@ -112,7 +110,7 @@ http://170.83.16.50/WOOHOO/index.m3u8
 #EXTINF:-1 tvg-name="ESPN 3" tvg-logo="https://img.faz-o-eli.online/espn3.png" group-title="Esportes",ESPN 3 [FHD · 1920x1080]
 http://181.78.197.59:8000/play/a081/index.m3u8
 #EXTINF:-1 tvg-name="Record News" tvg-logo="https://mondrian.claro.com.br/channels/inverse/recordnews.png" group-title="Notícias",Record News [HD · 1280x720]
-https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8
+https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 #EXTINF:-1 tvg-name="Discovery ID" tvg-logo="https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png" group-title="Documentários",Discovery ID [HD · 1280x720]
 http://138.204.86.4:8080/ID_HD/index.m3u8
 #EXTINF:-1 tvg-name="Fish TV" tvg-logo="https://mondrian.claro.com.br/channels/inverse/fish-tv.png" group-title="Outdoor",Fish TV [HD · 1280x720]
@@ -361,6 +359,8 @@ https://proxy-embedtv.proxyembedtv2.workers.dev/?id=animalplanet&ext=.m3u8
 #EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
 https://proxy-embedtv.proxyembedtv2.workers.dev/?id=history2&ext=.m3u8
+#EXTINF:-1 tvg-name="SBT" tvg-logo="https://mondrian.claro.com.br/channels/inverse/sbt.png" group-title="TV Aberta",SBT [HD · 1280x720]
+https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [FHD · 1920x1080]
 https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeGospel.br@SD" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religious",Rede Gospel [FHD · 1920x1080]

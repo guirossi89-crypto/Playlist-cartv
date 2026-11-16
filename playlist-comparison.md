@@ -1,36 +1,29 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-15T22:57:27.567073+00:00
+- Execução: 2026-11-16T02:51:12.874527+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 6
-- Testes contínuos sem falhas e IEC ≥ 75: 5
-- IEC médio das amostras válidas: 85.7/100
+- Testes contínuos válidos: 1
+- Testes contínuos sem falhas e IEC ≥ 75: 1
+- IEC médio das amostras válidas: 100.0/100
 
-## Melhoraram (4)
+## Melhoraram (0)
 
-- band sports hd — score 0.575 → 0.869
-- fifa+ português — score 0.911 → 0.959
-- history — score 0.533 → 0.861
-- pluto tv terror trash — score 0.881 → 0.915
+- Nenhum.
 
-## Pioraram (2)
+## Pioraram (1)
 
-- band — score 0.712 → 0.648
-- sbt news — score 0.906 → 0.863
+- top tv — score 0.871 → 0.810
 
-## Trocaram de fonte (6)
+## Trocaram de fonte (3)
 
-- band sports hd — fonte anterior: BAND SPORTS HD [FHD · 1920x1080] | nova: BAND SPORTS HD [HD · 1280x720]
-- fifa+ português — fonte anterior: FIFA+ Português [SD] | nova: FIFA+ Português [SD · 384x216]
-- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- history — fonte anterior: History [FHD · 1920x1080] | nova: History [HD · 1280x720]
 - record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
+- sbt — fonte anterior: SBT [FHD · 1920x1080] | nova: SBT [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
 
 ## Desapareceram (0)
 
@@ -40,7 +33,7 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (33)
+## Preservados/restaurados por proteção de identidade (37)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - animal planet — Animal Planet [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -58,7 +51,10 @@
 - espn 2 — ESPN 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - globo bahia — Globo Bahia [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc londrina hd — GLOBO RPC LONDRINA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc curitiba hd — GLOBO RPC CURITIBA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo family — HBO Family [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo mundi — HBO Mundi [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -73,7 +69,8 @@
 - space — Space [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - tiktok radio brasil — TikTok Radio Brasil (1080p) (fonte publicada preservada; falha automática não remove identidade)
 - tnt — TNT [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- top tv — Top TV [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- tooncast — Tooncast [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- tv rá tim bum — TV Rá Tim Bum [Candidata externa] (fonte publicada preservada; falha automática não remove identidade)
 - universal reality — Universal Reality [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 
 ## Novos canais (0)

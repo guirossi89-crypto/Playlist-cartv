@@ -1,34 +1,35 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-18T14:14:56.933647+00:00
+- Execução: 2026-11-18T22:26:05.542859+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 10
-- Testes contínuos sem falhas e IEC ≥ 75: 8
-- IEC médio das amostras válidas: 89.7/100
+- Testes contínuos válidos: 9
+- Testes contínuos sem falhas e IEC ≥ 75: 6
+- IEC médio das amostras válidas: 81.9/100
 
 ## Melhoraram (3)
 
-- mtv classic br — score 0.811 → 0.885
-- mtv pluto tv br — score 0.807 → 0.903
-- nicktoons brasil — score 0.888 → 0.923
+- globo rpc maringá fhd — score 0.472 → 0.508
+- mtv shore — score 0.807 → 0.837
+- nbx tv kids — score 0.861 → 0.914
 
-## Pioraram (3)
+## Pioraram (4)
 
-- globo rpc maringá hd — score 0.891 → 0.859
-- mtv jovens e maes — score 0.873 → 0.803
-- sbt — score 0.961 → 0.929
+- band — score 0.652 → 0.558
+- mytime movie network (brazil) — score 0.962 → 0.771
+- nick jr. club (united states) br — score 0.890 → 0.847
+- nickelodeon classico — score 0.905 → 0.821
 
 ## Trocaram de fonte (4)
 
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
-- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- sbt — fonte anterior: SBT [FHD · 1920x1080] | nova: SBT [HD · 1280x720]
-- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
+- band — fonte anterior: Band [Fonte 8] | nova: Band [HD · 1280x720]
+- sbt — fonte anterior: SBT [HD · 1280x720] | nova: SBT [FHD · 1920x1080]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
+- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura [SD · 960x540]
 
 ## Desapareceram (0)
 
@@ -38,7 +39,7 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (61)
+## Preservados/restaurados por proteção de identidade (64)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - amc — AMC [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -65,12 +66,14 @@
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- globo bahia — Globo Bahia [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc curitiba hd — GLOBO RPC CURITIBA HD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc londrina hd — GLOBO RPC LONDRINA HD (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - gnt — GNT [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- gospel cartoon — Gospel Cartoon [SD · 640x360] (fonte publicada preservada; falha automática não remove identidade)
+- gospel movie tv — Gospel Movie TV (360p) (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo family — HBO Family [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo mundi — HBO Mundi [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -82,13 +85,13 @@
 - history 2 — History 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - history 2 latin america brazil — History 2 Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - kpoptv play — KpopTV Play (576p) (fonte publicada preservada; falha automática não remove identidade)
+- kuriakos kids — Kuriakos Kids [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - megapix — Megapix [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 6 — Premiere 6 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 7 — Premiere 7 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 8 — Premiere 8 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere clubes — Premiere Clubes [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - record — Record [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- sbt nova mutum — SBT Nova Mutum (fonte publicada preservada; falha automática não remove identidade)
 - sbt rondonopolis — SBT Rondonopolis (fonte publicada preservada; falha automática não remove identidade)
 - sony movies — SONY Movies [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - space — Space [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -96,6 +99,7 @@
 - sportv 3 — SporTV 3 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - telecine action — Telecine Action [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - telecine pipoca — Telecine Pipoca [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- telecine touch — Telecine Touch [Candidata externa] (fonte publicada preservada; falha automática não remove identidade)
 - tiktok radio brasil — TikTok Radio Brasil (1080p) (fonte publicada preservada; falha automática não remove identidade)
 - tnt — TNT [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - universal premiere — Universal Premiere [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)

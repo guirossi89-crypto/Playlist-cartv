@@ -1,42 +1,34 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-18T04:31:44.668644+00:00
+- Execução: 2026-11-18T14:14:56.933647+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 8
-- Testes contínuos sem falhas e IEC ≥ 75: 6
-- IEC médio das amostras válidas: 88.4/100
+- Testes contínuos válidos: 10
+- Testes contínuos sem falhas e IEC ≥ 75: 8
+- IEC médio das amostras válidas: 89.7/100
 
-## Melhoraram (12)
+## Melhoraram (3)
 
-- axn — score 0.599 → 0.861
-- band — score 0.529 → 0.649
-- classique faroeste — score 0.903 → 0.934
-- geekdot — score 0.820 → 0.860
-- globo rpc foz do iguaçu fhd — score 0.462 → 0.517
-- globo rpc ponta grossa hd — score 0.596 → 0.627
-- lamore rock show webtv — score 0.831 → 0.894
-- mytime movie network (brazil) — score 0.940 → 0.970
-- nbx tv kids — score 0.855 → 0.889
-- retro cartoon — score 0.885 → 0.918
-- retrô cartoon — score 0.881 → 0.914
-- sbt — score 0.918 → 0.961
+- mtv classic br — score 0.811 → 0.885
+- mtv pluto tv br — score 0.807 → 0.903
+- nicktoons brasil — score 0.888 → 0.923
 
-## Pioraram (2)
+## Pioraram (3)
 
-- detetives medicos — score 0.889 → 0.842
-- globo rpc londrina hd — score 0.571 → 0.539
+- globo rpc maringá hd — score 0.891 → 0.859
+- mtv jovens e maes — score 0.873 → 0.803
+- sbt — score 0.961 → 0.929
 
 ## Trocaram de fonte (4)
 
-- axn — fonte anterior: AXN [FHD · 1920x1080] | nova: AXN [HD · 1280x720]
-- band — fonte anterior: Band [HD · 1280x720] | nova: Band [Fonte 8]
+- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
 - globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- sbt — fonte anterior: SBT [HD · 1280x720] | nova: SBT [FHD · 1920x1080]
+- sbt — fonte anterior: SBT [FHD · 1920x1080] | nova: SBT [HD · 1280x720]
+- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
 
 ## Desapareceram (0)
 
@@ -65,20 +57,20 @@
 - discovery home & health — Discovery Home & Health [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery id — Discovery ID [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery kids — Discovery Kids [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked] (fonte publicada preservada; falha automática não remove identidade)
 - discovery science — Discovery Science [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery theater — Discovery Theater [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - discovery turbo — Discovery Turbo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - discovery world — Discovery World [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked] (fonte publicada preservada; falha automática não remove identidade)
 - espn 2 — ESPN 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc curitiba hd — GLOBO RPC CURITIBA HD (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc londrina hd — GLOBO RPC LONDRINA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - gnt — GNT [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- gospel cartoon — Gospel Cartoon [SD · 640x360] (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo family — HBO Family [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo mundi — HBO Mundi [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -91,12 +83,12 @@
 - history 2 latin america brazil — History 2 Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - kpoptv play — KpopTV Play (576p) (fonte publicada preservada; falha automática não remove identidade)
 - megapix — Megapix [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- nicktoons brasil — NickToons Brasil [SD · 854x480] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 6 — Premiere 6 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 7 — Premiere 7 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 8 — Premiere 8 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere clubes — Premiere Clubes [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - record — Record [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- sbt nova mutum — SBT Nova Mutum (fonte publicada preservada; falha automática não remove identidade)
 - sbt rondonopolis — SBT Rondonopolis (fonte publicada preservada; falha automática não remove identidade)
 - sony movies — SONY Movies [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - space — Space [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)

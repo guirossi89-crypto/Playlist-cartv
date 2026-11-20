@@ -1,37 +1,33 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-20T13:09:01.270572+00:00
+- Execução: 2026-11-20T21:16:49.090860+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 10
-- Testes contínuos sem falhas e IEC ≥ 75: 4
-- IEC médio das amostras válidas: 75.0/100
+- Testes contínuos válidos: 9
+- Testes contínuos sem falhas e IEC ≥ 75: 7
+- IEC médio das amostras válidas: 85.2/100
 
-## Melhoraram (4)
+## Melhoraram (5)
 
-- cnn brasil money — score 0.913 → 0.945
-- fifa+ português — score 0.924 → 0.958
-- globo rpc curitiba hd — score 0.517 → 0.603
-- jovem pan news — score 0.909 → 0.965
+- band — score 0.640 → 0.679
+- globo rpc maringá hd — score 0.865 → 0.912
+- nbx tv kids — score 0.923 → 0.954
+- pluto tv netmovies — score 0.836 → 0.918
+- sbt — score 0.928 → 0.965
 
-## Pioraram (5)
+## Pioraram (1)
 
-- pluto tv filmes nacionais — score 0.931 → 0.804
-- pluto tv historia (united states) — score 0.893 → 0.856
-- pluto tv kids — score 0.880 → 0.836
-- pluto tv kids club — score 0.906 → 0.814
-- pluto tv retro — score 0.868 → 0.834
+- pluto tv negocio fechado — score 0.887 → 0.811
 
-## Trocaram de fonte (4)
+## Trocaram de fonte (3)
 
-- cnn brasil — fonte anterior: CNN Brasil [HD · 1280x720] | nova: CNN Brasil (1080p)
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
-- jovem pan news — fonte anterior: Jovem Pan News [FHD · 1920x1080] | nova: Jovem Pan News [Fonte 20]
-- sbt — fonte anterior: SBT [HD · 1280x720] | nova: SBT [FHD · 1920x1080]
+- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
+- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
+- tv cultura — fonte anterior: TV Cultura [FHD · 1920x1080] | nova: TV Cultura [SD · 960x540]
 
 ## Desapareceram (0)
 
@@ -41,7 +37,7 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (60)
+## Preservados/restaurados por proteção de identidade (64)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - amc — AMC [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -49,7 +45,6 @@
 - band news — Band News [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - bis — BIS [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - blitstv — Blitstv (fonte publicada preservada; falha automática não remove identidade)
-- box kids tv — Box Kids TV [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - canal off — Canal OFF [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - cartoon network — Cartoon Network [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - cartoonito — Cartoonito [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -68,9 +63,13 @@
 - espn 2 — ESPN 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- failarmy brazil — FailArmy Brazil (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- globo bahia — Globo Bahia [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc londrina hd — GLOBO RPC LONDRINA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - gnt — GNT [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -85,6 +84,7 @@
 - history 2 latin america brazil — History 2 Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - kpoptv play — KpopTV Play (576p) (fonte publicada preservada; falha automática não remove identidade)
 - megapix — Megapix [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- pluto tv investigacao — Pluto TV Investigacao (fonte publicada preservada; falha automática não remove identidade)
 - premiere 6 — Premiere 6 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 7 — Premiere 7 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 8 — Premiere 8 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)

@@ -1,29 +1,31 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-22T16:24:20.370820+00:00
+- Execução: 2026-11-22T22:32:21.171738+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 5
+- Testes contínuos válidos: 7
 - Testes contínuos sem falhas e IEC ≥ 75: 5
-- IEC médio das amostras válidas: 96.8/100
+- IEC médio das amostras válidas: 75.4/100
 
-## Melhoraram (0)
+## Melhoraram (4)
+
+- band — score 0.639 → 0.670
+- geekdot — score 0.772 → 0.829
+- globo rpc guarapuava hd — score 0.536 → 0.572
+- globo rpc maringá hd — score 0.856 → 0.901
+
+## Pioraram (2)
+
+- fish tv — score 0.894 → 0.817
+- globo rpc foz do iguaçu fhd — score 0.490 → 0.449
+
+## Trocaram de fonte (0)
 
 - Nenhum.
-
-## Pioraram (0)
-
-- Nenhum.
-
-## Trocaram de fonte (3)
-
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
-- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
-- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
 
 ## Desapareceram (0)
 
@@ -33,13 +35,11 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (63)
+## Preservados/restaurados por proteção de identidade (62)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- a&e latin america brazil — A&E Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - amc — AMC [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - animal planet — Animal Planet [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- band — Band [Fonte 8] (fonte publicada preservada; falha automática não remove identidade)
 - band news — Band News [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - bis — BIS [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - blitstv — Blitstv (fonte publicada preservada; falha automática não remove identidade)
@@ -48,7 +48,6 @@
 - cartoonito — Cartoonito [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - cazetv — CazeTV (fonte publicada preservada; falha automática não remove identidade)
 - cinemax — Cinemax [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- classique tv — Classique TV (360p) (fonte publicada preservada; falha automática não remove identidade)
 - curta — Curta [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - discovery channel — Discovery Channel [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery channel latin america brazil — Discovery Channel Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
@@ -63,8 +62,9 @@
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc londrina hd — GLOBO RPC LONDRINA HD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - gnt — GNT [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -75,6 +75,7 @@
 - hbo signature — HBO Signature [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo xtreme — HBO Xtreme [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - hbo2 — HBO2 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- history — History [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - history 2 — History 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - history 2 latin america brazil — History 2 Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - kpoptv play — KpopTV Play (576p) (fonte publicada preservada; falha automática não remove identidade)

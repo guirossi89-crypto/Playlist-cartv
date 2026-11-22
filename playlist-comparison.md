@@ -1,29 +1,38 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-21T19:27:57.632901+00:00
+- Execução: 2026-11-22T00:26:43.210140+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 9
-- Testes contínuos sem falhas e IEC ≥ 75: 7
-- IEC médio das amostras válidas: 89.9/100
+- Testes contínuos válidos: 7
+- Testes contínuos sem falhas e IEC ≥ 75: 6
+- IEC médio das amostras válidas: 85.0/100
 
-## Melhoraram (2)
+## Melhoraram (4)
 
-- globo rpc ponta grossa hd — score 0.554 → 0.585
-- tv rá tim bum — score 0.573 → 0.668
+- band — score 0.639 → 0.671
+- globo rpc maringá fhd — score 0.474 → 0.525
+- globo rpc maringá hd — score 0.798 → 0.873
+- red bull tv br — score 0.797 → 0.937
 
-## Pioraram (2)
+## Pioraram (7)
 
-- globo rpc londrina hd — score 0.560 → 0.494
-- globo rpc maringá hd — score 0.868 → 0.798
+- classique faroeste — score 0.930 → 0.895
+- cnn brasil money — score 0.940 → 0.909
+- fifa+ português — score 0.969 → 0.914
+- globo rpc guarapuava hd — score 0.574 → 0.521
+- nickelodeon — score 0.962 → 0.929
+- redetv! parana — score 0.877 → 0.796
+- veja+ tv — score 0.965 → 0.919
 
-## Trocaram de fonte (1)
+## Trocaram de fonte (3)
 
-- rede gospel — fonte anterior: Rede Gospel [FHD · 1920x1080] | nova: Rede Gospel (1080p)
+- fifa+ português — fonte anterior: FIFA+ Português [SD · 384x216] | nova: FIFA+ Português [SD]
+- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
+- rede gospel — fonte anterior: Rede Gospel (1080p) | nova: Rede Gospel [FHD · 1920x1080]
 
 ## Desapareceram (0)
 
@@ -33,22 +42,21 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (64)
+## Preservados/restaurados por proteção de identidade (62)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - amc — AMC [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - animal planet — Animal Planet [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- band — Band [Fonte 8] (fonte publicada preservada; falha automática não remove identidade)
 - band news — Band News [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - bis — BIS [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - blitstv — Blitstv (fonte publicada preservada; falha automática não remove identidade)
+- box kids tv — Box Kids TV [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - canal off — Canal OFF [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - cartoon network — Cartoon Network [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - cartoonito — Cartoonito [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - cazetv — CazeTV (fonte publicada preservada; falha automática não remove identidade)
 - cinemax — Cinemax [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - curta — Curta [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- despertar tv — Despertar TV (720p) (fonte publicada preservada; falha automática não remove identidade)
 - discovery channel — Discovery Channel [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery channel latin america brazil — Discovery Channel Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - discovery home & health — Discovery Home & Health [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -62,8 +70,8 @@
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- globo bahia — Globo Bahia [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - gnt — GNT [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -78,20 +86,19 @@
 - history 2 latin america brazil — History 2 Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - kpoptv play — KpopTV Play (576p) (fonte publicada preservada; falha automática não remove identidade)
 - megapix — Megapix [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- nickelodeon — Nickelodeon [SD · 854x480] (fonte publicada preservada; falha automática não remove identidade)
-- o reino infantil — O Reino Infantil (fonte publicada preservada; falha automática não remove identidade)
-- plenitude tv — Plenitude TV (fonte publicada preservada; falha automática não remove identidade)
+- music box brazil — Music Box Brazil [Candidata externa] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 6 — Premiere 6 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 7 — Premiere 7 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 8 — Premiere 8 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere clubes — Premiere Clubes [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - record — Record [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- sbt nacional — SBT Nacional (1080p) (fonte publicada preservada; falha automática não remove identidade)
 - sbt rondonopolis — SBT Rondonopolis (fonte publicada preservada; falha automática não remove identidade)
-- sony channel — Sony Channel [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - sony movies — SONY Movies [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - space — Space [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - sportv 2 — SporTV 2 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - sportv 3 — SporTV 3 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- studio universal latin america brazil — Studio Universal Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - telecine action — Telecine Action [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - telecine pipoca — Telecine Pipoca [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - tiktok radio brasil — TikTok Radio Brasil (1080p) (fonte publicada preservada; falha automática não remove identidade)

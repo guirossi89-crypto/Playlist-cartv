@@ -1,6 +1,6 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-22T22:32:21.171738+00:00
+- Execução: 2026-11-23T03:46:43.272770+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
@@ -8,24 +8,22 @@
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 7
-- Testes contínuos sem falhas e IEC ≥ 75: 5
-- IEC médio das amostras válidas: 75.4/100
+- Testes contínuos sem falhas e IEC ≥ 75: 6
+- IEC médio das amostras válidas: 86.3/100
 
-## Melhoraram (4)
+## Melhoraram (1)
 
-- band — score 0.639 → 0.670
-- geekdot — score 0.772 → 0.829
-- globo rpc guarapuava hd — score 0.536 → 0.572
-- globo rpc maringá hd — score 0.856 → 0.901
+- globo rpc ponta grossa hd — score 0.551 → 0.600
 
 ## Pioraram (2)
 
-- fish tv — score 0.894 → 0.817
-- globo rpc foz do iguaçu fhd — score 0.490 → 0.449
+- globo rpc maringá fhd — score 0.525 → 0.480
+- globo rpc maringá hd — score 0.901 → 0.861
 
-## Trocaram de fonte (0)
+## Trocaram de fonte (2)
 
-- Nenhum.
+- rede gospel — fonte anterior: Rede Gospel (1080p) | nova: Rede Gospel [FHD · 1920x1080]
+- sbt news — fonte anterior: SBT News [HD · 1280x720] | nova: SBT News [Fonte 7]
 
 ## Desapareceram (0)
 
@@ -35,7 +33,7 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (62)
+## Preservados/restaurados por proteção de identidade (66)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - amc — AMC [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -49,6 +47,7 @@
 - cazetv — CazeTV (fonte publicada preservada; falha automática não remove identidade)
 - cinemax — Cinemax [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - curta — Curta [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- despertar tv — Despertar TV (720p) (fonte publicada preservada; falha automática não remove identidade)
 - discovery channel — Discovery Channel [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery channel latin america brazil — Discovery Channel Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - discovery home & health — Discovery Home & Health [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -62,9 +61,9 @@
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc londrina hd — GLOBO RPC LONDRINA HD (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo bahia — Globo Bahia [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc curitiba hd — GLOBO RPC CURITIBA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - gnt — GNT [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -78,8 +77,10 @@
 - history — History [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - history 2 — History 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - history 2 latin america brazil — History 2 Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
+- jetsons tv — Jetsons TV [SD · 640x480] (fonte publicada preservada; falha automática não remove identidade)
 - kpoptv play — KpopTV Play (576p) (fonte publicada preservada; falha automática não remove identidade)
 - megapix — Megapix [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- playtv — PlayTV [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 6 — Premiere 6 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 7 — Premiere 7 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 8 — Premiere 8 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -96,6 +97,7 @@
 - telecine pipoca — Telecine Pipoca [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - tiktok radio brasil — TikTok Radio Brasil (1080p) (fonte publicada preservada; falha automática não remove identidade)
 - tnt — TNT [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- tv evangelizar — TV Evangelizar [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - universal premiere — Universal Premiere [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - universal reality — Universal Reality [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - universal tv — Universal TV [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)

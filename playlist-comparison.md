@@ -1,6 +1,6 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-24T02:19:34.303906+00:00
+- Execução: 2026-11-24T13:56:28.122877+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
@@ -9,26 +9,21 @@
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 10
 - Testes contínuos sem falhas e IEC ≥ 75: 9
-- IEC médio das amostras válidas: 84.2/100
+- IEC médio das amostras válidas: 82.6/100
 
-## Melhoraram (3)
+## Melhoraram (2)
 
-- bob esponja calca quadrada — score 0.807 → 0.867
-- pluto tv junior — score 0.823 → 0.853
-- pluto tv shows por stingray — score 0.910 → 0.943
+- filmes suspense — score 0.826 → 0.863
+- mtv jovens e maes — score 0.817 → 0.881
 
-## Pioraram (6)
+## Pioraram (2)
 
-- adrenalina pura tv brazil — score 0.914 → 0.883
-- amc latin america brazil — score 0.640 → 0.610
-- bet pluto tv br — score 0.892 → 0.855
-- mtv drag — score 0.889 → 0.851
-- now rock — score 0.920 → 0.876
-- pluto tv canal uol — score 0.818 → 0.784
+- cine terror br — score 0.888 → 0.803
+- comedy central pluto tv br — score 0.887 → 0.846
 
-## Trocaram de fonte (0)
+## Trocaram de fonte (1)
 
-- Nenhum.
+- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
 
 ## Desapareceram (0)
 
@@ -38,11 +33,13 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (60)
+## Preservados/restaurados por proteção de identidade (61)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - amc — AMC [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- amc latin america brazil — AMC Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - animal planet — Animal Planet [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- band — Band [Fonte 8] (fonte publicada preservada; falha automática não remove identidade)
 - band news — Band News [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - bis — BIS [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - blitstv — Blitstv (fonte publicada preservada; falha automática não remove identidade)
@@ -65,12 +62,11 @@
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc curitiba hd — GLOBO RPC CURITIBA HD (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc londrina hd — GLOBO RPC LONDRINA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - gnt — GNT [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- gospel cartoon — Gospel Cartoon [SD · 640x360] (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo family — HBO Family [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - hbo mundi — HBO Mundi [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)

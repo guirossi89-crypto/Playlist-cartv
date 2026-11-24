@@ -1,29 +1,34 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-23T14:54:25.270797+00:00
+- Execução: 2026-11-24T02:19:34.303906+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 6
-- Testes contínuos sem falhas e IEC ≥ 75: 4
-- IEC médio das amostras válidas: 91.0/100
+- Testes contínuos válidos: 10
+- Testes contínuos sem falhas e IEC ≥ 75: 9
+- IEC médio das amostras válidas: 84.2/100
 
-## Melhoraram (2)
+## Melhoraram (3)
 
-- globo rpc curitiba hd — score 0.547 → 0.585
-- globo rpc maringá fhd — score 0.480 → 0.533
+- bob esponja calca quadrada — score 0.807 → 0.867
+- pluto tv junior — score 0.823 → 0.853
+- pluto tv shows por stingray — score 0.910 → 0.943
 
-## Pioraram (1)
+## Pioraram (6)
 
-- mtv rocks — score 0.856 → 0.823
+- adrenalina pura tv brazil — score 0.914 → 0.883
+- amc latin america brazil — score 0.640 → 0.610
+- bet pluto tv br — score 0.892 → 0.855
+- mtv drag — score 0.889 → 0.851
+- now rock — score 0.920 → 0.876
+- pluto tv canal uol — score 0.818 → 0.784
 
-## Trocaram de fonte (2)
+## Trocaram de fonte (0)
 
-- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
-- sbt news — fonte anterior: SBT News [Fonte 7] | nova: SBT News [HD · 1280x720]
+- Nenhum.
 
 ## Desapareceram (0)
 
@@ -33,10 +38,9 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (63)
+## Preservados/restaurados por proteção de identidade (60)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- a&e latin america brazil — A&E Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - amc — AMC [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - animal planet — Animal Planet [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - band news — Band News [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -53,16 +57,15 @@
 - discovery home & health — Discovery Home & Health [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery id — Discovery ID [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery kids — Discovery Kids [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked] (fonte publicada preservada; falha automática não remove identidade)
 - discovery science — Discovery Science [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery theater — Discovery Theater [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - discovery turbo — Discovery Turbo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - discovery world — Discovery World [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked] (fonte publicada preservada; falha automática não remove identidade)
 - espn 2 — ESPN 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc curitiba hd — GLOBO RPC CURITIBA HD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -90,7 +93,6 @@
 - space — Space [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - sportv 2 — SporTV 2 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - sportv 3 — SporTV 3 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- studio universal latin america brazil — Studio Universal Latin America Brazil (720p) (fonte publicada preservada; falha automática não remove identidade)
 - telecine action — Telecine Action [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - telecine pipoca — Telecine Pipoca [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - tiktok radio brasil — TikTok Radio Brasil (1080p) (fonte publicada preservada; falha automática não remove identidade)

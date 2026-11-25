@@ -1,32 +1,36 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-24T23:31:39.603221+00:00
+- Execução: 2026-11-25T08:50:05.592862+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
 - Canais mantidos temporariamente: 0
 - Canais preservados por estabilidade comprovada: 0
 - Testes de estabilidade contínua nesta execução: 12
-- Testes contínuos válidos: 7
-- Testes contínuos sem falhas e IEC ≥ 75: 6
-- IEC médio das amostras válidas: 82.9/100
+- Testes contínuos válidos: 8
+- Testes contínuos sem falhas e IEC ≥ 75: 8
+- IEC médio das amostras válidas: 90.1/100
 
-## Melhoraram (2)
+## Melhoraram (5)
 
-- globo rpc foz do iguaçu fhd — score 0.443 → 0.516
-- globo rpc maringá hd — score 0.879 → 0.910
+- axn — score 0.573 → 0.844
+- globo rpc londrina hd — score 0.517 → 0.564
+- kuriakos kids — score 0.683 → 0.897
+- mtv shore — score 0.847 → 0.884
+- mytime movie network (brazil) — score 0.802 → 0.940
 
-## Pioraram (4)
+## Pioraram (3)
 
-- axn — score 0.884 → 0.573
-- mtv pluto tv br — score 0.912 → 0.855
-- mtv reality (united states) — score 0.902 → 0.811
-- nbx tv kids — score 0.918 → 0.855
+- globo rpc foz do iguaçu fhd — score 0.516 → 0.474
+- globo rpc guarapuava hd — score 0.599 → 0.548
+- record news — score 0.922 → 0.878
 
-## Trocaram de fonte (3)
+## Trocaram de fonte (5)
 
-- axn — fonte anterior: AXN [HD · 1280x720] | nova: AXN [FHD · 1920x1080]
-- cnn brasil — fonte anterior: CNN Brasil (1080p) | nova: CNN Brasil [Fonte 7]
+- axn — fonte anterior: AXN [FHD · 1920x1080] | nova: AXN [HD · 1280x720]
+- cnn brasil — fonte anterior: CNN Brasil [Fonte 7] | nova: CNN Brasil (1080p)
+- globo rpc curitiba hd — fonte anterior: GLOBO RPC CURITIBA HD | nova: GLOBO RPC CURITIBA HD
+- globo rpc ponta grossa hd — fonte anterior: GLOBO RPC PONTA GROSSA HD | nova: GLOBO RPC PONTA GROSSA HD
 - record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
 
 ## Desapareceram (0)
@@ -37,7 +41,7 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (67)
+## Preservados/restaurados por proteção de identidade (62)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - amc — AMC [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -66,9 +70,6 @@
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc curitiba hd — GLOBO RPC CURITIBA HD (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc maringá fhd — GLOBO RPC MARINGÁ FHD (fonte publicada preservada; falha automática não remove identidade)
-- globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - gnt — GNT [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -84,7 +85,6 @@
 - kpoptv play — KpopTV Play (576p) (fonte publicada preservada; falha automática não remove identidade)
 - megapix — Megapix [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - music box brazil — Music Box Brazil [Candidata externa] (fonte publicada preservada; falha automática não remove identidade)
-- pluto tv paisagens por stingray — Pluto TV Paisagens por Stingray (720p) (fonte publicada preservada; falha automática não remove identidade)
 - premiere 6 — Premiere 6 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 7 — Premiere 7 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere 8 — Premiere 8 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -92,7 +92,6 @@
 - record — Record [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - retro cartoon — Retro Cartoon (720p) (fonte publicada preservada; falha automática não remove identidade)
 - retrô cartoon — Retrô Cartoon [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- sbt nova mutum — SBT Nova Mutum (fonte publicada preservada; falha automática não remove identidade)
 - sbt rondonopolis — SBT Rondonopolis (fonte publicada preservada; falha automática não remove identidade)
 - sony movies — SONY Movies [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - space — Space [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)

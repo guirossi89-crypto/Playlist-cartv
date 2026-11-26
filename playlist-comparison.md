@@ -1,6 +1,6 @@
 # Relatório comparativo da playlist
 
-- Execução: 2026-11-25T19:25:56.895538+00:00
+- Execução: 2026-11-26T02:54:24.091902+00:00
 - Canais publicados: 193
 - Fontes testadas: 1077
 - Fontes reaproveitadas do cache: 0
@@ -9,24 +9,23 @@
 - Testes de estabilidade contínua nesta execução: 12
 - Testes contínuos válidos: 8
 - Testes contínuos sem falhas e IEC ≥ 75: 7
-- IEC médio das amostras válidas: 93.1/100
+- IEC médio das amostras válidas: 92.1/100
 
 ## Melhoraram (5)
 
-- nickelodeon toons — score 0.827 → 0.932
-- oggy e as baratas tontas — score 0.812 → 0.933
-- pluto tv animais — score 0.810 → 0.904
-- pluto tv bang bang — score 0.826 → 0.916
-- record news — score 0.878 → 0.943
+- cnn brasil — score 0.870 → 0.945
+- globo rpc curitiba hd — score 0.526 → 0.568
+- pluto tv canal uol — score 0.797 → 0.901
+- pluto tv cine comedia romantica — score 0.869 → 0.910
+- pluto tv cine crime — score 0.872 → 0.929
 
-## Pioraram (1)
+## Pioraram (0)
 
-- globo rpc curitiba hd — score 0.579 → 0.526
+- Nenhum.
 
-## Trocaram de fonte (2)
+## Trocaram de fonte (0)
 
-- record news — fonte anterior: Record News [HD · 1280x720] | nova: Record News [HD · 1280x720]
-- rede gospel — fonte anterior: Rede Gospel [FHD · 1920x1080] | nova: Rede Gospel (1080p)
+- Nenhum.
 
 ## Desapareceram (0)
 
@@ -36,7 +35,7 @@
 
 - Nenhum.
 
-## Preservados/restaurados por proteção de identidade (63)
+## Preservados/restaurados por proteção de identidade (66)
 
 - a&e — A&E [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - amc — AMC [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
@@ -56,18 +55,19 @@
 - discovery home & health — Discovery Home & Health [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery id — Discovery ID [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery kids — Discovery Kids [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- discovery kids latin america brazil (720p) [geo-blocked] — Discovery Kids Latin America Brazil (720p) [Geo-blocked] (fonte publicada preservada; falha automática não remove identidade)
 - discovery science — Discovery Science [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - discovery theater — Discovery Theater [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - discovery turbo — Discovery Turbo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - discovery world — Discovery World [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- discovery world brazil (720p) [geo-blocked] — Discovery World Brazil (720p) [Geo-blocked] (fonte publicada preservada; falha automática não remove identidade)
 - espn 2 — ESPN 2 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 5 — ESPN 5 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - espn 6 — ESPN 6 [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - globo — Globo [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc foz do iguaçu fhd — GLOBO RPC FOZ DO IGUAÇU FHD (fonte publicada preservada; falha automática não remove identidade)
 - globo rpc guarapuava hd — GLOBO RPC GUARAPUAVA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc londrina hd — GLOBO RPC LONDRINA HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc maringá hd — GLOBO RPC MARINGÁ HD (fonte publicada preservada; falha automática não remove identidade)
+- globo rpc ponta grossa hd — GLOBO RPC PONTA GROSSA HD (fonte publicada preservada; falha automática não remove identidade)
 - globonews — GloboNews [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - gnt — GNT [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - hbo — HBO [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -87,7 +87,9 @@
 - premiere 8 — Premiere 8 [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - premiere clubes — Premiere Clubes [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - record — Record [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
-- sbc kids — SBC Kids [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
+- retro cartoon — Retro Cartoon (720p) (fonte publicada preservada; falha automática não remove identidade)
+- retrô cartoon — Retrô Cartoon [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- sbt nova mutum — SBT Nova Mutum (fonte publicada preservada; falha automática não remove identidade)
 - sbt rondonopolis — SBT Rondonopolis (fonte publicada preservada; falha automática não remove identidade)
 - sony movies — SONY Movies [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
 - space — Space [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
@@ -97,7 +99,7 @@
 - telecine pipoca — Telecine Pipoca [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - tiktok radio brasil — TikTok Radio Brasil (1080p) (fonte publicada preservada; falha automática não remove identidade)
 - tnt — TNT [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
-- tooncast — Tooncast [HD · 1280x720] (fonte publicada preservada; falha automática não remove identidade)
+- tv rá tim bum — TV Rá Tim Bum [Candidata externa] (fonte publicada preservada; falha automática não remove identidade)
 - universal premiere — Universal Premiere [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - universal reality — Universal Reality [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)
 - universal tv — Universal TV [FHD · 1920x1080] (fonte publicada preservada; falha automática não remove identidade)

@@ -361,8 +361,8 @@ https://proxy-embedtv.proxyembedtv2.workers.dev/?id=animalplanet&ext=.m3u8
 #EXTVLCOPT:http-referrer=https://nexustvplay.bbroot.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36
 https://proxy-embedtv.proxyembedtv2.workers.dev/?id=history2&ext=.m3u8
-#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [FHD · 1920x1080]
-https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="TV Aberta",TV Cultura [SD · 960x540]
+https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 #EXTINF:-1 tvg-id="RedeGospel.br@SD" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religious",Rede Gospel [FHD · 1920x1080]
 https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TVEvangelizar.br@SD" tvg-logo="https://i.imgur.com/IrYR7Kp.png" group-title="Religious",TV Evangelizar [HD · 1280x720]
@@ -398,4 +398,4 @@ http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169014.ts
 #EXTINF:-1 tvg-id="rpc.maringa.br" tvg-name="GLOBO RPC MARINGÁ HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC MARINGÁ HD
 http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169015.ts
 #EXTINF:-1 tvg-id="rpc.ponta.grossa.br" tvg-name="GLOBO RPC PONTA GROSSA HD" tvg-logo="http://www.fontedecanais.dev/logos/canais/globo.png" group-title="CANAIS: GLOBO REGIONAIS - ✨",GLOBO RPC PONTA GROSSA HD
-http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169018.ts
+http://acaidopt.org:80/3llohwk4g9/kwf099q30o/1169019.ts
